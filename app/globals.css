@@ -1,27 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: "Jost";  */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer components {
+  .navbar-category-list-item {
+    @apply active:bg-[#eee] active:text-black h-full flex justify-center items-center hover:bg-[#eee] hover:text-black text-sm hover:cursor-default;
+  }
+
+  .flexClass-row {
+    @apply flex flex-row flex-nowrap justify-center align-middle items-center;
+  }
+
+  .footer-info-list-item {
+    @apply hover:text-[#0770cf] my-2 hover:cursor-pointer;
+  }
+
+  .trending-brands-hover-effect {
+    @apply group-hover:opacity-50 hover:opacity-100 transition-all cursor-pointer;
+  }
+
+  .flexClass-col {
+    @apply flex flex-col flex-nowrap justify-center align-middle items-center;
+  }
+
+  .discount-notice-p {
+    @apply flex justify-center items-center align-middle font-bold text-sm tracking-[0.2em];
+  }
+
+  .product-page-section-headings {
+    @apply uppercase font-bold text-lg tracking-wider text-nowrap;
   }
 }
