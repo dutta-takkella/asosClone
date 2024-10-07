@@ -1,0 +1,2513 @@
+{
+  "navbarMenu": [
+    {
+      "optionId": 1,
+      "optionName": "New in",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionName": "New Products",
+          "hasImg": false,
+          "iconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "View all",
+              "href": "https://www.asos.com/men/new-in/cat/?cid=27110#nlid=mw|new+in|new+products|view+all",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Clothing",
+              "href": "https://www.asos.com/men/new-in/new-in-clothing/cat/?cid=6993#nlid=mw|new+in|new+products|clothing",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Shoes",
+              "href": "https://www.asos.com/men/new-in/new-in-shoes/cat/?cid=17184#nlid=mw|new+in|new+products|shoes",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "New in: Today",
+              "href": "https://www.asos.com/men/new-in/new-in-today/cat/?cid=51164#nlid=mw|new+in|new+products|new+in:+today",
+              "isBold": true,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "New in: Selling Fast",
+              "href": "https://www.asos.com/men/ctas/hub-edit-2/cat/?cid=51137#nlid=mw|new+in|new+products|new+in:+selling+fast",
+              "isBold": true,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "T-Shirts & Vests",
+              "href": "https://www.asos.com/men/new-in/cat/?cid=27110&refine=attribute_1047:8414,8415#nlid=mw|new+in|new+products|t-shirts+%26+vests",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 7,
+              "categoryName": "Coats & Jackets",
+              "href": "https://www.asos.com/men/new-in/new-in-clothing/cat/?cid=6993&refine=attribute_10992:61380#nlid=mw|new+in|new+products|coats+%26+jackets",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 8,
+              "categoryName": "Hoodies & Sweatshirts",
+              "href": "https://www.asos.com/men/new-in/new-in-clothing/cat/?cid=6993&refine=attribute_1047:8391,8405#nlid=mw|new+in|new+products|hoodies+%26+sweatshirts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 9,
+              "categoryName": "Jumpers",
+              "href": "https://www.asos.com/men/new-in/cat/?cid=27110&refine=attribute_1047:8387#nlid=mw|new+in|new+products|jumpers",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 10,
+              "categoryName": "Jeans & Trousers",
+              "href": "https://www.asos.com/men/new-in/cat/?cid=27110&refine=attribute_10992:61377#nlid=mw|new+in|new+products|jeans+%26+trousers",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 11,
+              "categoryName": "Accessories",
+              "href": "https://www.asos.com/men/new-in/new-in-accessories/cat/?cid=27112#nlid=mw|new+in|new+products|accessories",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 12,
+              "categoryName": "Sportswear",
+              "href": "https://www.asos.com/men/new-in/new-in-sportswear/cat/?cid=50915#nlid=mw|new+in|new+products|sportswear",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 13,
+              "categoryName": "Face + Body",
+              "href": "https://www.asos.com/men/new-in/new-in-face-body/cat/?cid=27140#nlid=mw|new+in|new+products|face+%2B+body",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 14,
+              "categoryName": "Underwear",
+              "href": "https://www.asos.com/men/new-in/cat/?cid=27110&currentpricerange=5-440&refine=attribute_10992:61386#nlid=mw|new+in|new+products|underwear",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 2,
+          "sectionName": "Shop summer",
+          "hasImg": true,
+          "smallIconCategory": true,
+          "largeIconCategory": false,
+          "shortImageCategory": false,
+          "largeImageCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "Summer Outfits",
+              "href": "https://www.asos.com/men/summer-essentials/cat/?cid=50085#nlid=mw|new+in|shop+summer|summer+outfits",
+              "isBold": false,
+              "img": "/navbar/newIn/summerShop/summer-icon-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Holiday Fits",
+              "href": "https://www.asos.com/men/holiday/cat/?cid=14627#nlid=mw|new+in|shop+summer|holiday+fits",
+              "isBold": false,
+              "img": "/navbar/newIn/summerShop/summer-icon-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Linen",
+              "href": "https://www.asos.com/men/trends/linen/cat/?cid=51709#nlid=mw|new+in|shop+summer|linen",
+              "isBold": false,
+              "img": "/navbar/newIn/summerShop/summer-icon-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Accessories",
+              "href": "https://www.asos.com/men/ctas/hub-edit-1/cat/?cid=51136#nlid=mw|new+in|shop+summer|accessories",
+              "isBold": false,
+              "img": "/navbar/newIn/summerShop/summer-icon-4.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Swimwear",
+              "href": "https://www.asos.com/men/swimwear/cat/?cid=13210#nlid=mw|new+in|shop+summer|swimwear",
+              "isBold": false,
+              "img": "/navbar/newIn/summerShop/summer-icon-5.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Sandals",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/sandals/cat/?cid=6593#nlid=mw|new+in|shop+summer|sandals",
+              "isBold": false,
+              "img": "/navbar/newIn/summerShop/summer-icon-6.webp",
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 3,
+          "sectionName": "Brand drops",
+          "hasImg": true,
+          "smallIconCategory": true,
+          "largeIconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "ASOS DESIGN",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/asos-design/cat/?cid=27871#nlid=mw|new+in|brand+drops|asos+design",
+              "isBold": false,
+              "img": "/navbar/newIn/brandDrops/brandDrops-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "adidas",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/asos-design/cat/?cid=27871#nlid=mw|new+in|brand+drops|asos+design",
+              "isBold": false,
+              "img": "/navbar/newIn/brandDrops/brandDrops-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "British Brands",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/asos-design/cat/?cid=27871#nlid=mw|new+in|brand+drops|asos+design",
+              "isBold": false,
+              "img": "/navbar/newIn/brandDrops/brandDrops-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "New Balance",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/asos-design/cat/?cid=27871#nlid=mw|new+in|brand+drops|asos+design",
+              "isBold": false,
+              "img": "/navbar/newIn/brandDrops/brandDrops-4.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "New Look",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/asos-design/cat/?cid=27871#nlid=mw|new+in|brand+drops|asos+design",
+              "isBold": false,
+              "img": "/navbar/newIn/brandDrops/brandDrops-5.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "The North Face",
+              "href": "https://www.asos.com/new-in/cat/?cid=27110&currentpricerange=0-355&r=1&refine=brand:3312&xaffid=20236#nlid=mw|new+in|brand+drops|the+north+face",
+              "isBold": false,
+              "img": "/navbar/newIn/brandDrops/brandDrops-6.webp",
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 4,
+          "sectionName": "new edits",
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": true,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "The denim edit",
+              "href": "https://www.asos.com/men/trends/denim/cat/?cid=17102#nlid=mw|new+in|new+edits|the+denim+edit",
+              "img": "/navbar/newIn/newEdits/newEdits-1.webp",
+              "textColor": "black"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "optionId": 2,
+      "optionName": "Clothing",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionName": "shop by product",
+          "hasImg": false,
+          "iconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "Top Rated Clothing",
+              "href": "https://www.asos.com/men/ctas/fashion-online-13/cat/?cid=13522#nlid=mw|clothing|shop+by+product|top+rated+clothing",
+              "isBold": true,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "New in",
+              "href": "https://www.asos.com/men/new-in/new-in-clothing/cat/?cid=6993#nlid=mw|clothing|shop+by+product|new+in",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "T-Shirts & Vests",
+              "href": "https://www.asos.com/men/t-shirts-vests/cat/?cid=7616#nlid=mw|clothing|shop+by+product|t-shirts+%26+vests",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Buy 3+ T-shirts, Save 15%",
+              "href": "https://www.asos.com/men/ctas/italy-fashion-online-5/cat/?cid=15410#nlid=mw|clothing|shop+by+product|buy+3%2B+t-shirts,+save+15%25",
+              "isBold": true,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Shirts",
+              "href": "https://www.asos.com/men/shirts/cat/?cid=3602#nlid=mw|clothing|shop+by+product|shirts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Hoodies & Sweatshirts",
+              "href": "https://www.asos.com/men/hoodies-sweatshirts/cat/?cid=5668#nlid=mw|clothing|shop+by+product|hoodies+%26+sweatshirts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 7,
+              "categoryName": "Jackets & Coats",
+              "href": "https://www.asos.com/men/jackets-coats/cat/?cid=3606#nlid=mw|clothing|shop+by+product|jackets+%26+coats",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 8,
+              "categoryName": "Jumpers & Cardigans",
+              "href": "https://www.asos.com/men/jumpers-cardigans/cat/?cid=7617#nlid=mw|clothing|shop+by+product|jumpers+%26+cardigans",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 9,
+              "categoryName": "Jeans",
+              "href": "https://www.asos.com/men/jeans/cat/?cid=4208#nlid=mw|clothing|shop+by+product|jeans",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 10,
+              "categoryName": "Trousers & Chinos",
+              "href": "https://www.asos.com/men/trousers-chinos/cat/?cid=4910#nlid=mw|clothing|shop+by+product|trousers+%26+chinos",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 11,
+              "categoryName": "Suits & Tailoring",
+              "href": "https://www.asos.com/men/suits/cat/?cid=5678#nlid=mw|clothing|shop+by+product|suits+%26+tailoring",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 12,
+              "categoryName": "Cargo Trousers",
+              "href": "https://www.asos.com/men/trousers-chinos/cargo-trousers/cat/?cid=14273#nlid=mw|clothing|shop+by+product|cargo+trousers",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 13,
+              "categoryName": "Co-ords",
+              "href": "https://www.asos.com/men/co-ords/cat/?cid=28291#nlid=mw|clothing|shop+by+product|co-ords",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 14,
+              "categoryName": "Curve & Plus Size",
+              "href": "https://www.asos.com/men/plus-size/cat/?cid=25997#nlid=mw|clothing|shop+by+product|curve+%26+plus+size",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 15,
+              "categoryName": "Exclusive at ASOS",
+              "href": "https://www.asos.com/men/exclusives/cat/?cid=21049#nlid=mw|clothing|shop+by+product|exclusives+at+asos",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 16,
+              "categoryName": "Joggers",
+              "href": "https://www.asos.com/men/loungewear/joggers/cat/?cid=14274#nlid=mw|clothing|shop+by+product|joggers",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 17,
+              "categoryName": "Jorts",
+              "href": "https://www.asos.com/men/shorts/jorts/cat/?cid=51686#nlid=mw|clothing|shop+by+product|jorts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 18,
+              "categoryName": "Last chance to buy",
+              "href": "https://www.asos.com/men/ctas/fashion-online-27/cat/?cid=16775#nlid=mw|clothing|shop+by+product|last+chance+to+buy",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 19,
+              "categoryName": "Loungewear",
+              "href": "https://www.asos.com/men/loungewear/cat/?cid=18797#nlid=mw|clothing|shop+by+product|loungewear",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 20,
+              "categoryName": "Multipacks",
+              "href": "https://www.asos.com/men/multipacks/cat/?cid=20831#nlid=mw|clothing|shop+by+product|multipacks",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 21,
+              "categoryName": "Plus Size",
+              "href": "https://www.asos.com/men/plus-size/cat/?cid=25997#nlid=mw|clothing|shop+by+product|plus+size",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 22,
+              "categoryName": "Polo shirts",
+              "href": "https://www.asos.com/men/polo-shirts/cat/?cid=4616#nlid=mw|clothing|shop+by+product|polo+shirts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 23,
+              "categoryName": "Premium",
+              "href": "https://www.asos.com/men/premium-brands/cat/?cid=27111#nlid=mw|clothing|shop+by+product|premium",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 24,
+              "categoryName": "Shorts",
+              "href": "https://www.asos.com/men/shorts/cat/?cid=7078#nlid=mw|clothing|shop+by+product|shorts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 25,
+              "categoryName": "Socks",
+              "href": "https://www.asos.com/men/underwear-socks/socks/cat/?cid=16329#nlid=mw|clothing|shop+by+product|socks",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 26,
+              "categoryName": "Sportswear",
+              "href": "https://www.asos.com/men/sportswear/cat/?cid=26090#nlid=mw|clothing|shop+by+product|sportswear",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 27,
+              "categoryName": "Swimwear",
+              "href": "https://www.asos.com/men/swimwear/cat/?cid=13210#nlid=mw|clothing|shop+by+product|swimwear",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 28,
+              "categoryName": "Tall",
+              "href": "https://www.asos.com/men/tall/cat/?cid=20753#nlid=mw|clothing|shop+by+product|tall",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 29,
+              "categoryName": "Tracksuits",
+              "href": "https://www.asos.com/men/loungewear/tracksuits/cat/?cid=26776#nlid=mw|clothing|shop+by+product|tracksuits",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 30,
+              "categoryName": "Underwear",
+              "href": "https://www.asos.com/men/underwear-socks/underwear/cat/?cid=20317#nlid=mw|clothing|shop+by+product|underwear",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 2,
+          "sectionName": "Shop autumn",
+          "hasImg": true,
+          "smallIconCategory": true,
+          "largeIconCategory": false,
+          "shortImageCategory": false,
+          "largeImageCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "View all",
+              "href": "https://www.asos.com/men/ctas/australia-fashion-online-14/cat/?cid=16679#nlid=mw|clothing|shop+autumn|view+all",
+              "isBold": false,
+              "img": "/navbar/clothing/shopAutumn/shopAutumn-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Bestsellers",
+              "href": "https://www.asos.com/men/ctas/hub-edit-12/cat/?cid=51147#nlid=mw|clothing|shop+autumn|bestsellers",
+              "isBold": false,
+              "img": "/navbar/clothing/shopAutumn/shopAutumn-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Jumpers & Cardigans",
+              "href": "https://www.asos.com/men/jumpers-cardigans/cat/?cid=7617#nlid=mw|clothing|shop+autumn|jumpers+%26+cardigans",
+              "isBold": false,
+              "img": "/navbar/clothing/shopAutumn/shopAutumn-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Loungewear",
+              "href": "https://www.asos.com/men/loungewear/cat/?cid=18797#nlid=mw|clothing|shop+autumn|loungewear",
+              "isBold": false,
+              "img": "/navbar/clothing/shopAutumn/shopAutumn-4.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Accessories",
+              "href": "https://www.asos.com/men/ctas/hub-edit-13/cat/?cid=51148#nlid=mw|clothing|shop+autumn|accessories",
+              "isBold": false,
+              "img": "/navbar/clothing/shopAutumn/shopAutumn-5.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Boots",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/boots/cat/?cid=5774#nlid=mw|clothing|shop+autumn|boots",
+              "isBold": false,
+              "img": "/navbar/clothing/shopAutumn/shopAutumn-6.webp",
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 3,
+          "sectionName": "shop by edit",
+          "hasImg": true,
+          "smallIconCategory": true,
+          "largeIconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "Basics",
+              "href": "https://www.asos.com/men/discover/basics/#nlid=mw|clothing|shop+by+edit|basics",
+              "isBold": false,
+              "img": "/navbar/clothing/shopByEdit/shopByEdit-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Workwear",
+              "href": "https://www.asos.com/men/workwear/cat/?cid=18423#nlid=mw|clothing|shop+by+edit|workwear",
+              "isBold": false,
+              "img": "/navbar/clothing/shopByEdit/shopByEdit-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Occasionwear",
+              "href": "https://www.asos.com/men/occasionwear/cat/?cid=21050#nlid=mw|clothing|shop+by+edit|occasionwear",
+              "isBold": false,
+              "img": "/navbar/clothing/shopByEdit/shopByEdit-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Autumn styles",
+              "href": "https://www.asos.com/men/seasonal/autumn-essentials/cat/?cid=21120#nlid=mw|clothing|shop+by+edit|autumn+styles",
+              "isBold": false,
+              "img": "/navbar/clothing/shopByEdit/shopByEdit-4.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Cargo styles",
+              "href": "https://www.asos.com/men/ctas/poland-online-fashion-2/cat/?cid=17477#nlid=mw|clothing|shop+by+edit|cargo+styles",
+              "isBold": false,
+              "img": "/navbar/clothing/shopByEdit/shopByEdit-5.webp",
+              "textColor": false
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "optionId": 3,
+      "optionName": "Trending",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionName": "Top-searched faves",
+          "hasImg": true,
+          "smallIconCategory": true,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "Graphic tees",
+              "href": "https://www.asos.com/men/ctas/fashion-online-25/cat/?cid=16773#nlid=mw|trending|top-searched+faves|graphic+tees",
+              "img": "/navbar/trending/topSearchedFaves/topSearched-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Stripes",
+              "href": "https://www.asos.com/men/ctas/hp-edit-10/cat/?cid=50615#nlid=mw|trending|top-searched+faves|stripes",
+              "img": "/navbar/trending/topSearchedFaves/topSearched-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Workwear edit",
+              "href": "https://www.asos.com/men/ctas/hp-edit-6/cat/?cid=50611#nlid=mw|trending|top-searched+faves|workwear+edit",
+              "img": "/navbar/trending/topSearchedFaves/topSearched-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Basics",
+              "href": "https://www.asos.com/men/asos-basics/cat/?cid=21508#nlid=mw|trending|top-searched+faves|basics",
+              "img": "/navbar/trending/topSearchedFaves/topSearched-4.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Burgundy",
+              "href": "https://www.asos.com/men/ctas/hp-edit-15/cat/?cid=51621#nlid=mw|trending|top-searched+faves|burgundy",
+              "img": "/navbar/trending/topSearchedFaves/topSearched-5.webp",
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 2,
+          "sectionName": "utility",
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": true,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "utility",
+              "href": "https://www.asos.com/men/trends/utility/cat/?cid=52017#nlid=mw|trending|utility|utility",
+              "img": "/navbar/trending/utility/utility-1.webp",
+              "textColor": "white"
+            }
+          ]
+        },
+        {
+          "sectionId": 3,
+          "sectionName": "gorpcore gear",
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": true,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "gorpcore gear",
+              "href": "https://www.asos.com/men/ctas/hp-edit-9/cat/?cid=50614#nlid=mw|trending|gorpcore+gear|gorpcore+gear",
+              "img": "/navbar/trending/gorpcoreGear/gorpcoreGear-1.webp",
+              "textColor": "white"
+            }
+          ]
+        },
+        {
+          "sectionId": 4,
+          "sectionName": "fresh tones",
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": true,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "fresh tones",
+              "href": "https://www.asos.com/men/ctas/hp-edit-11/cat/?cid=51617#nlid=mw|trending|colour+theory|fresh+tonesx",
+              "img": "/navbar/trending/freshTones/freshTones-1.webp",
+              "textColor": "white"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "optionId": 4,
+      "optionName": "Shoes",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionName": "shop by product",
+          "hasImg": false,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "Top Rated Shoes",
+              "href": "https://www.asos.com/men/ctas/fashion-online-18/cat/?cid=18969#nlid=mw|shoes|shop+by+product|top+rated+shoes",
+              "isBold": true,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Selling Fast",
+              "href": "https://www.asos.com/men/ctas/fashion-online-24/cat/?cid=16772#nlid=mw|shoes|shop+by+product|selling+fast",
+              "isBold": true,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "View all",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/cat/?cid=4209#nlid=mw|shoes|shop+by+product|view+all",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "New in",
+              "href": "https://www.asos.com/men/new-in/new-in-shoes/cat/?cid=17184#nlid=mw|shoes|shop+by+product|new+in",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Trainers",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/trainers/cat/?cid=5775#nlid=mw|shoes|shop+by+product|trainers",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Boots",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/boots/cat/?cid=5774#nlid=mw|shoes|shop+by+product|boots",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 7,
+              "categoryName": "Loafers",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/loafers/cat/?cid=11247#nlid=mw|shoes|shop+by+product|loafers",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 8,
+              "categoryName": "Slippers",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/slippers/cat/?cid=14328#nlid=mw|shoes|shop+by+product|slippers",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 9,
+              "categoryName": "Sandals",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/sandals/cat/?cid=6593#nlid=mw|shoes|shop+by+product|sandals",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 10,
+              "categoryName": "Running Trainers",
+              "href": "https://www.asos.com/men/sportswear/shoes/cat/?cid=27179&refine=attribute_12021:70025#nlid=mw|shoes|shop+by+product|running+trainers",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 11,
+              "categoryName": "Socks",
+              "href": "https://www.asos.com/men/underwear-socks/socks/cat/?cid=16329#nlid=mw|shoes|shop+by+product|socks",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 2,
+          "sectionName": "shop by brand",
+          "hasImg": true,
+          "smallIconCategory": true,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "ASOS DESIGN",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/asos-design/cat/?cid=27871&refine=attribute_10992:61388#nlid=mw|shoes|shop+by+brand|asos+design",
+              "isBold": false,
+              "img": "/navbar/shoes/shopByBrand/shopByBrand-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "New Balance",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/new-balance/cat/?cid=3792&refine=attribute_10992:61388#nlid=mw|shoes|shop+by+brand|new+balance",
+              "isBold": false,
+              "img": "/navbar/shoes/shopByBrand/shopByBrand-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "On Running",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/on-running/cat/?cid=50316&refine=attribute_1047:8606#nlid=mw|shoes|shop+by+brand|on+running",
+              "isBold": false,
+              "img": "/navbar/shoes/shopByBrand/shopByBrand-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "adidas",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/adidas/cat/?cid=7113&refine=attribute_10992:61388#nlid=mw|shoes|shop+by+brand|adidas",
+              "isBold": false,
+              "img": "/navbar/shoes/shopByBrand/shopByBrand-4.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Asics",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/asics/cat/?cid=16096#nlid=mw|shoes|shop+by+brand|asics",
+              "isBold": false,
+              "img": "/navbar/shoes/shopByBrand/shopByBrand-5.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "DR Martens",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/dr-martens/cat/?cid=4747&iscurated=true#nlid=mw|shoes|shop+by+brand|dr+martens",
+              "isBold": false,
+              "img": "/navbar/shoes/shopByBrand/shopByBrand-6.webp",
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 3,
+          "sectionName": "shop by trainer style",
+          "hasImg": false,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "adidas Originals Campus",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/trainers/refine/adidas-originals-campus/cat/?cid=5775&refine=attribute_10159:63027#nlid=mw|shoes|shop+by+trainer+style|adidas+originals+campus",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "adidas Originals Gazelle",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/trainers/refine/adidas-originals-gazelle/cat/?cid=5775&refine=attribute_10159:7595#nlid=mw|shoes|shop+by+trainer+style|adidas+originals+gazelle",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "adidas Originals Stan Smith",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/adidas/adidas-originals-stan-smith/cat/?cid=29894#nlid=mw|shoes|shop+by+trainer+style|adidas+originals+stan+smith",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "New Balance 550",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/trainers/cat/?cid=5775&refine=attribute_10159:63037#nlid=mw|shoes|shop+by+trainer+style|new+balance+550",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "New Balance 530",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/trainers/cat/?cid=5775&refine=attribute_10159:11340#nlid=mw|shoes|shop+by+trainer+style|new+balance+530",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "New Balance 574",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/trainers/refine/new-balance-574/cat/?cid=5775&refine=attribute_10159:11055#nlid=mw|shoes|shop+by+trainer+style|new+balance+574",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 7,
+              "categoryName": "ON Cloudnova",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/trainers/cat/?cid=5775&refine=attribute_10159:63045#nlid=mw|shoes|shop+by+trainer+style|on+cloudnova",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 8,
+              "categoryName": "ON Cloudmonster",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/trainers/cat/?cid=5775&refine=attribute_10159:63046#nlid=mw|shoes|shop+by+trainer+style|on+cloudmonster",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 9,
+              "categoryName": "Vans Old Skool",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/vans/vans-old-skool/cat/?cid=29836#nlid=mw|shoes|shop+by+trainer+style|vans+old+skool",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 10,
+              "categoryName": "Reebok Classic",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/reebok/reebok-classics/cat/?cid=29882#nlid=mw|shoes|shop+by+trainer+style|reebok+classic",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 3,
+          "sectionName": "",
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": false,
+          "bannerCategory": true,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "Black Trainers",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/trainers/refine/black/cat/?cid=5775&refine=base_colour:4#nlid=mw|shoes|desktop+ctas|black+trainers",
+              "img": "/navbar/shoes/shoeBannerCat/shoeSmallImg-1.webp",
+              "textColor": "black"
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "occasion shoes",
+              "href": "https://www.asos.com/men/ctas/fashion-online-20/cat/?cid=13531#nlid=mw|shoes|desktop+ctas|occasion+shoes",
+              "img": "/navbar/shoes/shoeBannerCat/shoeSmallImg-2.webp",
+              "textColor": "black"
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "chelsea boots",
+              "href": "https://www.asos.com/men/shoes-boots-trainers/chelsea-boots/cat/?cid=18695#nlid=mw|shoes|desktop+ctas|chelsea+boots",
+              "img": "/navbar/shoes/shoeBannerCat/shoeSmallImg-3.webp",
+              "textColor": "black"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "optionId": 5,
+      "optionName": "Accessories",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionName": "Shop by product",
+          "hasImg": false,
+          "iconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "View all",
+              "href": "https://www.asos.com/men/accessories/cat/?cid=4210#nlid=mw|accessories|shop+by+product|view+all",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "New in",
+              "href": "https://www.asos.com/men/new-in/new-in-accessories/cat/?cid=27112#nlid=mw|accessories|shop+by+product|new+in",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Belt",
+              "href": "https://www.asos.com/men/accessories/belts/cat/?cid=6474#nlid=mw|accessories|shop+by+product|belts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Gifts",
+              "href": "https://www.asos.com/men/gifts/cat/?cid=16091#nlid=mw|accessories|shop+by+product|gifts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Watches",
+              "href": "https://www.asos.com/men/accessories/watches/cat/?cid=19855#nlid=mw|accessories|shop+by+product|watches",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Beanies",
+              "href": "https://www.asos.com/men/accessories/caps-hats/beanies/cat/?cid=15105#nlid=mw|accessories|shop+by+product|beanies",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 7,
+              "categoryName": "Gloves",
+              "href": "https://www.asos.com/men/accessories/gloves/cat/?cid=11854#nlid=mw|accessories|shop+by+product|gloves",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 8,
+              "categoryName": "Scarves",
+              "href": "https://www.asos.com/men/accessories/scarves/cat/?cid=6518#nlid=mw|accessories|shop+by+product|scarves",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 9,
+              "categoryName": "Ties",
+              "href": "https://www.asos.com/men/accessories/ties/cat/?cid=6520#nlid=mw|accessories|shop+by+product|ties",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 10,
+              "categoryName": "Socks",
+              "href": "https://www.asos.com/men/underwear-socks/socks/cat/?cid=16329#nlid=mw|accessories|shop+by+product|socks",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 11,
+              "categoryName": "Bestsellers",
+              "href": "https://www.asos.com/men/ctas/usa-fashion-online-16/cat/?cid=16694#nlid=mw|accessories|shop+by+product|bestsellers",
+              "isBold": true,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 12,
+              "categoryName": "Caps & Hats",
+              "href": "https://www.asos.com/men/accessories/caps-hats/cat/?cid=6517#nlid=mw|accessories|shop+by+product|caps+%26+hats",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 13,
+              "categoryName": "Sunglasses",
+              "href": "https://www.asos.com/men/accessories/sunglasses/cat/?cid=6519#nlid=mw|accessories|shop+by+product|sunglasses",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 2,
+          "sectionName": "Shop by jewellery",
+          "hasImg": true,
+          "smallIconCategory": true,
+          "largeIconCategory": false,
+          "shortImageCategory": false,
+          "largeImageCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "View all",
+              "href": "https://www.asos.com/men/jewellery/cat/?cid=5034#nlid=mw|accessories|shop+by+jewellery|view+all",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByJewel/shopByJewel-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Necklaces",
+              "href": "https://www.asos.com/men/jewellery/necklaces/cat/?cid=13836#nlid=mw|accessories|shop+by+jewellery|necklaces",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByJewel/shopByJewel-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Rings",
+              "href": "https://www.asos.com/men/jewellery/rings/cat/?cid=13834#nlid=mw|accessories|shop+by+jewellery|rings",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByJewel/shopByJewel-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Bracelets",
+              "href": "https://www.asos.com/men/jewellery/bracelets/cat/?cid=13835#nlid=mw|accessories|shop+by+jewellery|bracelets",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByJewel/shopByJewel-4.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Earrings",
+              "href": "https://www.asos.com/men/jewellery/earrings/cat/?cid=13837#nlid=mw|accessories|shop+by+jewellery|earrings",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByJewel/shopByJewel-5.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Stainless Steel",
+              "href": "https://www.asos.com/men/jewellery/cat/?cid=5034&refine=attribute_12017:63014#nlid=mw|accessories|shop+by+jewellery|stainless+steel",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByJewel/shopByJewel-6.webp",
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 3,
+          "sectionName": "shop by bags",
+          "hasImg": true,
+          "smallIconCategory": true,
+          "largeIconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "View all",
+              "href": "https://www.asos.com/men/bags/cat/?cid=9265#nlid=mw|accessories|shop+by+bags|view+all",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByBags/shopByBags-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Wallets",
+              "href": "https://www.asos.com/men/accessories/wallets/cat/?cid=6516#nlid=mw|accessories|shop+by+bags|wallets",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByBags/shopByBags-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Backpacks",
+              "href": "https://www.asos.com/men/bags/backpacks/cat/?cid=12888#nlid=mw|accessories|shop+by+bags|backpacks",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByBags/shopByBags-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Duffle bags",
+              "href": "https://www.asos.com/men/bags/duffle-bags/cat/?cid=13241#nlid=mw|accessories|shop+by+bags|duffle+bags",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByBags/shopByBags-4.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Bum bags",
+              "href": "https://www.asos.com/men/bags/bum-bags/cat/?cid=19787#nlid=mw|accessories|shop+by+bags|bum+bags",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByBags/shopByBags-5.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Shopper bags",
+              "href": "https://www.asos.com/men/bags/shopper-bags/cat/?cid=13128#nlid=mw|accessories|shop+by+bags|shopper+bags",
+              "isBold": false,
+              "img": "/navbar/accessories/shopByBags/shopByBags-6.webp",
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 4,
+          "sectionName": "",
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": true,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "autumn accessories",
+              "href": "https://www.asos.com/men/ctas/hub-edit-13/cat/?cid=51148#nlid=mw|accessories|cta1|autumn+accessories",
+              "img": "/navbar/accessories/autumnAccessories/autumnAccessories-1.webp",
+              "textColor": "black"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "optionId": 6,
+      "optionName": "Brands",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionName": "Topbrands",
+          "hasImg": false,
+          "iconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "A-Z of brands",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/cat/?cid=1361#nlid=mw|brands|top+brands|a-z+of+brands",
+              "isBold": true,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "adidas",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/calvin-klein/cat/?cid=2038#nlid=mw|brands|top+brands|calvin+klein",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Calvin Klein",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/calvin-klein/cat/?cid=2038#nlid=mw|brands|top+brands|calvin+klein",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Carhartt WIP",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/carhartt-wip/cat/?cid=6759#nlid=mw|brands|top+brands|carhartt+wip",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "New Balance",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/new-balance/cat/?cid=3792#nlid=mw|brands|top+brands|new+balance",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "New Era",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/new-era/cat/?cid=7475#nlid=mw|brands|top+brands|new+era",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 7,
+              "categoryName": "On running",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/on-running/cat/?cid=50316#nlid=mw|brands|top+brands|on+running",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 8,
+              "categoryName": "Polo Ralph Lauren",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/polo-ralph-lauren/cat/?cid=4280#nlid=mw|brands|top+brands|polo+ralph+lauren",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 9,
+              "categoryName": "Puma",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/puma/cat/?cid=3355#nlid=mw|brands|top+brands|puma",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 10,
+              "categoryName": "The North Face",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/the-north-face/cat/?cid=5715#nlid=mw|brands|top+brands|the+north+face",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 11,
+              "categoryName": "Jack & Jones",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/jack-jones/cat/?cid=9828#nlid=mw|brands|top+brands|jack+%26+jones",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 2,
+          "sectionName": "ASOS brands",
+          "hasImg": true,
+          "smallIconCategory": true,
+          "largeIconCategory": false,
+          "shortImageCategory": false,
+          "largeImageCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "View all",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/asos-collection/cat/?cid=3159#nlid=mw|brands|asos+brands|view+all",
+              "isBold": false,
+              "img": "/navbar/brands/asosBrands/asosBrands-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "ASOS DESIGN",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/asos-design/cat/?cid=27871#nlid=mw|brands|asos+brands|asos+design",
+              "isBold": false,
+              "img": "/navbar/brands/asosBrands/asosBrands-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "ASOS 4505",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/asos-4505/cat/?cid=27791#nlid=mw|brands|asos+brands|asos+4505",
+              "isBold": false,
+              "img": "/navbar/brands/asosBrands/asosBrands-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Topman",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/cat/?cid=29065#nlid=mw|brands|asos+brands|topman",
+              "isBold": false,
+              "img": "/navbar/brands/asosBrands/asosBrands-4.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "COLLUSION",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/collusion/cat/?cid=28479#nlid=mw|brands|asos+brands|collusion",
+              "isBold": false,
+              "img": "/navbar/brands/asosBrands/asosBrands-5.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Reclaimed Vintage",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/reclaimed-vintage/cat/?cid=11248#nlid=mw|brands|asos+brands|reclaimed+vintage",
+              "isBold": false,
+              "img": "/navbar/brands/asosBrands/asosBrands-6.webp",
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 3,
+          "sectionName": "discover brands",
+          "hasImg": true,
+          "smallIconCategory": true,
+          "largeIconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "New in",
+              "href": "https://www.asos.com/men/ctas/mens-email-6/cat/?cid=17625#nlid=mw|brands|discover+brands|new+in",
+              "isBold": false,
+              "img": "/navbar/brands/discoverBrands/discoverBrands-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Premium Brands",
+              "href": "https://www.asos.com/men/premium-brands/cat/?cid=27111#nlid=mw|brands|discover+brands|premium+brands",
+              "isBold": false,
+              "img": "/navbar/brands/discoverBrands/discoverBrands-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Outdoor",
+              "href": "https://www.asos.com/men/ctas/fashion-online-17/cat/?cid=13528#nlid=mw|brands|discover+brands|outdoor",
+              "isBold": false,
+              "img": "/navbar/brands/discoverBrands/discoverBrands-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Streetwear",
+              "href": "https://www.asos.com/men/ctas/edits/look-8/cat/?cid=17565#nlid=mw|brands|discover+brands|streetwear",
+              "isBold": false,
+              "img": "/navbar/brands/discoverBrands/discoverBrands-4.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Trainers",
+              "href": "https://www.asos.com/men/ctas/australia-fashion-online-1/cat/?cid=15418#nlid=mw|brands|discover+brands|trainers",
+              "isBold": false,
+              "img": "/navbar/brands/discoverBrands/discoverBrands-5.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Emerging Brands",
+              "href": "https://www.asos.com/men/ctas/fashion-online-10/cat/?cid=13517#nlid=mw|brands|discover+brands|emerging+brands",
+              "isBold": false,
+              "img": "/navbar/brands/discoverBrands/discoverBrands-6.webp",
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 4,
+          "sectionName": "featured",
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": true,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "plus size brands",
+              "href": "https://www.asos.com/men/plus-size/cat/?cid=25997#nlid=mw|brands|featured|plus+size+brands",
+              "img": "/navbar/brands/featured/featured-1.webp",
+              "textColor": "black"
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Premium brands",
+              "href": "https://www.asos.com/men/premium-brands/cat/?cid=27111#nlid=mw|brands|featured|premium+brands",
+              "img": "/navbar/brands/featured/featured-2.webp",
+              "textColor": "black"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "optionId": 7,
+      "optionName": "Sportswear",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionName": "shop by product",
+          "hasImg": false,
+          "iconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "View all",
+              "href": "https://www.asos.com/men/sportswear/cat/?cid=26090#nlid=mw|sportswear|shop+by+product|view+all",
+              "isBold": true,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "New in",
+              "href": "https://www.asos.com/men/new-in/new-in-sportswear/cat/?cid=50915#nlid=mw|sportswear|shop+by+product|new+in",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Trainers",
+              "href": "https://www.asos.com/men/sportswear/shoes/cat/?cid=27179#nlid=mw|sportswear|shop+by+product|trainers",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Tops",
+              "href": "https://www.asos.com/men/sportswear/tops/cat/?cid=27181#nlid=mw|sportswear|shop+by+product|tops",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Joggers",
+              "href": "https://www.asos.com/men/loungewear/joggers/cat/?cid=14274#nlid=mw|sportswear|shop+by+product|joggers",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Shorts",
+              "href": "https://www.asos.com/men/sportswear/shorts/cat/?cid=27178#nlid=mw|sportswear|shop+by+product|shorts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 7,
+              "categoryName": "Jackets",
+              "href": "https://www.asos.com/men/sportswear/jackets/cat/?cid=27180#nlid=mw|sportswear|shop+by+product|jackets",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 8,
+              "categoryName": "Hoodies & Sweatshirts",
+              "href": "https://www.asos.com/men/ctas/fashion-online-21/cat/?cid=16769#nlid=mw|sportswear|shop+by+product|hoodies+%26+sweatshirts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 9,
+              "categoryName": "Trousers & Tights",
+              "href": "https://www.asos.com/men/sportswear/trousers-tights/cat/?cid=27177#nlid=mw|sportswear|shop+by+product|trousers+%26+tights",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 10,
+              "categoryName": "Accessories",
+              "href": "https://www.asos.com/men/sportswear/accessories/cat/?cid=27176#nlid=mw|sportswear|shop+by+product|accessories",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 2,
+          "sectionName": "shop by activity",
+          "hasImg": true,
+          "smallIconCategory": true,
+          "largeIconCategory": false,
+          "shortImageCategory": false,
+          "largeImageCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "Football",
+              "href": "https://www.asos.com/men/sportswear/football/cat/?cid=27182#nlid=mw|sportswear|shop+by+activity|football",
+              "isBold": false,
+              "img": "/navbar/sportswear/shopByActivity/sportswear-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "gym",
+              "href": "https://www.asos.com/men/sportswear/gym-training/cat/?cid=27183#nlid=mw|sportswear|shop+by+activity|gym",
+              "isBold": false,
+              "img": "/navbar/sportswear/shopByActivity/sportswear-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Running",
+              "href": "https://www.asos.com/men/sportswear/running/cat/?cid=27191#nlid=mw|sportswear|shop+by+activity|running",
+              "isBold": false,
+              "img": "/navbar/sportswear/shopByActivity/sportswear-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Ski & Snowboard",
+              "href": "https://www.asos.com/men/sportswear/ski-snowboard/cat/?cid=27520#nlid=mw|sportswear|shop+by+activity|ski+%26+snowboard",
+              "isBold": false,
+              "img": "/navbar/sportswear/shopByActivity/sportswear-4.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Outdoors",
+              "href": "https://www.asos.com/men/sportswear/outdoors/cat/?cid=27184#nlid=mw|sportswear|shop+by+activity|outdoors",
+              "isBold": false,
+              "img": "/navbar/sportswear/shopByActivity/sportswear-5.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Swim",
+              "href": "https://www.asos.com/men/sportswear/swim/cat/?cid=27186#nlid=mw|sportswear|shop+by+activity|swim",
+              "isBold": false,
+              "img": "/navbar/sportswear/shopByActivity/sportswear-6.webp",
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 3,
+          "sectionName": "shop by edit",
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": true,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "Run Club",
+              "href": "https://www.asos.com/men/ctas/hub-edit-5/cat/?cid=51140#nlid=mw|sportswear|shop+by+edit|run+club",
+              "isBold": false,
+              "img": "/navbar/sportswear/shopByEdit/shopByEdit-1.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Push the Limits",
+              "href": "https://www.asos.com/men/ctas/hub-edit-3/cat/?cid=51138#nlid=mw|sportswear|shop+by+edit|push+the+limits",
+              "isBold": false,
+              "img": "/navbar/sportswear/shopByEdit/shopByEdit-2.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Track & Field",
+              "href": "https://www.asos.com/men/ctas/hub-edit-9/cat/?cid=51144#nlid=mw|sportswear|shop+by+edit|track+%26+field",
+              "isBold": false,
+              "img": "/navbar/sportswear/shopByEdit/shopByEdit-3.webp",
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Take a dip",
+              "href": "https://www.asos.com/men/ctas/hub-edit-7/cat/?cid=51142#nlid=mw|sportswear|shop+by+edit|take+a+dip",
+              "isBold": false,
+              "img": "/navbar/sportswear/shopByEdit/shopByEdit-4.webp",
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 4,
+          "sectionName": false,
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": true,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "adidas performance",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/adidas/adidas-performance/cat/?cid=51912#nlid=mw|sportswear|ctas+new|adidas+performance",
+              "img": "/navbar/sportswear/smallImg/smallImg-1.webp",
+              "textColor": "white"
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Puma",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/puma/cat/?cid=3355#nlid=mw|sportswear|ctas+new|puma",
+              "img": "/navbar/sportswear/smallImg/smallImg-2.webp",
+              "textColor": "black"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "optionId": 8,
+      "optionName": "Grooming",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionName": "shop by product",
+          "hasImg": false,
+          "iconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "Top Rated Face + Body",
+              "href": "https://www.asos.com/men/ctas/fashion-online-41/cat/?cid=28288#nlid=mw|grooming|shop+by+product|top+rated+face+%2B+body",
+              "isBold": true,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Up to 30% off Face + Body brands",
+              "href": "https://www.asos.com/men/ctas/generic-promos/promotion-1/cat/?cid=28029#nlid=mw|grooming|shop+by+product|up+to+30%25+off+face+%2B+body+brands",
+              "isBold": false,
+              "img": null,
+              "textColor": "red-500"
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "New in",
+              "href": "https://www.asos.com/men/new-in/new-in-face-body/cat/?cid=27140#nlid=mw|grooming|shop+by+product|new+in",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "View all",
+              "href": "https://www.asos.com/men/face-body/cat/?cid=19517#nlid=mw|grooming|shop+by+product|view+all",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Body care",
+              "href": "https://www.asos.com/men/face-body/body-care/cat/?cid=27142#nlid=mw|grooming|shop+by+product|body+care",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Hair care",
+              "href": "https://www.asos.com/men/face-body/hair-care/cat/?cid=27143#nlid=mw|grooming|shop+by+product|hair+care",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 7,
+              "categoryName": "Makeup",
+              "href": "https://www.asos.com/men/face-body/makeup/cat/?cid=27149#nlid=mw|grooming|shop+by+product|makeup",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 8,
+              "categoryName": "Shaving & Grooming",
+              "href": "https://www.asos.com/men/face-body/shaving-grooming/cat/?cid=25399#nlid=mw|grooming|shop+by+product|shaving+%26+grooming",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 9,
+              "categoryName": "Skin care",
+              "href": "https://www.asos.com/men/face-body/skin-care/cat/?cid=27150#nlid=mw|grooming|shop+by+product|skin+care",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 10,
+              "categoryName": "Suncare & Tanning",
+              "href": "https://www.asos.com/women/face-body/tanning/cat/?cid=5606#nlid=mw|grooming|shop+by+product|suncare+%26+tanning",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 11,
+              "categoryName": "Tools & Accessories",
+              "href": "https://www.asos.com/men/face-body/tools-accessories/cat/?cid=27141#nlid=mw|grooming|shop+by+product|tools+%26+accessories",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 2,
+          "sectionName": "shop by brand",
+          "hasImg": false,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "shortImageCategory": false,
+          "largeImageCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "Aaron Wallace",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/aaron-wallace/cat/?cid=30081#nlid=mw|grooming|shop+by+brand|aaron+wallace",
+              "isBold": false,
+              "img": false,
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Apothecary 87",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/apothecary-87/cat/?cid=26927#nlid=mw|grooming|shop+by+brand|apothecary+87",
+              "isBold": false,
+              "img": false,
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Bulldog",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/bulldog/cat/?cid=19736#nlid=mw|grooming|shop+by+brand|bulldog",
+              "isBold": false,
+              "img": false,
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Elemis",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/elemis/cat/?cid=20367#nlid=mw|grooming|shop+by+brand|elemis",
+              "isBold": false,
+              "img": false,
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "L'Oreal Men Expert",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/loreal-men-expert/cat/?cid=20108#nlid=mw|grooming|shop+by+brand|l%E2%80%99oreal+men+expert",
+              "isBold": false,
+              "img": false,
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Mario Bodescu",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/mario-badescu/cat/?cid=30437#nlid=mw|grooming|shop+by+brand|mario+badescu",
+              "isBold": false,
+              "img": false,
+              "textColor": false
+            },
+            {
+              "categoryId": 7,
+              "categoryName": "Murdock London",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/murdock-london/cat/?cid=26967#nlid=mw|grooming|shop+by+brand|murdock+london",
+              "isBold": false,
+              "img": false,
+              "textColor": false
+            },
+            {
+              "categoryId": 8,
+              "categoryName": "Olaplex",
+              "href": "https://www.asos.com/women/a-to-z-of-brands/olaplex/cat/?cid=29724#nlid=mw|grooming|shop+by+brand|olaplex",
+              "isBold": false,
+              "img": false,
+              "textColor": false
+            },
+            {
+              "categoryId": 9,
+              "categoryName": "Revolution Man",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/revolution-man/cat/?cid=50637#nlid=mw|grooming|shop+by+brand|revolution+man",
+              "isBold": false,
+              "img": false,
+              "textColor": false
+            },
+            {
+              "categoryId": 10,
+              "categoryName": "The Inkey List",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/the-inkey-list/cat/?cid=28492#nlid=mw|grooming|shop+by+brand|the+inkey+list",
+              "isBold": false,
+              "img": false,
+              "textColor": false
+            },
+            {
+              "categoryId": 11,
+              "categoryName": "The Ordinary",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/the-ordinary/cat/?cid=28559#nlid=mw|grooming|shop+by+brand|the+ordinary",
+              "isBold": false,
+              "img": false,
+              "textColor": false
+            },
+            {
+              "categoryId": 12,
+              "categoryName": "A-Z of brands",
+              "href": "https://www.asos.com/women/face-body/a-to-z-of-brands/cat/?cid=2373#nlid=mw|grooming|shop+by+brand|a-z+of+brands",
+              "isBold": true,
+              "img": false,
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 3,
+          "sectionName": false,
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": true,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "hair care",
+              "href": "https://www.asos.com/men/face-body/hair-care/cat/?cid=27143#nlid=mw|grooming|ctas+%28left%29|hair+care",
+              "img": "/navbar/grooming/section3/section3-1.webp",
+              "textColor": "black"
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "Gifts",
+              "href": "https://www.asos.com/men/face-body/gifts/cat/?cid=50350#nlid=mw|grooming|ctas+%28left%29|gifts",
+              "img": "/navbar/grooming/section3/section3-2.webp",
+              "textColor": "black"
+            }
+          ]
+        },
+        {
+          "sectionId": 4,
+          "sectionName": false,
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": true,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "shaving & grooming",
+              "href": "https://www.asos.com/men/face-body/shaving-beard/cat/?cid=25399#nlid=mw|grooming|ctas+%28right%29|shaving+%26+grooming",
+              "img": "/navbar/grooming/section4/section4-1.webp",
+              "textColor": "black"
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "skin care",
+              "href": "https://www.asos.com/men/face-body/skin-care/cat/?cid=27150#nlid=mw|grooming|ctas+%28right%29|skin+care",
+              "img": "/navbar/grooming/section4/section4-2.webp",
+              "textColor": "black"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "optionId": 9,
+      "optionName": "Topman",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionName": "shop by product",
+          "hasImg": false,
+          "iconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "View all",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/cat/?cid=29065#nlid=mw|topman|shop+by+product|view+all",
+              "isBold": true,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "New in",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-new-in/cat/?cid=50706#nlid=mw|topman|shop+by+product|new+in",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 3,
+              "categoryName": "Hoodies & Sweats",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-hoodies-sweatshirts/cat/?cid=30186#nlid=mw|topman|shop+by+product|hoodies+%26+sweats",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 4,
+              "categoryName": "Jackets & Coats",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-jackets-coats/cat/?cid=30196#nlid=mw|topman|shop+by+product|jackets+%26+coats",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 5,
+              "categoryName": "Jeans",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-jeans/cat/?cid=30208#nlid=mw|topman|shop+by+product|jeans",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 6,
+              "categoryName": "Joggers",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/cat/?cid=29065&refine=attribute_1047:8407#nlid=mw|topman|shop+by+product|joggers",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 7,
+              "categoryName": "Jumpers & Cardigans",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-jumpers-cardigans/cat/?cid=30220#nlid=mw|topman|shop+by+product|jumpers+%26+cardigans",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 8,
+              "categoryName": "Multipacks",
+              "href": "https://www.asos.com/a-to-z-of-brands/topman/topman-multipacks/cat/?cid=50945#nlid=mw|topman|shop+by+product|multipacks",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 9,
+              "categoryName": "Shirts",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-shirts/cat/?cid=30242#nlid=mw|topman|shop+by+product|shirts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 10,
+              "categoryName": "Shorts",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-shorts/cat/?cid=30204#nlid=mw|topman|shop+by+product|shorts",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 11,
+              "categoryName": "Suits & Tailoring",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-suits/cat/?cid=30209#nlid=mw|topman|shop+by+product|suits+%26+tailoring",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 12,
+              "categoryName": "Swimwear",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-suits/cat/?cid=30209#nlid=mw|topman|shop+by+product|suits+%26+tailoring",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 13,
+              "categoryName": "T-Shirts & Vests",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-t-shirts-vests/cat/?cid=30215#nlid=mw|topman|shop+by+product|t-shirts+%26+vests",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 14,
+              "categoryName": "Trousers & Chinos",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-trousers/cat/?cid=30222#nlid=mw|topman|shop+by+product|trousers+%26+chinos",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            },
+            {
+              "categoryId": 15,
+              "categoryName": "Underwear & Loungewear",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/underwear-socks/cat/?cid=50117#nlid=mw|topman|shop+by+product|underwear+%26+loungewear",
+              "isBold": false,
+              "img": null,
+              "textColor": false
+            }
+          ]
+        },
+        {
+          "sectionId": 2,
+          "sectionName": false,
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": true,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "discover topman",
+              "href": "https://www.asos.com/topman/#nlid=mw|topman|ctas|discover+topman",
+              "img": "/navbar/topman/section3/section3-1.webp",
+              "textColor": "black"
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "knitwear",
+              "href": "https://www.asos.com/topman/#nlid=mw|topman|ctas|discover+topman",
+              "img": "/navbar/topman/section3/section3-2.webp",
+              "textColor": "white"
+            }
+          ]
+        },
+        {
+          "sectionId": 3,
+          "sectionName": false,
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": true,
+          "largeImgCategory": false,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "jacket & coats",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-jackets-coats/cat/?cid=30196#nlid=mw|topman|ctas|jackets+%26+coats",
+              "img": "/navbar/topman/section4/section4-1.webp",
+              "textColor": "white"
+            },
+            {
+              "categoryId": 2,
+              "categoryName": "shirts",
+              "href": "https://www.asos.com/men/a-to-z-of-brands/topman/topman-shirts/cat/?cid=30242#nlid=mw|topman|ctas|shirts",
+              "img": "/navbar/topman/section4/section4-2.webp",
+              "textColor": "white"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "optionId": 10,
+      "optionName": "MarketPlace",
+      "sections": [
+        {
+          "sectionId": 1,
+          "sectionName": false,
+          "hasImg": true,
+          "iconCategory": false,
+          "shortImgCategory": false,
+          "largeImgCategory": false,
+          "articleCategory": true,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "explore asos marketplace",
+              "href": "https://marketplace.asos.com/men?nlid=mw|marketplace|ctas|explore+asos+marketplace",
+              "isBold": true,
+              "img": "/navbar/marketplace/section1/section1-1.webp",
+              "textColor": "white",
+              "title": "Vintage boutiques and independent brands"
+            }
+          ]
+        },
+        {
+          "sectionId": 2,
+          "sectionName": false,
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": false,
+          "articleCategory": true,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "t-shirts",
+              "href": "https://marketplace.asos.com/men/t-shirts?nlid=mw|marketplace|ctas|t-shirts",
+              "img": "/navbar/marketplace/section2/section2-1.webp",
+              "textColor": "black",
+              "title": "Vintage, branded & one-of-a-kind"
+            }
+          ]
+        },
+        {
+          "sectionId": 3,
+          "sectionName": false,
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": false,
+          "articleCategory": true,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "trouser & shorts",
+              "href": "https://marketplace.asos.com/men/trousers-shorts?nlid=mw|marketplace|ctas|trousers+%26+shorts",
+              "img": "/navbar/marketplace/section3/section3-1.webp",
+              "textColor": "black",
+              "title": "Level-up your lower half in these styles"
+            }
+          ]
+        },
+        {
+          "sectionId": 4,
+          "sectionName": false,
+          "hasImg": true,
+          "smallIconCategory": false,
+          "largeIconCategory": false,
+          "smallImgCategory": false,
+          "largeImgCategory": false,
+          "articleCategory": true,
+          "categories": [
+            {
+              "categoryId": 1,
+              "categoryName": "jackets",
+              "href": "https://marketplace.asos.com/men/coats-jackets?nlid=mw|marketplace|ctas|jackets",
+              "img": "/navbar/marketplace/section4/section4-1.webp",
+              "textColor": "black",
+              "title": "Vintage & new layers, incoming"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "heroData": [
+    {
+      "id": 1,
+      "title": "Just launched: Mango Man",
+      "bgColor": "white",
+      "textColor": "black",
+      "fullSize": {
+        "img": "/hero/hero-1.webp"
+      },
+      "halfSize": {
+        "img": "/hero/hero-2.webp"
+      }
+    }
+  ],
+
+  "trendingBrands": [
+    {
+      "id": 1,
+      "href": "https://www.asos.com/men/a-to-z-of-brands/tommy-hilfiger/cat/?cid=5247&ctaref=hp|mw|prime|logo|8|tommyhilfiger",
+
+      "img": "/brandLogos/TommyHilfiger.webp",
+      "height": 210,
+      "alt": "TommyHilfiger.logo"
+    },
+
+    {
+      "id": 2,
+      "href": "https://www.asos.com/men/a-to-z-of-brands/the-north-face/cat/?cid=5715&ctaref=hp|mw|prime|logo|9|thenorthface",
+      "img": "/brandLogos/NorthFace.webp",
+      "height": 210,
+      "alt": "northface.logo"
+    },
+
+    {
+      "id": 3,
+      "href": "https://www.asos.com/men/a-to-z-of-brands/adidas/cat/?cid=7113&ctaref=hp|mw|prime|logo|10|adidas",
+      "img": "/brandLogos/Adidas.webp",
+      "height": 210,
+      "alt": "Adidas.logo"
+    },
+
+    {
+      "id": 4,
+      "href": "https://www.asos.com/men/a-to-z-of-brands/carhartt-wip/cat/?cid=6759&ctaref=hp|mw|prime|logo|11|carhartt",
+      "img": "/brandLogos/Carhartt.webp",
+      "height": 210,
+      "alt": "carhartt.logo"
+    },
+
+    {
+      "id": 5,
+      "href": "https://www.asos.com/men/a-to-z-of-brands/ellesse/cat/?cid=19763&ctaref=hp|mw|prime|logo|12|ellesse",
+      "img": "/brandLogos/Ellesse.webp",
+      "height": 210,
+      "alt": "ellesse.logo"
+    },
+
+    {
+      "id": 6,
+      "href": "https://www.asos.com/men/a-to-z-of-brands/dr-martens/cat/?cid=4747&ctaref=hp|mw|prime|logo|13|drmartens",
+      "img": "/brandLogos/DrMartens.webp",
+      "height": 210,
+      "alt": "dr_martens.logo"
+    }
+  ],
+
+  "moments": [
+    {
+      "id": 1,
+      "href": "../productsPage",
+      "img": "/moments/topMan.webp",
+      "alt": "topman",
+      "h2": "TOPMAN",
+      "p": "Your autumn go-to",
+      "btnText": "SHOP NOW"
+    },
+
+    {
+      "id": 2,
+      "href": "https://www.asos.com/men/trends/utility/cat/?cid=52017&ctaref=hp|mw|prime|moment|2|edit|utility",
+      "img": "/moments/theNewUtility.webp",
+      "alt": "The new utility",
+      "h2": "THE NEW UTILITY",
+      "p": "That streetwear refresh",
+      "btnText": "SHOP NOW"
+    }
+  ],
+
+  "featured": [
+    {
+      "id": 1,
+      "href": "https://www.asos.com/men/new-in/cat/?cid=27110&ctaref=hp|mw|prime|feature|1|category|newintoday",
+      "img": "/featured/newInToday.webp",
+      "alt": "new in today",
+      "h2": "NEW IN TODAY",
+      "p": "Super-fresh finds"
+    },
+
+    {
+      "id": 2,
+      "href": "https://www.asos.com/men/ctas/hp-edit-13/cat/?cid=51619&ctaref=hp|mw|prime|feature|1|category|newsznkicks",
+      "img": "/featured/terraceTrainers.webp",
+      "h2": "TERRACE TRAINERS",
+      "alt": "terrace trainer",
+      "p": "The OG ballers"
+    },
+
+    {
+      "id": 3,
+      "href": "https://www.asos.com/men/a-to-z-of-brands/cotton-on/cat/?cid=51509&ctaref=hp|mw|prime|feature|3|category|cottonon",
+      "img": "/featured/cottonOn.webp",
+      "h2": "COTTON:ON",
+      "alt": "cotton on",
+      "p": "New-season staples"
+    },
+
+    {
+      "id": 4,
+      "href": "https://www.asos.com/men/ctas/hp-edit-7/cat/?cid=50612&ctaref=hp|mw|prime|feature|2|category|relaxedtailoring",
+      "img": "/featured/relaxedTailoring.webp",
+      "alt": "relaxed tailoring",
+      "h2": "RELAXED TAILORING",
+      "p": "Ft. Berksha + ASOS DESIGN"
+    }
+  ],
+
+  "additionalInfo": [
+    {
+      "id": 1,
+      "sectionTitle": "help & information",
+      "subSections": [
+        {
+          "id": 1,
+          "subSectionTitle": "Help",
+          "href": "https://www.asos.com/customer-care/"
+        },
+        {
+          "id": 2,
+          "subSectionTitle": "Track order",
+          "href": "https://my.asos.com/my-account/orders?country=IN&keyStoreDataversion=11a1qu9-40&lang=en-GB&store=ROW&_gl=1*kol2rc*_gcl_au*MTU4Mzc1NDU2My4xNzI3MTcyNTc5*FPAU*MTU4Mzc1NDU2My4xNzI3MTcyNTc5"
+        },
+        {
+          "id": 3,
+          "subSectionTitle": "Delivery & returns",
+          "href": "https://www.asos.com/payments-and-deliveries/delivery/"
+        },
+        {
+          "id": 4,
+          "subSectionTitle": "Sitemap",
+          "href": "https://www.asos.com/sitemap"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "sectionTitle": "about asos",
+      "subSections": [
+        {
+          "id": 1,
+          "subSectionTitle": "About us",
+          "href": "https://www.asos.com/about/"
+        },
+        {
+          "id": 2,
+          "subSectionTitle": "Careers at ASOS",
+          "href": "https://asoscareers.asos.com/"
+        },
+        {
+          "id": 3,
+          "subSectionTitle": "Corporate responsibility",
+          "href": "https://www.asosplc.com/fashion-with-integrity/"
+        },
+        {
+          "id": 4,
+          "subSectionTitle": "Investors' site",
+          "href": "https://www.asosplc.com/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "sectionTitle": "more from asos",
+      "subSections": [
+        {
+          "id": 1,
+          "subSectionTitle": "Mobile and ASOS apps",
+          "href": "https://www.asos.com/discover/our-apps/"
+        },
+        {
+          "id": 2,
+          "subSectionTitle": "ASOS Marketplace",
+          "href": "https://marketplace.asos.com/?ctaref=Global+footer"
+        },
+        {
+          "id": 3,
+          "subSectionTitle": "Gift vouchers",
+          "href": "https://www.asos.com/gift-vouchers/?ctaref=global%20footer|gift%20vouchers"
+        },
+        {
+          "id": 4,
+          "subSectionTitle": "Black Friday",
+          "href": "https://www.asos.com/discover/black-friday-cyber-monday-deals/"
+        },
+        {
+          "id": 5,
+          "subSectionTitle": "ASOS x Thrift+",
+          "href": "https://thrift.plus/pages/get-started-asos"
+        },
+        {
+          "id": 6,
+          "subSectionTitle": "Discover the ASOS Credit Card",
+          "href": "https://www.asos.com/discover/asos-credit-card"
+        }
+      ]
+    }
+  ]
+}
