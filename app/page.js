@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="relative z-0">
       {isFocused && (
-        <div className="absolute inset-0 bg-black bg-opacity-50 z-[99] pointer-events-none"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-50  pointer-events-none z-[99]"></div>
       )}
       <Region />
       <Navbar setIsFocused={setIsFocused} isFocused={isFocused} />

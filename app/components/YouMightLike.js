@@ -32,7 +32,7 @@ export default function YouMightLike() {
           {productPage.youMightAlsoLike.map((product) => {
             const { productId, productImg, brandName, price, href } = product;
             return (
-              <li key={productId} className="relative">
+              <li key={productId} className="relative mt-2">
                 <Link href={href} className="">
                   <div className="relative">
                     <Image
@@ -43,8 +43,10 @@ export default function YouMightLike() {
                       className="w-full"
                     />
                   </div>
-                  <div className="tracking-wide">
-                    <p className="font-bold text-sm mt-2">&#163;{price}.00</p>
+                  <div className="tracking-wide mt-1">
+                    <p className="text-[#666666] font-bold text-sm ">
+                      &#163;{price}.00
+                    </p>
                     <p className="text-[#2D2D2D] text-xs mt-1">{brandName}</p>
                   </div>
                 </Link>

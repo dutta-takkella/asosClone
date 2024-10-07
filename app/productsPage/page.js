@@ -13,22 +13,33 @@ import ProductPath from "../components/ProductPath.js";
 //hooks
 import { useState } from "react";
 
+//data
+import productsPage from "../components/productsPage.json";
+
 export default function ProductPage() {
+  const [shareIcons, setShareIcons] = useState(false);
   const [isFocused, setIsFocused] = useState(false);
+  const [currentProduct, setCurrentProduct] = useState(
+    productsPage.products[0]
+  );
   return (
-    <div className="relative z-0 bg-[#EEEEEE]">
+    <div className="relative z-0">
       {isFocused && (
         <div className="absolute inset-0 bg-black opacity-50 z-[99]"></div>
       )}
-      {/* <Region />
-      <Navbar isFocused={isFocused} setIsFocused={setIsFocused} />
-      <DiscountNotice />
-      <ProductPath />
-      <Product /> */}
-      <YouMightLike />
-      {/* <BuyTheLook />
-      <PeopleAlsoBought /> */}
-      <Footer />
+      {shareIcons && <div className="absolute sticky bottom-0"></div>}
+      <Region />
+      {/* <Navbar isFocused={isFocused} setIsFocused={setIsFocused} /> */}
+      {/* <DiscountNotice /> */}
+      {/* <ProductPath /> */}
+      <Product
+        currentProduct={currentProduct}
+        setCurrentProduct={setCurrentProduct}
+      />
+      {/* <YouMightLike /> */}
+      {/* <BuyTheLook currentProduct={currentProduct} /> */}
+      {/* <PeopleAlsoBought /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

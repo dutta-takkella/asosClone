@@ -8,7 +8,10 @@ export default function Hero() {
   const { id, title, fullSize, halfSize, bgColor, textColor } =
     landingPage.heroData[0];
   return (
-    <div key={id} className="relative flex justify-center md:mx-8 md:mt-6 mt-3">
+    <div
+      key={id}
+      className="relative flex z-0 justify-center md:mx-8 md:mt-6 mt-3"
+    >
       <Image
         src={fullSize.img}
         alt="alt_img"

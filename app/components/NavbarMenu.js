@@ -13,7 +13,7 @@ export default function NavbarMenu() {
     const { sectionId, sectionName, categories } = section;
     let firstColumnCategories = categories.slice(0, 14);
     let secondColumnCategories = categories.slice(14);
-    console.log(secondColumnCategories.length);
+    // console.log(secondColumnCategories.length);
     if (categories.length > 14) {
       let firstCol = Math.ceil(categories.length / 2);
       firstColumnCategories = categories.slice(0, firstCol);
@@ -385,7 +385,7 @@ export default function NavbarMenu() {
     <div className="hidden lg:block">
       <ul
         id="navbarMenu"
-        className="relative w-full h-[50px] grid grid-cols-[repeat(12,auto)] px-10  justify-start  text-white bg-[#525050]"
+        className="relative w-full h-[50px]  grid grid-cols-[repeat(12,auto)] px-10  justify-start  text-white bg-[#525050]"
       >
         {landingPage.navbarMenu.map((option) => {
           const { optionId, optionName } = option;
@@ -398,7 +398,7 @@ export default function NavbarMenu() {
             >
               {optionName}
               {hoverOption === optionId && (
-                <div className="grid grid-cols-4 grid-rows-14 absolute max-w-screen top-full left-0 right-0 bg-[#eee] mx-7 py-4 ">
+                <div className="grid grid-cols-4 grid-rows-14 absolute max-w-screen top-full z-10 left-0 right-0 bg-[#eee] mx-7 py-4 ">
                   {option.sections.map((section) => {
                     const {
                       hasImg,

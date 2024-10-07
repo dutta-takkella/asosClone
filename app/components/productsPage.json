@@ -17,6 +17,7 @@
         "Long sleeves",
         "Oversized fit"
       ],
+      "productHeroImg": "/product/SproductHero-img-1.webp",
       "sizeNFit": [
         {
           "ModelHeightInCm": "188",
@@ -27,7 +28,88 @@
       "careInstructions": "Machine wash according to instructions on care label",
       "materialIds": [1],
       "wishlistedTimes": 474,
-      "shippingConstrictions": true
+      "shippingConstrictions": true,
+      "otherProductsUsed": [
+        135337075, 135337076, 135337077, 135337078, 135337079, 135337080,
+        135337081
+      ]
+    },
+
+    {
+      "productCode": 135337075,
+      "gender": "men",
+      "category": "shirts",
+      "productImg": "/buyTheLook/btl-1.webp",
+      "productName": "Topman relaxed fit washed t-shirt with seam detail in washed black",
+      "price": 21,
+      "color": "WASHED BLACK",
+      "sizeOptions": true
+    },
+
+    {
+      "productCode": 135337076,
+      "gender": "men",
+      "category": "shirts",
+      "productImg": "/buyTheLook/btl-2.webp",
+      "productName": "Topman relaxed fit brushed jumper in pink",
+      "price": 42,
+      "color": "Pink",
+      "sizeOptions": true
+    },
+
+    {
+      "productCode": 135337077,
+      "gender": "men",
+      "category": "shirts",
+      "productImg": "/buyTheLook/btl-3.webp",
+      "productName": "Topman linen blend mix wide leg trouser in black",
+      "price": 52,
+      "color": "Black",
+      "sizeOptions": true
+    },
+
+    {
+      "productCode": 135337078,
+      "gender": "men",
+      "category": "shirts",
+      "productImg": "/buyTheLook/btl-4.webp",
+      "productName": "Asics Gel-NYC trainers in cream",
+      "price": 153,
+      "color": "CREAM",
+      "sizeOptions": true
+    },
+
+    {
+      "productCode": 135337079,
+      "gender": "men",
+      "category": "shirts",
+      "productImg": "/buyTheLook/btl-5.webp",
+      "productName": "Topshop canvas tote bag in black",
+      "price": 13,
+      "color": "BLACK",
+      "sizeOptions": false
+    },
+
+    {
+      "productCode": 135337080,
+      "gender": "men",
+      "category": "shirts",
+      "productImg": "/buyTheLook/btl-6.webp",
+      "productName": "ASOS DESIGN waterproof stainless steel textured twist chain necklace in silver tone",
+      "price": 17,
+      "color": "SILVER",
+      "sizeOptions": true
+    },
+
+    {
+      "productCode": 135337081,
+      "gender": "men",
+      "category": "shirts",
+      "productImg": "/buyTheLook/btl-7.webp",
+      "productName": "Jack & Jones 2 pack silver plated hoop earrings",
+      "price": 11,
+      "color": "Silver",
+      "sizeOptions": false
     }
   ],
 
@@ -213,7 +295,7 @@
 
   "buyTheLook": [
     {
-      "productId": 1,
+      "productCode": 135337075,
       "productImg": "/buyTheLook/btl-1.webp",
       "productName": "Topman relaxed fit washed t-shirt with seam detail in washed black",
       "price": 21,
@@ -222,7 +304,7 @@
     },
 
     {
-      "productId": 2,
+      "productCode": 135337076,
       "productImg": "/buyTheLook/btl-2.webp",
       "productName": "Topman relaxed fit brushed jumper in pink",
       "price": 42,
@@ -231,7 +313,7 @@
     },
 
     {
-      "productId": 3,
+      "productCode": 135337077,
       "productImg": "/buyTheLook/btl-3.webp",
       "productName": "Topman linen blend mix wide leg trouser in black",
       "price": 52,
@@ -240,7 +322,7 @@
     },
 
     {
-      "productId": 4,
+      "productCode": 135337078,
       "productImg": "/buyTheLook/btl-4.webp",
       "productName": "Asics Gel-NYC trainers in cream",
       "price": 153,
@@ -249,7 +331,7 @@
     },
 
     {
-      "productId": 5,
+      "productCode": 135337079,
       "productImg": "/buyTheLook/btl-5.webp",
       "productName": "Topshop canvas tote bag in black",
       "price": 13,
@@ -258,7 +340,7 @@
     },
 
     {
-      "productId": 6,
+      "productCode": 135337080,
       "productImg": "/buyTheLook/btl-6.webp",
       "productName": "ASOS DESIGN waterproof stainless steel textured twist chain necklace in silver tone",
       "price": 17,
@@ -267,7 +349,7 @@
     },
 
     {
-      "productId": 7,
+      "productCode": 135337081,
       "productImg": "/buyTheLook/btl-7.webp",
       "productName": "Jack & Jones 2 pack silver plated hoop earrings",
       "price": 11,
