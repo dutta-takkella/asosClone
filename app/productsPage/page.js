@@ -9,6 +9,7 @@ import YouMightLike from "../components/YouMightLike.js";
 import BuyTheLook from "../components/BuyTheLook.js";
 import PeopleAlsoBought from "../components/PeopleAlsoBought.js";
 import ProductPath from "../components/ProductPath.js";
+import Btt from "../components/Btt.js";
 
 //hooks
 import { useState } from "react";
@@ -27,19 +28,17 @@ export default function ProductPage() {
       {isFocused && (
         <div className="absolute inset-0 bg-black opacity-50 z-[99]"></div>
       )}
-      {shareIcons && <div className="absolute sticky bottom-0"></div>}
+      {shareIcons && <div className="absolute bottom-0"></div>}
       <Region />
       {/* <Navbar isFocused={isFocused} setIsFocused={setIsFocused} /> */}
       {/* <DiscountNotice /> */}
       {/* <ProductPath /> */}
-      <Product
-        currentProduct={currentProduct}
-        setCurrentProduct={setCurrentProduct}
-      />
+      <Product setCurrentProduct={setCurrentProduct} />
       {/* <YouMightLike /> */}
       {/* <BuyTheLook currentProduct={currentProduct} /> */}
       {/* <PeopleAlsoBought /> */}
-      {/* <Footer /> */}
+      <Btt />
+      <Footer />
     </div>
   );
 }

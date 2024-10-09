@@ -9,26 +9,35 @@
       "sizeOptions": true,
       "color": "BROWN",
       "brandName": "TopMan",
-      "productDetails": [
-        "This is Topman",
-        "Stripe design",
-        "Spread collar",
-        "Button placket",
-        "Long sleeves",
-        "Oversized fit"
-      ],
-      "productHeroImg": "/product/SproductHero-img-1.webp",
-      "sizeNFit": [
-        {
-          "ModelHeightInCm": "188",
-          "ModelHeightInInches": "6'2",
-          "sizeCode": 3
-        }
-      ],
-      "careInstructions": "Machine wash according to instructions on care label",
-      "materialIds": [1],
-      "wishlistedTimes": 474,
+      "details": {
+        "brandId": 1,
+        "productDetails": [
+          "This is Topman",
+          "Stripe design",
+          "Spread collar",
+          "Button placket",
+          "Long sleeves",
+          "Oversized fit"
+        ],
+        "sizeNFit": [
+          {
+            "ModelHeightInCm": "188",
+            "ModelHeightInInches": "6'2",
+            "sizeCode": 3
+          }
+        ],
+        "careInstructions": "Machine wash according to instructions on care label",
+        "materialIds": [1]
+      },
       "shippingConstrictions": true,
+      "productHeroImg": "/product/SproductHero-img-1.webp",
+      "productImgs": [
+        "/product/SproductHero-img-1.webp",
+        "/product/Sproduct-img-2.webp",
+        "/product/Sproduct-img-3.webp",
+        "/product/Sproduct-img-4.webp"
+      ],
+      "wishListedTimes": 474,
       "otherProductsUsed": [
         135337075, 135337076, 135337077, 135337078, 135337079, 135337080,
         135337081
@@ -358,40 +367,170 @@
     }
   ],
 
-  "sizes": [
+  "peopleAlsoBought": [
     {
-      "shirtSizes": [
-        {
-          "sizeId": 1,
-          "size": "XS",
-          "sizeDescription": "Chest 36"
-        },
-        {
-          "sizeId": 2,
-          "size": "S",
-          "sizeDescription": "Chest 38"
-        },
-        {
-          "sizeId": 3,
-          "size": "M",
-          "sizeDescription": "Chest 40"
-        },
-        {
-          "sizeId": 4,
-          "size": "L",
-          "sizeDescription": "Chest 42"
-        },
-        {
-          "sizeId": 5,
-          "size": "XL",
-          "sizeDescription": "Chest 44"
-        },
-        {
-          "sizeId": 6,
-          "size": "2XL",
-          "sizeDescription": "Chest 46-48"
-        }
-      ]
+      "productId": 1,
+      "productName": "ASOS DESIGN oversized open knit brushed rib notch neck jumper in stone",
+      "price": 35,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-1.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-oversized-open-knit-brushed-rib-notch-neck-jumper-in-stone/prd/206600095#ctaref-complementary+items_0&featureref1-complementary+items"
+    },
+    {
+      "productId": 2,
+      "productName": "Polo Ralph Lauren sherpa borg paisley print jacket in royal blue",
+      "price": 349,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-2.webp",
+      "href": "https://www.asos.com/polo-ralph-lauren/polo-ralph-lauren-sherpa-borg-paisley-print-jacket-in-royal-blue/prd/206855806#ctaref-complementary+items_1&featureref1-complementary+items"
+    },
+    {
+      "productId": 3,
+      "productName": "ASOS DESIGN wool look harrington jacket in navy",
+      "price": 63,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-3.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-wool-look-harrington-jacket-in-navy/prd/206763687#ctaref-complementary+items_2&featureref1-complementary+items"
+    },
+    {
+      "productId": 4,
+      "productName": "ASOS DESIGN smart wide leg wool look trousers in light grey herringbone",
+      "price": 40,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-4.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-smart-wide-leg-wool-look-trousers-in-light-grey-herringbone/prd/206699985#ctaref-complementary+items_3&featureref1-complementary+items"
+    },
+    {
+      "productId": 5,
+      "productName": "Topman relaxed fit brushed collared cardigan in brown marl",
+      "price": 47,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-5.webp",
+      "href": "https://www.asos.com/topman/topman-relaxed-fit-brushed-collared-cardigan-in-brown-marl/prd/206556691#ctaref-complementary+items_4&featureref1-complementary+items"
+    },
+    {
+      "productId": 6,
+      "productName": "Topman oversized v neck jumper in brown with exposed seam",
+      "price": 47,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-6.webp",
+      "href": "https://www.asos.com/topman/topman-oversized-v-neck-jumper-in-brown-with-exposed-seam/prd/206568811#ctaref-complementary+items_5&featureref1-complementary+items"
+    },
+    {
+      "productId": 7,
+      "productName": "ASOS DESIGN oversized wool look overcoat in khaki",
+      "price": 77,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-7.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-oversized-wool-look-overcoat-in-khaki/prd/206095382#ctaref-complementary+items_6&featureref1-complementary+items"
+    },
+    {
+      "productId": 8,
+      "productName": "ASOS DESIGN oversized boxy fit heavyweight knitted wool mix button through cardigan in burgundy",
+      "price": 48,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-8.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-oversized-boxy-fit-heavyweight-knitted-wool-mix-button-through-cardigan-in-burgundy/prd/206796511#ctaref-complementary+items_7&featureref1-complementary+items"
+    },
+    {
+      "productId": 9,
+      "productName": "Topman workwear jacket with contrast collar in black wash",
+      "price": 69,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-9.webp",
+      "href": "https://www.asos.com/topman/topman-workwear-jacket-with-contrast-collar-in-black-wash/prd/206149718#ctaref-complementary+items_8&featureref1-complementary+items"
+    },
+    {
+      "productId": 10,
+      "productName": "Clarks Badell Desert boot in chestnut",
+      "price": 120,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-10.webp",
+      "href": "https://www.asos.com/clarks/clarks-badell-desert-boot-in-chestnut/prd/206784652#ctaref-complementary+items_9&featureref1-complementary+items"
+    },
+    {
+      "productId": 11,
+      "productName": "Topman oversized fit boucle polo in brown marl",
+      "price": 45,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-11.webp",
+      "href": "https://www.asos.com/topman/topman-oversized-fit-boucle-polo-in-brown-marl/prd/206252565#ctaref-complementary+items_10&featureref1-complementary+items"
+    },
+    {
+      "productId": 12,
+      "productName": "Topman wool look shacket in oatmeal",
+      "price": 69,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-12.webp",
+      "href": "https://www.asos.com/topman/topman-wool-look-shacket-in-oatmeal/prd/206577694#ctaref-complementary+items_11&featureref1-complementary+items"
+    },
+    {
+      "productId": 13,
+      "productName": "Topman relaxed fit boucle jumper in brown",
+      "price": 38,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-13.webp",
+      "href": "https://www.asos.com/topman/topman-wool-look-shacket-in-oatmeal/prd/206577694#ctaref-complementary+items_11&featureref1-complementary+items"
+    },
+    {
+      "productId": 14,
+      "productName": "ASOS DESIGN oversized heavyweight wool mix cable jumper with crew neck in khaki",
+      "price": 42,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-14.webp",
+      "href": "https://www.asos.com/topman/topman-wool-look-shacket-in-oatmeal/prd/206577694#ctaref-complementary+items_11&featureref1-complementary+items"
+    },
+    {
+      "productId": 15,
+      "productName": "ASOS DESIGN oversized boxy fit knitted high neck jumper in stone",
+      "price": 34,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-15.webp",
+      "href": "https://www.asos.com/topman/topman-wool-look-shacket-in-oatmeal/prd/206577694#ctaref-complementary+items_11&featureref1-complementary+items"
+    },
+    {
+      "productId": 16,
+      "productName": "ASOS DESIGN smart extreme wide joggers in grey with long drawcord",
+      "price": 40,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-16.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-smart-extreme-wide-joggers-in-grey-with-long-drawcord/prd/206193369#ctaref-complementary+items_15&featureref1-complementary+items"
+    },
+    {
+      "productId": 17,
+      "productName": "ASOS DESIGN oversized wool look overcoat in brown",
+      "price": 77,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-17.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-smart-extreme-wide-joggers-in-grey-with-long-drawcord/prd/206193369#ctaref-complementary+items_15&featureref1-complementary+items"
+    },
+    {
+      "productId": 18,
+      "productName": "Topman brushed animal leopard cardigan",
+      "price": 51,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-18.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-smart-extreme-wide-joggers-in-grey-with-long-drawcord/prd/206193369#ctaref-complementary+items_15&featureref1-complementary+items"
+    }
+  ],
+
+  "shirtSizes": [
+    {
+      "sizeId": 7,
+      "size": "Please select",
+      "sizeDescription": false
+    },
+    {
+      "sizeId": 1,
+      "size": "XS",
+      "sizeDescription": "Chest 36"
+    },
+    {
+      "sizeId": 2,
+      "size": "S",
+      "sizeDescription": "Chest 38"
+    },
+    {
+      "sizeId": 3,
+      "size": "M",
+      "sizeDescription": "Chest 40"
+    },
+    {
+      "sizeId": 4,
+      "size": "L",
+      "sizeDescription": "Chest 42"
+    },
+    {
+      "sizeId": 5,
+      "size": "XL",
+      "sizeDescription": "Chest 44"
+    },
+    {
+      "sizeId": 6,
+      "size": "2XL",
+      "sizeDescription": "Chest 46-48"
     }
   ]
 }

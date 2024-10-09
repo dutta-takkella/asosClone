@@ -15,6 +15,9 @@ module.exports = {
         xs: "321px",
         productMd: "720px",
       },
+      cursor: {
+        magnify: "url(/svgIcons/magnify.svg), auto",
+      },
     },
   },
   plugins: [],

@@ -6,7 +6,6 @@ import Image from "next/image";
 
 export default function BuyTheLook({ currentProduct }) {
   let items = currentProduct.otherProductsUsed.length;
-  // console.log(currentProduct);
   return (
     <div className="bg-[#EEEEEE]">
       <div
