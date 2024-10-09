@@ -4,7 +4,10 @@ import productsPage from "./productsPage.json";
 export default function ProductPath() {
   const { gender, brandName, productName, category } = productsPage.products[0];
   return (
-    <div className="hidden md:block px-8 py-4 text-xs font-medium max-w-[1280px] mx-auto">
+    <div
+      id="productPath"
+      className="hidden md:block px-8 py-4 text-xs font-medium max-w-[1280px] mx-auto"
+    >
       <p className="inline pr-4">Home </p>
       <p className="inline pr-4 font-semibold">&gt;</p>
       <p className="inline pr-4 capitalize"> {gender}</p>

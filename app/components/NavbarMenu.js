@@ -13,7 +13,6 @@ export default function NavbarMenu() {
     const { sectionId, sectionName, categories } = section;
     let firstColumnCategories = categories.slice(0, 14);
     let secondColumnCategories = categories.slice(14);
-    // console.log(secondColumnCategories.length);
     if (categories.length > 14) {
       let firstCol = Math.ceil(categories.length / 2);
       firstColumnCategories = categories.slice(0, firstCol);

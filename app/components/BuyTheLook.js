@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function BuyTheLook({ currentProduct }) {
   let items = currentProduct.otherProductsUsed.length;
   return (
-    <div className="bg-[#EEEEEE]">
+    <div className="bg-[#EEEEEE]" id="buyTheLook">
       <div
         id="sectionDeclaration"
         className="pt-5 px-4 tracking-wide max-w-[960px] mx-auto text-sm"

@@ -9,26 +9,67 @@
       "sizeOptions": true,
       "color": "BROWN",
       "brandName": "TopMan",
-      "details": {
-        "brandId": 1,
-        "productDetails": [
-          "This is Topman",
-          "Stripe design",
-          "Spread collar",
-          "Button placket",
-          "Long sleeves",
-          "Oversized fit"
-        ],
-        "sizeNFit": [
-          {
-            "ModelHeightInCm": "188",
-            "ModelHeightInInches": "6'2",
-            "sizeCode": 3
-          }
-        ],
-        "careInstructions": "Machine wash according to instructions on care label",
-        "materialIds": [1]
-      },
+      "details": [
+        {
+          "sectionId": 1,
+          "productDetails": true,
+          "brandDetails": false,
+          "sizeNFit": false,
+          "lookAfterMe": false,
+          "aboutMe": false,
+          "sectionName": "Product Details",
+          "list": [
+            "This is Topman",
+            "Stripe design",
+            "Spread collar",
+            "Button placket",
+            "Long sleeves",
+            "Oversized fit"
+          ]
+        },
+        {
+          "sectionId": 2,
+          "productDetails": false,
+          "brandDetails": true,
+          "sizeNFit": false,
+          "lookAfterMe": false,
+          "aboutMe": false,
+          "sectionName": "Brand",
+          "brandId": 1
+        },
+        {
+          "sectionId": 3,
+          "productDetails": false,
+          "brandDetails": false,
+          "sizeNFit": true,
+          "lookAfterMe": false,
+          "aboutMe": false,
+          "sectionName": "Size & Fit",
+          "ModelHeightInCm": "188",
+          "ModelHeightInInches": "6'2",
+          "sizeCode": 3
+        },
+        {
+          "sectionId": 4,
+          "productDetails": false,
+          "brandDetails": false,
+          "sizeNFit": false,
+          "lookAfterMe": true,
+          "aboutMe": false,
+          "sectionName": "Look After Me",
+          "careInstructions": "Machine wash according to instructions on care label"
+        },
+        {
+          "sectionId": 5,
+          "productDetails": false,
+          "brandDetails": false,
+          "sizeNFit": false,
+          "lookAfterMe": false,
+          "aboutMe": true,
+          "sectionName": "About Me",
+          "materialIds": [1]
+        }
+      ],
       "shippingConstrictions": true,
       "productHeroImg": "/product/SproductHero-img-1.webp",
       "productImgs": [
