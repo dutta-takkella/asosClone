@@ -24,7 +24,7 @@ export default function ProductPage() {
     productsPage.products[0]
   );
   return (
-    <div className="relative z-0">
+    <div className="relative z-0 bg-[#EEEEEE]">
       {isFocused && (
         <div className="absolute inset-0 bg-black opacity-50 z-[99]"></div>
       )}
@@ -34,7 +34,7 @@ export default function ProductPage() {
       {/* <DiscountNotice /> */}
       {/* <ProductPath /> */}
       <Product setCurrentProduct={setCurrentProduct} />
-      {/* <YouMightLike /> */}
+      <YouMightLike />
       {/* <BuyTheLook currentProduct={currentProduct} /> */}
       {/* <PeopleAlsoBought /> */}
       <Btt />

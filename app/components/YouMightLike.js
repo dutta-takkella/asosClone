@@ -25,7 +25,7 @@ export default function YouMightLike() {
   };
 
   return (
-    <div className="bg-white border-t border-[#ccc]">
+    <div className="bg-white border-t border-[#ccc] mt-2">
       <div className="pt-6 px-4 text-lg tracking-wide max-w-[960px] mx-auto">
         <h3 className="uppercase font-bold">you might also like</h3>
         <ul className="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 mt-6">

@@ -45,8 +45,8 @@
           "lookAfterMe": false,
           "aboutMe": false,
           "sectionName": "Size & Fit",
-          "ModelHeightInCm": "188",
-          "ModelHeightInInches": "6'2",
+          "modelHeightInCm": 188,
+          "modelHeightInInches": "6'2",
           "sizeCode": 3
         },
         {
@@ -67,7 +67,8 @@
           "lookAfterMe": false,
           "aboutMe": true,
           "sectionName": "About Me",
-          "materialIds": [1]
+          "materialIds": [1],
+          "main": "100% Cotton."
         }
       ],
       "shippingConstrictions": true,
@@ -537,41 +538,43 @@
     }
   ],
 
-  "shirtSizes": [
-    {
-      "sizeId": 7,
-      "size": "Please select",
-      "sizeDescription": false
-    },
-    {
-      "sizeId": 1,
-      "size": "XS",
-      "sizeDescription": "Chest 36"
-    },
-    {
-      "sizeId": 2,
-      "size": "S",
-      "sizeDescription": "Chest 38"
-    },
-    {
-      "sizeId": 3,
-      "size": "M",
-      "sizeDescription": "Chest 40"
-    },
-    {
-      "sizeId": 4,
-      "size": "L",
-      "sizeDescription": "Chest 42"
-    },
-    {
-      "sizeId": 5,
-      "size": "XL",
-      "sizeDescription": "Chest 44"
-    },
-    {
-      "sizeId": 6,
-      "size": "2XL",
-      "sizeDescription": "Chest 46-48"
-    }
-  ]
+  "sizing": {
+    "shirtSizes": [
+      {
+        "sizeId": 7,
+        "size": "Please select",
+        "sizeDescription": ""
+      },
+      {
+        "sizeId": 1,
+        "size": "XS",
+        "sizeDescription": "Chest 36"
+      },
+      {
+        "sizeId": 2,
+        "size": "S",
+        "sizeDescription": "Chest 38"
+      },
+      {
+        "sizeId": 3,
+        "size": "M",
+        "sizeDescription": "Chest 40"
+      },
+      {
+        "sizeId": 4,
+        "size": "L",
+        "sizeDescription": "Chest 42"
+      },
+      {
+        "sizeId": 5,
+        "size": "XL",
+        "sizeDescription": "Chest 44"
+      },
+      {
+        "sizeId": 6,
+        "size": "2XL",
+        "sizeDescription": "Chest 46-48"
+      }
+    ]
+  }
 }
