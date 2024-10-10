@@ -179,14 +179,14 @@ export default function Product({ setCurrentProduct }) {
             <div className="px-2">
               <p>Free delivery on qualifying orders.</p>
               <div className="flex flex-row mt-5 mb-2">
-                <button className="underline inline p-0 m-0">
+                <p className="underline inline">
                   View our Delivery & Returns Policy
                   <Image
                     src={copy}
                     alt="alt_img"
                     className="w-[10px] h-[10px] mx-1 inline"
                   />
-                </button>
+                </p>
               </div>
             </div>
           </div>

@@ -29,7 +29,7 @@ export default function ProductPage() {
         <div className="absolute inset-0 bg-black opacity-50 z-[99]"></div>
       )}
       {shareIcons && <div className="absolute bottom-0"></div>}
-      <Region />
+      {/* <Region /> */}
       {/* <Navbar isFocused={isFocused} setIsFocused={setIsFocused} /> */}
       {/* <DiscountNotice /> */}
       {/* <ProductPath /> */}

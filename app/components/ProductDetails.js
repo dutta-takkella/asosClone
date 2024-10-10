@@ -21,14 +21,16 @@ export default function ProductDetails({ product }) {
 
   const pD = (detail) => {
     return (
-      <div>
+      <div className="mt-3">
         <p>
-          <span className="capitalize font-semibold">{product.category} </span>
-          by<span className="font-semibold"> {product.brandName}</span>
+          <span className="capitalize font-semibold underline">
+            {product.category}
+          </span>{" "}
+          by{" "}
+          <span className="font-semibold underline">{product.brandName}</span>
         </p>
         <ul>
           {detail.list.map((item, index) => {
-            console.log(item);
             return (
               <li key={index}>
                 <p>{item}</p>
@@ -36,6 +38,7 @@ export default function ProductDetails({ product }) {
             );
           })}
         </ul>
+        <p>Product Code: {product.productCode}</p>
       </div>
     );
   };
