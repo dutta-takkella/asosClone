@@ -38,6 +38,8 @@ export default function Product({ setCurrentProduct }) {
     if (imgIndex < numImgs - 1) {
       const index = imgIndex + 1;
       setImgIndex(index);
+    } else {
+      setImgIndex(0);
     }
   };
 
@@ -45,6 +47,8 @@ export default function Product({ setCurrentProduct }) {
     if (imgIndex > 0) {
       const index = imgIndex - 1;
       setImgIndex(index);
+    } else {
+      setImgIndex(numImgs - 1);
     }
   };
 
@@ -77,7 +81,7 @@ export default function Product({ setCurrentProduct }) {
             </ul>
 
             {/* buy the look icon */}
-            <div className="h-[56px] bg-[#ddd] mr-2 ">
+            <div className="mr-6 mt-2">
               <Link
                 href="#buyTheLook"
                 className="h-full flex flex-col justify-center items-center"
@@ -89,7 +93,7 @@ export default function Product({ setCurrentProduct }) {
                   alt="alt_img"
                   className="w-[25px] h-[16px] "
                 />
-                <p className="uppercase font-bold text-xs flex justify-center items-center text-center">
+                <p className="uppercase tracking-wider font-bold text-[8px] flex justify-center items-center text-center">
                   buy the look
                 </p>
               </Link>
@@ -114,7 +118,7 @@ export default function Product({ setCurrentProduct }) {
           </div>
 
           {/* product images */}
-          <div className="w-full max-w-[700px] bg-black">
+          <div className="w-full max-w-[700px] ">
             <ul className="flex flex-row w-full">
               <li className="relative">
                 <Image
@@ -150,7 +154,7 @@ export default function Product({ setCurrentProduct }) {
                   />
                 </button>
                 <button
-                  className="hidden md:block absolute right-0 top-1/2 -translate-x-1/2 w-[50px] h-[50px]"
+                  className="hidden md:block absolute right-0 top-1/2 -translate-x-1/2 pl-10"
                   onClick={() => handleRightClick()}
                 >
                   <Image

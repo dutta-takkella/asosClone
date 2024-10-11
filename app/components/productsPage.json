@@ -83,84 +83,92 @@
       "otherProductsUsed": [
         135337075, 135337076, 135337077, 135337078, 135337079, 135337080,
         135337081
-      ]
+      ],
+      "inStock": true
     },
 
     {
       "productCode": 135337075,
       "gender": "men",
       "category": "shirts",
-      "productImg": "/buyTheLook/btl-1.webp",
+      "productHeroImg": "/buyTheLook/btl-1.webp",
       "productName": "Topman relaxed fit washed t-shirt with seam detail in washed black",
       "price": 21,
       "color": "WASHED BLACK",
-      "sizeOptions": true
+      "sizeOptions": true,
+      "inStock": true
     },
 
     {
       "productCode": 135337076,
       "gender": "men",
       "category": "shirts",
-      "productImg": "/buyTheLook/btl-2.webp",
+      "productHeroImg": "/buyTheLook/btl-2.webp",
       "productName": "Topman relaxed fit brushed jumper in pink",
       "price": 42,
       "color": "Pink",
-      "sizeOptions": true
+      "sizeOptions": true,
+      "inStock": true
     },
 
     {
       "productCode": 135337077,
       "gender": "men",
-      "category": "shirts",
-      "productImg": "/buyTheLook/btl-3.webp",
+      "category": "trousers",
+      "productHeroImg": "/buyTheLook/btl-3.webp",
       "productName": "Topman linen blend mix wide leg trouser in black",
       "price": 52,
       "color": "Black",
-      "sizeOptions": true
+      "sizeOptions": true,
+      "inStock": true
     },
 
     {
       "productCode": 135337078,
       "gender": "men",
-      "category": "shirts",
-      "productImg": "/buyTheLook/btl-4.webp",
+      "category": "shoes",
+      "productHeroImg": "/buyTheLook/btl-4.webp",
       "productName": "Asics Gel-NYC trainers in cream",
       "price": 153,
       "color": "CREAM",
-      "sizeOptions": true
+      "sizeOptions": true,
+      "inStock": true
     },
 
     {
       "productCode": 135337079,
       "gender": "men",
-      "category": "shirts",
-      "productImg": "/buyTheLook/btl-5.webp",
+      "category": "bags",
+      "productHeroImg": "/buyTheLook/btl-5.webp",
       "productName": "Topshop canvas tote bag in black",
       "price": 13,
       "color": "BLACK",
-      "sizeOptions": false
+      "sizeOptions": false,
+      "inStock": false
     },
 
     {
       "productCode": 135337080,
       "gender": "men",
       "category": "shirts",
-      "productImg": "/buyTheLook/btl-6.webp",
+      "productHeroImg": "/buyTheLook/btl-6.webp",
       "productName": "ASOS DESIGN waterproof stainless steel textured twist chain necklace in silver tone",
       "price": 17,
       "color": "SILVER",
-      "sizeOptions": true
+      "sizeOptions": true,
+      "inStock": false
     },
 
     {
       "productCode": 135337081,
       "gender": "men",
       "category": "shirts",
-      "productImg": "/buyTheLook/btl-7.webp",
+      "productHeroImg": "/buyTheLook/btl-7.webp",
       "productName": "Jack & Jones 2 pack silver plated hoop earrings",
       "price": 11,
       "color": "Silver",
-      "sizeOptions": false
+      "sizeOptions": false,
+      "inStock": true
     }
   ],
 

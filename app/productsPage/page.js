@@ -34,9 +34,9 @@ export default function ProductPage() {
       <DiscountNotice />
       <ProductPath />
       <Product setCurrentProduct={setCurrentProduct} />
-      <YouMightLike />
       <BuyTheLook currentProduct={currentProduct} />
       <PeopleAlsoBought />
+      <YouMightLike />
       <Btt />
       <Footer />
     </div>
