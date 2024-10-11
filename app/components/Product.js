@@ -23,12 +23,30 @@ import copy from "../../public/svgIcons/copy.svg";
 import deliveryTruck from "../../public/svgIcons/deliveryTruck.svg";
 import whiteHeart from "../../public/svgIcons/whiteHeart.svg";
 import clothesHanger from "../../public/svgIcons/clothesHanger.svg";
+import toLeft from "../../public/svgIcons/toLeft.svg";
+import toRight from "../../public/svgIcons/toRight.svg";
 
 export default function Product({ setCurrentProduct }) {
   const [wishListed, setWishListed] = useState(false);
   const [sizeFocused, setSizeFocused] = useState(false);
   const [shippingRestrictions, setShippingRestrictions] = useState(false);
   const product = productsPage.products[0];
+  const [imgIndex, setImgIndex] = useState(0);
+  const numImgs = product.productImgs.length;
+
+  const handleRightClick = () => {
+    if (imgIndex < numImgs - 1) {
+      const index = imgIndex + 1;
+      setImgIndex(index);
+    }
+  };
+
+  const handleLeftClick = () => {
+    if (imgIndex > 0) {
+      const index = imgIndex - 1;
+      setImgIndex(index);
+    }
+  };
 
   useEffect(() => {
     setCurrentProduct(product);
@@ -44,13 +62,15 @@ export default function Product({ setCurrentProduct }) {
               {product.productImgs.map((img, index) => {
                 return (
                   <li key={index} className="my-3 w-[44px] h-[56px]">
-                    <Image
-                      src={img}
-                      width={1000}
-                      height={1000}
-                      className="w-full "
-                      alt="alt_img"
-                    />
+                    <button onClick={() => setImgIndex(index)}>
+                      <Image
+                        src={img}
+                        width={1000}
+                        height={1000}
+                        className="w-full "
+                        alt="alt_img"
+                      />
+                    </button>
                   </li>
                 );
               })}
@@ -94,16 +114,17 @@ export default function Product({ setCurrentProduct }) {
           </div>
 
           {/* product images */}
-          <div className="w-full max-w-[700px]">
+          <div className="w-full max-w-[700px] bg-black">
             <ul className="flex flex-row w-full">
               <li className="relative">
                 <Image
-                  src={product.productImgs[0]}
+                  src={product.productImgs[imgIndex]}
                   alt="alt_img"
-                  width={1000}
-                  height={1000}
-                  className="w-full cursor-magnify"
+                  width={100000}
+                  height={100000}
+                  className="w-full h-full object-cover cursor-magnify"
                 />
+                {/* wishlisted times indicated with a icon on the product image */}
                 <div className="absolute right-0 bottom-10 bg-black bg-opacity-80 w-[83px] h-[28px] flex flex-row items-center rounded-l-full">
                   <span className="text-white text-xs tracking-widest font-extrabold pl-4">
                     {product.wishListedTimes}
@@ -114,6 +135,32 @@ export default function Product({ setCurrentProduct }) {
                     className="w-[31px] h-[16px]"
                   />
                 </div>
+
+                {/* arrows to move between the different images */}
+                <button
+                  className="hidden md:block absolute left-0 top-1/2 -translate-x-1/2 mx-20 w-[50px] h-[50px]"
+                  onClick={() => handleLeftClick()}
+                >
+                  <Image
+                    src={toLeft}
+                    alt="alt_img"
+                    width={100000}
+                    height={100000}
+                    className="w-[21px] h-[35px] "
+                  />
+                </button>
+                <button
+                  className="hidden md:block absolute right-0 top-1/2 -translate-x-1/2 w-[50px] h-[50px]"
+                  onClick={() => handleRightClick()}
+                >
+                  <Image
+                    src={toRight}
+                    alt="alt_img"
+                    width={100000}
+                    height={100000}
+                    className="w-[21px] h-[35px] "
+                  />
+                </button>
               </li>
             </ul>
           </div>

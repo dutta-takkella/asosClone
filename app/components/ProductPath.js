@@ -6,7 +6,7 @@ export default function ProductPath() {
   return (
     <div
       id="productPath"
-      className="hidden md:block px-8 py-4 text-xs font-medium max-w-[1280px] mx-auto"
+      className="hidden bg-white md:block px-8 py-5 text-xs font-medium max-w-[1280px] mx-auto"
     >
       <p className="inline pr-4">Home </p>
       <p className="inline pr-4 font-semibold">&gt;</p>

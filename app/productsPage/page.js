@@ -29,14 +29,14 @@ export default function ProductPage() {
         <div className="absolute inset-0 bg-black opacity-50 z-[99]"></div>
       )}
       {shareIcons && <div className="absolute bottom-0"></div>}
-      {/* <Region /> */}
-      {/* <Navbar isFocused={isFocused} setIsFocused={setIsFocused} /> */}
-      {/* <DiscountNotice /> */}
-      {/* <ProductPath /> */}
+      <Region />
+      <Navbar isFocused={isFocused} setIsFocused={setIsFocused} />
+      <DiscountNotice />
+      <ProductPath />
       <Product setCurrentProduct={setCurrentProduct} />
       <YouMightLike />
-      {/* <BuyTheLook currentProduct={currentProduct} /> */}
-      {/* <PeopleAlsoBought /> */}
+      <BuyTheLook currentProduct={currentProduct} />
+      <PeopleAlsoBought />
       <Btt />
       <Footer />
     </div>
