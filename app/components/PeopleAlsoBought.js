@@ -34,12 +34,12 @@ export default function PeopleAlsoBought() {
     <div className="w-full bg-white">
       <div className="pt-6 px-4 text-lg tracking-wide max-w-[960px] mr-0 md:mx-auto">
         <h3 className="uppercase font-bold">People also bought</h3>
-        <div>
-          <ul className="px-1 mt-6 mb-7 flex flex-row  overflow-scroll no-scrollbar">
+        <div className="embla">
+          <div className="embla__viewport">
             {productsPage.peopleAlsoBought.map((product) => {
               const { productId, productName, price, heroImg, href } = product;
               return (
-                <li key={productId} className="mr-4 relative">
+                <div key={productId} className="embla__slide mr-4 relative">
                   <Link href={href}>
                     <div className="relative w-[162px]">
                       <Image
@@ -61,9 +61,9 @@ export default function PeopleAlsoBought() {
                         className="text-[#666666] font-bold text-sm mt-2 tracking-widest"
                       >
                         {product.price % 1 === 0 ? (
-                          <span>&#163;{product.price}.00</span>
+                          <span>&#163;{price}.00</span>
                         ) : (
-                          <span>&#163;{product.price}</span>
+                          <span>&#163;{price}</span>
                         )}
                       </p>
                     </div>
@@ -86,10 +86,10 @@ export default function PeopleAlsoBought() {
                       className="w-[18px] h-[18px]"
                     />
                   </div>
-                </li>
+                </div>
               );
             })}
-          </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -1,10 +1,10 @@
 //hooks
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 //components
 import ProductDetails from "./ProductDetails.js";
 
-//.carousel
+//carousel
 import useEmblaCarousel from "embla-carousel-react";
 
 //data
@@ -34,33 +34,23 @@ export default function Product({ setCurrentProduct }) {
   const [sizeFocused, setSizeFocused] = useState(false);
   const [shippingRestrictions, setShippingRestrictions] = useState(false);
   const product = productsPage.products[0];
-  const [imgIndex, setImgIndex] = useState(0);
-  const numImgs = product.productImgs.length;
+  const [zoomCount, setZoomCount] = useState(0);
 
   //for embla carousel
-  const [emblaRef] = useEmblaCarousel({ loop: true });
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
 
-  const handleRightClick = () => {
-    if (imgIndex < numImgs - 1) {
-      const index = imgIndex + 1;
-      setImgIndex(index);
-    } else {
-      setImgIndex(0);
-    }
-  };
-
-  const handleLeftClick = () => {
-    if (imgIndex > 0) {
-      const index = imgIndex - 1;
-      setImgIndex(index);
-    } else {
-      setImgIndex(numImgs - 1);
-    }
-  };
+  //
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
 
   useEffect(() => {
     setCurrentProduct(product);
   }, []);
+
   return (
     <div className="w-full bg-white">
       <div className="w-full max-w-[960px] mx-auto md:grid md:grid-cols-[2fr_1fr]">
@@ -125,45 +115,54 @@ export default function Product({ setCurrentProduct }) {
 
           {/* product images */}
           <div className="w-full max-w-[700px] ">
-            <div className="embla" ref={emblaRef}>
-              <div className="embla__container">
-                <div className="embla__slide">
-                  <Image
-                    src={product.productImgs[0]}
-                    alt="alt_img"
-                    width={10000}
-                    height={10000}
-                    className="w-full h-full object-cover cursor-magnify"
-                  />
-                </div>
-                <div className="embla__slide">
-                  <Image
-                    src={product.productImgs[1]}
-                    alt="alt_img"
-                    width={10000}
-                    height={10000}
-                    className="w-full h-full object-cover cursor-magnify"
-                  />
-                </div>
-                <div className="embla__slide">
-                  <Image
-                    src={product.productImgs[2]}
-                    alt="alt_img"
-                    width={10000}
-                    height={10000}
-                    className="w-full h-full object-cover cursor-magnify"
-                  />
-                </div>
-                <div className="embla__slide">
-                  <Image
-                    src={product.productImgs[3]}
-                    alt="alt_img"
-                    width={10000}
-                    height={10000}
-                    className="w-full h-full object-cover cursor-magnify"
-                  />
+            <div className="embla relative">
+              {/* extra class added to seperate images from its parent div to be able to insert absolute buttons */}
+              <div className="embla__viewport" ref={emblaRef}>
+                <div className="embla__container">
+                  {/* image mapping for slides */}
+                  {product.productImgs.map((img, index) => {
+                    return (
+                      <div className="embla__slide" key={index}>
+                        <Image
+                          src={img}
+                          alt="alt_img"
+                          width={10000}
+                          height={10000}
+                          className="w-full h-full object-cover cursor-magnify"
+                        />
+                      </div>
+                    );
+                  })}
+                  {/* image mapping end */}
                 </div>
               </div>
+
+              {/* arrow buttons to move between different images */}
+              <button
+                className="embla__prev hidden md:block absolute left-0 top-1/2 -translate-x-1/2 mx-20 w-[50px] h-[50px]"
+                onClick={scrollPrev}
+              >
+                <Image
+                  src={toLeft}
+                  alt="alt_img"
+                  width={100000}
+                  height={100000}
+                  className="w-[21px] h-[35px] "
+                />
+              </button>
+              <button
+                className="embla__next hidden md:block absolute right-0 top-1/2 -translate-x-1/2 pl-10"
+                onClick={scrollNext}
+              >
+                <Image
+                  src={toRight}
+                  alt="alt_img"
+                  width={100000}
+                  height={100000}
+                  className="w-[21px] h-[35px] "
+                />
+              </button>
+              {/* arrows end */}
             </div>
           </div>
         </div>

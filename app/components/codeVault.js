@@ -1,44 +1,53 @@
-<ul className="flex flex-row w-full">
-  <li className="relative">
-    <Image
-      src={product.productImgs[imgIndex]}
-      alt="alt_img"
-      width={100000}
-      height={100000}
-      className="w-full h-full object-cover cursor-magnify"
-    />
-    {/* wishlisted times indicated with a icon on the product image */}
-    <div className="absolute right-0 bottom-10 bg-black bg-opacity-80 w-[83px] h-[28px] flex flex-row items-center rounded-l-full">
-      <span className="text-white text-xs tracking-widest font-extrabold pl-4">
-        {product.wishListedTimes}
-      </span>
-      <Image src={whiteHeart} alt="alt_img" className="w-[31px] h-[16px]" />
-    </div>
-
-    {/* arrows to move between the different images */}
-    <button
-      className="hidden md:block absolute left-0 top-1/2 -translate-x-1/2 mx-20 w-[50px] h-[50px]"
-      onClick={() => handleLeftClick()}
-    >
-      <Image
-        src={toLeft}
-        alt="alt_img"
-        width={100000}
-        height={100000}
-        className="w-[21px] h-[35px] "
-      />
-    </button>
-    <button
-      className="hidden md:block absolute right-0 top-1/2 -translate-x-1/2 pl-10"
-      onClick={() => handleRightClick()}
-    >
-      <Image
-        src={toRight}
-        alt="alt_img"
-        width={100000}
-        height={100000}
-        className="w-[21px] h-[35px] "
-      />
-    </button>
-  </li>
+<ul className="px-1 mt-6 mb-7 flex flex-row  overflow-scroll no-scrollbar">
+  {productsPage.peopleAlsoBought.map((product) => {
+    const { productId, productName, price, heroImg, href } = product;
+    return (
+      <li key={productId} className="mr-4 relative">
+        <Link href={href}>
+          <div className="relative w-[162px]">
+            <Image
+              src={heroImg}
+              alt="alt_img"
+              width={1000}
+              height={1000}
+              className="w-full h-[206px]"
+            />
+          </div>
+          <div className=" mt-3">
+            <div className="text-xs tracking-wide font-semibold leading-5 overflow-clip">
+              <p className="tracking-wider  line-clamp-2">{productName}</p>
+            </div>
+            <p
+              id="productPrice"
+              className="text-[#666666] font-bold text-sm mt-2 tracking-widest"
+            >
+              {product.price % 1 === 0 ? (
+                <span>&#163;{price}.00</span>
+              ) : (
+                <span>&#163;{price}</span>
+              )}
+            </p>
+          </div>
+        </Link>
+        <div
+          className="absolute bottom-24 right-2 w-[36px] h-[35px] bg-white bg-opacity-70 rounded-full flex justify-center items-center"
+          onClick={() => handleClick(productId)}
+          onMouseLeave={() => handleMouseLeave(productId)}
+          onMouseEnter={() => handleMouseEnter(productId)}
+        >
+          <Image
+            src={
+              wishListClick[productId] || wishListHover[productId]
+                ? filledHeart
+                : outlineHeart
+            }
+            alt="alt_img"
+            width={1000}
+            height={1000}
+            className="w-[18px] h-[18px]"
+          />
+        </div>
+      </li>
+    );
+  })}
 </ul>;
