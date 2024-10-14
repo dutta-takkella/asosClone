@@ -91,9 +91,9 @@ export default function BuyTheLook({ currentProduct }) {
             </div>
 
             {/* other products */}
-            <div className="grid grid-rows-[175px_1fr] bg-white">
+            <div className="grid grid-rows-[150px_1fr] bg-white px-2 ">
               {/* list of other products */}
-              <div className=" overflow-y-scroll no-scrollbar w-[100%]">
+              <div className=" overflow-y-scroll no-scrollbar w-[100%] border-b border-black">
                 <ul className="px-1 mt-6 mb-7 flex flex-row">
                   {otherProductsL.map((product) => {
                     const otherProduct = productsPage.products.find(
@@ -122,7 +122,15 @@ export default function BuyTheLook({ currentProduct }) {
               </div>
 
               {/* details of selected products */}
-              <div className="grid grid-cols-[163px_1fr]"></div>
+              <div className="grid grid-cols-[163px_1fr]">
+                {/* product image */}
+                <div>
+                  <Image alt="alt_img" />
+                </div>
+
+                {/* product description */}
+                <div></div>
+              </div>
             </div>
           </div>
         </div>
