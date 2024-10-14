@@ -4,6 +4,9 @@ import { useState, useEffect } from "react";
 //components
 import ProductDetails from "./ProductDetails.js";
 
+//.carousel
+import useEmblaCarousel from "embla-carousel-react";
+
 //data
 import productsPage from "./productsPage.json";
 
@@ -33,6 +36,9 @@ export default function Product({ setCurrentProduct }) {
   const product = productsPage.products[0];
   const [imgIndex, setImgIndex] = useState(0);
   const numImgs = product.productImgs.length;
+
+  //for embla carousel
+  const [emblaRef] = useEmblaCarousel({ loop: true });
 
   const handleRightClick = () => {
     if (imgIndex < numImgs - 1) {
@@ -119,54 +125,46 @@ export default function Product({ setCurrentProduct }) {
 
           {/* product images */}
           <div className="w-full max-w-[700px] ">
-            <ul className="flex flex-row w-full">
-              <li className="relative">
-                <Image
-                  src={product.productImgs[imgIndex]}
-                  alt="alt_img"
-                  width={100000}
-                  height={100000}
-                  className="w-full h-full object-cover cursor-magnify"
-                />
-                {/* wishlisted times indicated with a icon on the product image */}
-                <div className="absolute right-0 bottom-10 bg-black bg-opacity-80 w-[83px] h-[28px] flex flex-row items-center rounded-l-full">
-                  <span className="text-white text-xs tracking-widest font-extrabold pl-4">
-                    {product.wishListedTimes}
-                  </span>
+            <div className="embla" ref={emblaRef}>
+              <div className="embla__container">
+                <div className="embla__slide">
                   <Image
-                    src={whiteHeart}
+                    src={product.productImgs[0]}
                     alt="alt_img"
-                    className="w-[31px] h-[16px]"
+                    width={10000}
+                    height={10000}
+                    className="w-full h-full object-cover cursor-magnify"
                   />
                 </div>
-
-                {/* arrows to move between the different images */}
-                <button
-                  className="hidden md:block absolute left-0 top-1/2 -translate-x-1/2 mx-20 w-[50px] h-[50px]"
-                  onClick={() => handleLeftClick()}
-                >
+                <div className="embla__slide">
                   <Image
-                    src={toLeft}
+                    src={product.productImgs[1]}
                     alt="alt_img"
-                    width={100000}
-                    height={100000}
-                    className="w-[21px] h-[35px] "
+                    width={10000}
+                    height={10000}
+                    className="w-full h-full object-cover cursor-magnify"
                   />
-                </button>
-                <button
-                  className="hidden md:block absolute right-0 top-1/2 -translate-x-1/2 pl-10"
-                  onClick={() => handleRightClick()}
-                >
+                </div>
+                <div className="embla__slide">
                   <Image
-                    src={toRight}
+                    src={product.productImgs[2]}
                     alt="alt_img"
-                    width={100000}
-                    height={100000}
-                    className="w-[21px] h-[35px] "
+                    width={10000}
+                    height={10000}
+                    className="w-full h-full object-cover cursor-magnify"
                   />
-                </button>
-              </li>
-            </ul>
+                </div>
+                <div className="embla__slide">
+                  <Image
+                    src={product.productImgs[3]}
+                    alt="alt_img"
+                    width={10000}
+                    height={10000}
+                    className="w-full h-full object-cover cursor-magnify"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

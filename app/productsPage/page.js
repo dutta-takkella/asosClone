@@ -10,7 +10,6 @@ import BuyTheLook from "../components/BuyTheLook.js";
 import PeopleAlsoBought from "../components/PeopleAlsoBought.js";
 import ProductPath from "../components/ProductPath.js";
 import Btt from "../components/Btt.js";
-import Carousel from "../components/Carousel.js";
 
 //hooks
 import { useState } from "react";
@@ -39,7 +38,6 @@ export default function ProductPage() {
       <BuyTheLook currentProduct={currentProduct} />
       <PeopleAlsoBought />
       <Btt />
-      <Carousel />
       <Footer />
     </div>
   );
