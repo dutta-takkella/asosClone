@@ -132,7 +132,7 @@ export default function PeopleAlsoBought() {
                         </div>
                         <p
                           id="productPrice"
-                          className="text-[#666666] font-bold text-sm mt-2 tracking-widest"
+                          className="text-[#666666] font-bold text-sm mt-2 tracking-wider"
                         >
                           {product.price % 1 === 0 ? (
                             <span>&#163;{price}.00</span>
