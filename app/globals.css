@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@layer components {
+  .navbar-category-list-item {
+    @apply active:bg-[#eee] active:text-black h-full flex justify-center items-center hover:bg-[#eee] hover:text-black text-sm hover:cursor-default;
+  }
+
+  .flexClass-row {
+    @apply flex flex-row flex-nowrap justify-center align-middle items-center;
+  }
+
+  .footer-info-list-item {
+    @apply hover:text-[#0770cf] my-2 hover:cursor-pointer;
+  }
+
+  .trending-brands-hover-effect {
+    @apply group-hover:opacity-50 hover:opacity-100 transition-all cursor-pointer;
+  }
+
+  .flexClass-col {
+    @apply flex flex-col flex-nowrap justify-center align-middle items-center;
+  }
+
+  .discount-notice-p {
+    @apply flex justify-center items-center align-middle font-bold text-sm tracking-[0.2em];
+  }
+
+  .product-page-section-headings {
+    @apply uppercase font-bold text-lg tracking-wider text-nowrap;
+  }
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  flex-direction: row;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel__container {
+  display: flex;
+  will-change: transform;
+}
+
+.carousel__slide {
+  padding: 10px;
+  font-size: 24px;
+  display: flex;
+}
+
+/* Pagination Bullets */
+.carousel__pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.carousel__bullet {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel__bullet.is-selected {
+  background-color: #000;
+}

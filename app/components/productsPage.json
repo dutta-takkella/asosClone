@@ -1,0 +1,588 @@
+{
+  "products": [
+    {
+      "productCode": 135337074,
+      "gender": "men",
+      "category": "shirts",
+      "productName": "Topman long sleeve oversized stripe shirt in burgundy",
+      "price": 40,
+      "sizeOptions": true,
+      "color": "BROWN",
+      "brandName": "TopMan",
+      "shippingConstrictions": true,
+      "productHeroImg": "/product/SproductHero-img-1.webp",
+      "productImgs": [
+        "/product/SproductHero-img-1.webp",
+        "/product/Sproduct-img-2.webp",
+        "/product/Sproduct-img-3.webp",
+        "/product/Sproduct-img-4.webp"
+      ],
+      "wishListedTimes": 474,
+      "otherProductsUsed": [
+        135337075, 135337076, 135337077, 135337078, 135337079, 135337080,
+        135337081
+      ],
+      "inStock": true,
+      "details": [
+        {
+          "sectionId": 1,
+          "productDetails": true,
+          "brandDetails": false,
+          "sizeNFit": false,
+          "lookAfterMe": false,
+          "aboutMe": false,
+          "sectionName": "Product Details",
+          "list": [
+            "This is Topman",
+            "Stripe design",
+            "Spread collar",
+            "Button placket",
+            "Long sleeves",
+            "Oversized fit"
+          ]
+        },
+        {
+          "sectionId": 2,
+          "productDetails": false,
+          "brandDetails": true,
+          "sizeNFit": false,
+          "lookAfterMe": false,
+          "aboutMe": false,
+          "sectionName": "Brand",
+          "brandId": 1
+        },
+        {
+          "sectionId": 3,
+          "productDetails": false,
+          "brandDetails": false,
+          "sizeNFit": true,
+          "lookAfterMe": false,
+          "aboutMe": false,
+          "sectionName": "Size & Fit",
+          "modelHeightInCm": 188,
+          "modelHeightInInches": "6'2",
+          "sizeCode": 3
+        },
+        {
+          "sectionId": 4,
+          "productDetails": false,
+          "brandDetails": false,
+          "sizeNFit": false,
+          "lookAfterMe": true,
+          "aboutMe": false,
+          "sectionName": "Look After Me",
+          "careInstructions": "Machine wash according to instructions on care label"
+        },
+        {
+          "sectionId": 5,
+          "productDetails": false,
+          "brandDetails": false,
+          "sizeNFit": false,
+          "lookAfterMe": false,
+          "aboutMe": true,
+          "sectionName": "About Me",
+          "materialIds": [1],
+          "main": "100% Cotton."
+        }
+      ]
+    },
+
+    {
+      "productCode": 135337075,
+      "gender": "men",
+      "category": "shirts",
+      "productHeroImg": "/buyTheLook/btl-1.webp",
+      "productName": "Topman relaxed fit washed t-shirt with seam detail in washed black",
+      "price": 21,
+      "color": "WASHED BLACK",
+      "sizeOptions": true,
+      "inStock": true
+    },
+
+    {
+      "productCode": 135337076,
+      "gender": "men",
+      "category": "shirts",
+      "productHeroImg": "/buyTheLook/btl-2.webp",
+      "productName": "Topman relaxed fit brushed jumper in pink",
+      "price": 42,
+      "color": "Pink",
+      "sizeOptions": true,
+      "inStock": true
+    },
+
+    {
+      "productCode": 135337077,
+      "gender": "men",
+      "category": "trousers",
+      "productHeroImg": "/buyTheLook/btl-3.webp",
+      "productName": "Topman linen blend mix wide leg trouser in black",
+      "price": 52,
+      "color": "Black",
+      "sizeOptions": true,
+      "inStock": true
+    },
+
+    {
+      "productCode": 135337078,
+      "gender": "men",
+      "category": "shoes",
+      "productHeroImg": "/buyTheLook/btl-4.webp",
+      "productName": "Asics Gel-NYC trainers in cream",
+      "price": 153,
+      "color": "CREAM",
+      "sizeOptions": true,
+      "inStock": true
+    },
+
+    {
+      "productCode": 135337079,
+      "gender": "men",
+      "category": "bags",
+      "productHeroImg": "/buyTheLook/btl-5.webp",
+      "productName": "Topshop canvas tote bag in black",
+      "price": 13,
+      "color": "BLACK",
+      "sizeOptions": false,
+      "inStock": false
+    },
+
+    {
+      "productCode": 135337080,
+      "gender": "men",
+      "category": "shirts",
+      "productHeroImg": "/buyTheLook/btl-6.webp",
+      "productName": "ASOS DESIGN waterproof stainless steel textured twist chain necklace in silver tone",
+      "price": 17,
+      "color": "SILVER",
+      "sizeOptions": true,
+      "inStock": false
+    },
+
+    {
+      "productCode": 135337081,
+      "gender": "men",
+      "category": "shirts",
+      "productHeroImg": "/buyTheLook/btl-7.webp",
+      "productName": "Jack & Jones 2 pack silver plated hoop earrings",
+      "price": 11,
+      "color": "Silver",
+      "sizeOptions": false,
+      "inStock": true
+    }
+  ],
+
+  "brands": [
+    {
+      "brandId": 1,
+      "brandName": "Topman",
+      "brandText": "Welcome to the new chapter of Topman. Championing the very best of its heritage, this next phase celebrates cherished pieces, while embracing the new, and retaining that unique London spirit. Firmly cementing themselves as fashion authority, allow Topman to take you on a journey of exploration and discovery. Shop the entire collection only at ASOS, expect T-shirts, sweatshirts, suits and of course, jeans"
+    }
+  ],
+
+  "materials": [
+    {
+      "materialId": 1,
+      "materialName": "Cotton",
+      "materialAttributes": "lightweight, soft and strong"
+    }
+  ],
+
+  "youMightAlsoLike": [
+    {
+      "productId": 1,
+      "productImg": "/youMightAlsoLike/ymal-1.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 34,
+      "href": "https://www.asos.com/topman/topman-long-sleeve-oversized-formal-stripe-shirt-in-green/prd/206279539#ctaref-we+recommend+carousel_0&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 2,
+      "productImg": "/youMightAlsoLike/ymal-2.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 40,
+      "href": "https://www.asos.com/asos-design/asos-design-90s-oversized-shirt-in-purple-and-blue-stripe/prd/206362726#ctaref-we+recommend+carousel_1&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 3,
+      "productImg": "/youMightAlsoLike/ymal-3.webp",
+      "brandName": "TopMan",
+      "price": 30,
+      "href": "https://www.asos.com/asos-design/asos-design-relaxed-boxy-shirt-in-brown-check/prd/206917785#ctaref-we+recommend+carousel_2&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 4,
+      "productImg": "/youMightAlsoLike/ymal-4.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 60,
+      "href": "https://www.asos.com/asos-design/asos-design-oversized-oxford-shirt-with-pocket-in-white/prd/207277102#ctaref-we+recommend+carousel_3&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 5,
+      "productImg": "/youMightAlsoLike/ymal-5.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 34,
+      "href": "https://www.asos.com/topman/topman-long-sleeve-regular-fit-revere-plisse-shirt-in-beige/prd/206385275#ctaref-we+recommend+carousel_4&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 6,
+      "productImg": "/youMightAlsoLike/ymal-6.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 32,
+      "href": "https://www.asos.com/asos-design/asos-design-relaxed-deep-revere-collar-shirt-in-brown/prd/206348221#ctaref-we+recommend+carousel_5&featureref1-we+recommend+pers",
+      "extendedSizing": true
+    },
+
+    {
+      "productId": 7,
+      "productImg": "/youMightAlsoLike/ymal-7.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 38,
+      "href": "https://www.asos.com/topman/topman-long-sleeve-regular-fit-revere-plisse-shirt-in-navy/prd/206954129#ctaref-we+recommend+carousel_6&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 8,
+      "productImg": "/youMightAlsoLike/ymal-8.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 30,
+      "href": "https://www.asos.com/asos-design/asos-design-oversized-boxy-shirt-with-revere-collar-in-green/prd/207269630#ctaref-we+recommend+carousel_7&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 9,
+      "productImg": "/youMightAlsoLike/ymal-9.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 30,
+      "href": "https://www.asos.com/asos-design/asos-design-boxy-cropped-70s-collar-poplin-shirt-in-white/prd/206599583#ctaref-we+recommend+carousel_8&featureref1-we+recommend+pers",
+      "extendedSizing": true
+    },
+
+    {
+      "productId": 10,
+      "productImg": "/youMightAlsoLike/ymal-10.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 40,
+      "href": "https://www.asos.com/asos-design/asos-design-oversized-seersucker-shirt-in-green-check/prd/207314505#ctaref-we+recommend+carousel_9&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 11,
+      "productImg": "/youMightAlsoLike/ymal-11.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 99,
+      "href": "https://www.asos.com/arket/arket-oxford-shirt-in-blue-and-white-stripe/prd/207161622#ctaref-we+recommend+carousel_10&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 12,
+      "productImg": "/youMightAlsoLike/ymal-12.webp",
+      "brandName": "TopMan",
+      "price": 30,
+      "href": "https://www.asos.com/topman/topman-long-sleeve-oversized-burnt-red-stripe-shirt/prd/206105241#ctaref-we+recommend+carousel_11&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 13,
+      "productImg": "/youMightAlsoLike/ymal-13.webp",
+      "brandName": "Jack & Jones",
+      "price": 34,
+      "href": "https://www.asos.com/asos-design/asos-design-boxy-oversized-shirt-in-green-check/prd/207086253#ctaref-we+recommend+carousel_12&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 14,
+      "productImg": "/youMightAlsoLike/ymal-14.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 36,
+      "href": "https://www.asos.com/asos-design/asos-design-boxy-oversized-shirt-in-green-check/prd/207086253#ctaref-we+recommend+carousel_12&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 15,
+      "productImg": "/youMightAlsoLike/ymal-15.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 34,
+      "href": "https://www.asos.com/asos-design/asos-design-boxy-cropped-70s-collar-poplin-shirt-in-navy/prd/206599557#ctaref-we+recommend+carousel_14&featureref1-we+recommend+pers",
+      "extendedSizing": true
+    },
+
+    {
+      "productId": 16,
+      "productImg": "/youMightAlsoLike/ymal-16.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 24,
+      "href": "https://www.asos.com/asos-design/asos-design-boxy-oversized-wool-look-shirt-in-brown-dad-check/prd/206484931#ctaref-we+recommend+carousel_15&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 17,
+      "productImg": "/youMightAlsoLike/ymal-17.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 48,
+      "href": "https://www.asos.com/asos-design/asos-design-oversized-shirt-in-grey-stripe/prd/207123187#ctaref-we+recommend+carousel_16&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    },
+
+    {
+      "productId": 18,
+      "productImg": "/youMightAlsoLike/ymal-18.webp",
+      "brandName": "ASOS DESIGN",
+      "price": 37,
+      "href": "https://www.asos.com/asos-design/asos-design-90s-oversized-wool-blend-shirt-in-navy-buffalo-check/prd/206507466#ctaref-we+recommend+carousel_17&featureref1-we+recommend+pers",
+      "extendedSizing": false
+    }
+  ],
+
+  "buyTheLook": [
+    {
+      "productCode": 135337075,
+      "productImg": "/buyTheLook/btl-1.webp",
+      "productName": "Topman relaxed fit washed t-shirt with seam detail in washed black",
+      "price": 21,
+      "color": "WASHED BLACK",
+      "sizeOptions": true
+    },
+
+    {
+      "productCode": 135337076,
+      "productImg": "/buyTheLook/btl-2.webp",
+      "productName": "Topman relaxed fit brushed jumper in pink",
+      "price": 42,
+      "color": "Pink",
+      "sizeOptions": true
+    },
+
+    {
+      "productCode": 135337077,
+      "productImg": "/buyTheLook/btl-3.webp",
+      "productName": "Topman linen blend mix wide leg trouser in black",
+      "price": 52,
+      "color": "Black",
+      "sizeOptions": true
+    },
+
+    {
+      "productCode": 135337078,
+      "productImg": "/buyTheLook/btl-4.webp",
+      "productName": "Asics Gel-NYC trainers in cream",
+      "price": 153,
+      "color": "CREAM",
+      "sizeOptions": true
+    },
+
+    {
+      "productCode": 135337079,
+      "productImg": "/buyTheLook/btl-5.webp",
+      "productName": "Topshop canvas tote bag in black",
+      "price": 13,
+      "color": "BLACK",
+      "sizeOptions": false
+    },
+
+    {
+      "productCode": 135337080,
+      "productImg": "/buyTheLook/btl-6.webp",
+      "productName": "ASOS DESIGN waterproof stainless steel textured twist chain necklace in silver tone",
+      "price": 17,
+      "color": "SILVER",
+      "sizeOptions": true
+    },
+
+    {
+      "productCode": 135337081,
+      "productImg": "/buyTheLook/btl-7.webp",
+      "productName": "Jack & Jones 2 pack silver plated hoop earrings",
+      "price": 11,
+      "color": "Silver",
+      "sizeOptions": false
+    }
+  ],
+
+  "peopleAlsoBought": [
+    {
+      "productId": 1,
+      "productName": "ASOS DESIGN oversized open knit brushed rib notch neck jumper in stone",
+      "price": 35,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-1.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-oversized-open-knit-brushed-rib-notch-neck-jumper-in-stone/prd/206600095#ctaref-complementary+items_0&featureref1-complementary+items"
+    },
+    {
+      "productId": 2,
+      "productName": "Polo Ralph Lauren sherpa borg paisley print jacket in royal blue",
+      "price": 349,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-2.webp",
+      "href": "https://www.asos.com/polo-ralph-lauren/polo-ralph-lauren-sherpa-borg-paisley-print-jacket-in-royal-blue/prd/206855806#ctaref-complementary+items_1&featureref1-complementary+items"
+    },
+    {
+      "productId": 3,
+      "productName": "ASOS DESIGN wool look harrington jacket in navy",
+      "price": 63,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-3.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-wool-look-harrington-jacket-in-navy/prd/206763687#ctaref-complementary+items_2&featureref1-complementary+items"
+    },
+    {
+      "productId": 4,
+      "productName": "ASOS DESIGN smart wide leg wool look trousers in light grey herringbone",
+      "price": 40,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-4.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-smart-wide-leg-wool-look-trousers-in-light-grey-herringbone/prd/206699985#ctaref-complementary+items_3&featureref1-complementary+items"
+    },
+    {
+      "productId": 5,
+      "productName": "Topman relaxed fit brushed collared cardigan in brown marl",
+      "price": 47,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-5.webp",
+      "href": "https://www.asos.com/topman/topman-relaxed-fit-brushed-collared-cardigan-in-brown-marl/prd/206556691#ctaref-complementary+items_4&featureref1-complementary+items"
+    },
+    {
+      "productId": 6,
+      "productName": "Topman oversized v neck jumper in brown with exposed seam",
+      "price": 47,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-6.webp",
+      "href": "https://www.asos.com/topman/topman-oversized-v-neck-jumper-in-brown-with-exposed-seam/prd/206568811#ctaref-complementary+items_5&featureref1-complementary+items"
+    },
+    {
+      "productId": 7,
+      "productName": "ASOS DESIGN oversized wool look overcoat in khaki",
+      "price": 77,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-7.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-oversized-wool-look-overcoat-in-khaki/prd/206095382#ctaref-complementary+items_6&featureref1-complementary+items"
+    },
+    {
+      "productId": 8,
+      "productName": "ASOS DESIGN oversized boxy fit heavyweight knitted wool mix button through cardigan in burgundy",
+      "price": 48,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-8.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-oversized-boxy-fit-heavyweight-knitted-wool-mix-button-through-cardigan-in-burgundy/prd/206796511#ctaref-complementary+items_7&featureref1-complementary+items"
+    },
+    {
+      "productId": 9,
+      "productName": "Topman workwear jacket with contrast collar in black wash",
+      "price": 69,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-9.webp",
+      "href": "https://www.asos.com/topman/topman-workwear-jacket-with-contrast-collar-in-black-wash/prd/206149718#ctaref-complementary+items_8&featureref1-complementary+items"
+    },
+    {
+      "productId": 10,
+      "productName": "Clarks Badell Desert boot in chestnut",
+      "price": 120,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-10.webp",
+      "href": "https://www.asos.com/clarks/clarks-badell-desert-boot-in-chestnut/prd/206784652#ctaref-complementary+items_9&featureref1-complementary+items"
+    },
+    {
+      "productId": 11,
+      "productName": "Topman oversized fit boucle polo in brown marl",
+      "price": 45,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-11.webp",
+      "href": "https://www.asos.com/topman/topman-oversized-fit-boucle-polo-in-brown-marl/prd/206252565#ctaref-complementary+items_10&featureref1-complementary+items"
+    },
+    {
+      "productId": 12,
+      "productName": "Topman wool look shacket in oatmeal",
+      "price": 69,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-12.webp",
+      "href": "https://www.asos.com/topman/topman-wool-look-shacket-in-oatmeal/prd/206577694#ctaref-complementary+items_11&featureref1-complementary+items"
+    },
+    {
+      "productId": 13,
+      "productName": "Topman relaxed fit boucle jumper in brown",
+      "price": 38,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-13.webp",
+      "href": "https://www.asos.com/topman/topman-wool-look-shacket-in-oatmeal/prd/206577694#ctaref-complementary+items_11&featureref1-complementary+items"
+    },
+    {
+      "productId": 14,
+      "productName": "ASOS DESIGN oversized heavyweight wool mix cable jumper with crew neck in khaki",
+      "price": 42,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-14.webp",
+      "href": "https://www.asos.com/topman/topman-wool-look-shacket-in-oatmeal/prd/206577694#ctaref-complementary+items_11&featureref1-complementary+items"
+    },
+    {
+      "productId": 15,
+      "productName": "ASOS DESIGN oversized boxy fit knitted high neck jumper in stone",
+      "price": 34,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-15.webp",
+      "href": "https://www.asos.com/topman/topman-wool-look-shacket-in-oatmeal/prd/206577694#ctaref-complementary+items_11&featureref1-complementary+items"
+    },
+    {
+      "productId": 16,
+      "productName": "ASOS DESIGN smart extreme wide joggers in grey with long drawcord",
+      "price": 40,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-16.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-smart-extreme-wide-joggers-in-grey-with-long-drawcord/prd/206193369#ctaref-complementary+items_15&featureref1-complementary+items"
+    },
+    {
+      "productId": 17,
+      "productName": "ASOS DESIGN oversized wool look overcoat in brown",
+      "price": 77,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-17.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-smart-extreme-wide-joggers-in-grey-with-long-drawcord/prd/206193369#ctaref-complementary+items_15&featureref1-complementary+items"
+    },
+    {
+      "productId": 18,
+      "productName": "Topman brushed animal leopard cardigan",
+      "price": 51,
+      "heroImg": "/peopleAlsoBought/peopleAlsoBought-18.webp",
+      "href": "https://www.asos.com/asos-design/asos-design-smart-extreme-wide-joggers-in-grey-with-long-drawcord/prd/206193369#ctaref-complementary+items_15&featureref1-complementary+items"
+    }
+  ],
+
+  "sizing": {
+    "shirtSizes": [
+      {
+        "sizeId": 7,
+        "size": "Please select",
+        "sizeDescription": ""
+      },
+      {
+        "sizeId": 1,
+        "size": "XS",
+        "sizeDescription": "Chest 36"
+      },
+      {
+        "sizeId": 2,
+        "size": "S",
+        "sizeDescription": "Chest 38"
+      },
+      {
+        "sizeId": 3,
+        "size": "M",
+        "sizeDescription": "Chest 40"
+      },
+      {
+        "sizeId": 4,
+        "size": "L",
+        "sizeDescription": "Chest 42"
+      },
+      {
+        "sizeId": 5,
+        "size": "XL",
+        "sizeDescription": "Chest 44"
+      },
+      {
+        "sizeId": 6,
+        "size": "2XL",
+        "sizeDescription": "Chest 46-48"
+      }
+    ]
+  }
+}
