@@ -547,12 +547,89 @@
   ],
 
   "sizing": {
-    "shirtSizes": [
+    "shoeSizes": [
+      {
+        "sizeId": 1,
+        "size": "UK",
+        "sizeDescription": "4"
+      },
+      {
+        "sizeId": 2,
+        "size": "UK",
+        "sizeDescription": "5"
+      },
+      {
+        "sizeId": 3,
+        "size": "UK",
+        "sizeDescription": "5.5"
+      },
+      {
+        "sizeId": 4,
+        "size": "UK",
+        "sizeDescription": "6"
+      },
+      {
+        "sizeId": 5,
+        "size": "UK",
+        "sizeDescription": "6.5"
+      },
+      {
+        "sizeId": 6,
+        "size": "UK",
+        "sizeDescription": "7"
+      },
       {
         "sizeId": 7,
-        "size": "Please select",
-        "sizeDescription": ""
+        "size": "UK",
+        "sizeDescription": "7.5"
       },
+      {
+        "sizeId": 8,
+        "size": "UK",
+        "sizeDescription": "8"
+      },
+      {
+        "sizeId": 8,
+        "size": "UK",
+        "sizeDescription": "8.5"
+      },
+      {
+        "sizeId": 10,
+        "size": "UK",
+        "sizeDescription": "9"
+      },
+      {
+        "sizeId": 11,
+        "size": "UK",
+        "sizeDescription": "9.5"
+      },
+      {
+        "sizeId": 12,
+        "size": "UK",
+        "sizeDescription": "10"
+      },
+      {
+        "sizeId": 13,
+        "size": "UK",
+        "sizeDescription": "10.5"
+      },
+      {
+        "sizeId": 14,
+        "size": "UK",
+        "sizeDescription": "11"
+      },
+      {
+        "sizeId": 15,
+        "size": "UK",
+        "sizeDescription": "12"
+      },
+      {
+        "sizeId": 16,
+        "size": "UK",
+        "sizeDescription": "13"
+      }
+    ],
+    "shirtSizes": [
       {
         "sizeId": 1,
         "size": "XS",

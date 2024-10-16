@@ -63,7 +63,6 @@
 }
 
 .carousel {
-  position: relative;
   width: 100%;
   overflow: hidden;
 }
@@ -79,8 +78,7 @@
 }
 
 .carousel__slide {
-  padding: 10px;
-  font-size: 24px;
+  flex: 0 0 25%;
   display: flex;
 }
 

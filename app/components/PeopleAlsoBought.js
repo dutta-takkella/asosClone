@@ -21,7 +21,7 @@ export default function PeopleAlsoBought() {
   const [wishListClick, setWishListClick] = useState({});
 
   //embla vars
-  const [emblaRef, emblaApi] = useEmblaCarousel();
+  const [emblaRef, emblaApi] = useEmblaCarousel({ slidesToScroll: 4 });
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [scrollSnaps, setScrollSnaps] = useState([]);
 
@@ -66,7 +66,7 @@ export default function PeopleAlsoBought() {
         {/* carousel element */}
         <div className="carousel flex flex-row mt-6 bg-white">
           {/* button to scroll through carousel slides */}
-          <div className="flex justify-center items-center px-5 pb-14">
+          <div className="flex justify-center items-center pb-14">
             <button
               onClick={() => emblaApi.scrollPrev()}
               disabled={selectedIndex === 0}
@@ -86,13 +86,10 @@ export default function PeopleAlsoBought() {
                 const { productId, productName, price, heroImg, href } =
                   product;
                 return (
-                  <div
-                    key={productId}
-                    className="carousel__slide bg-white w-[168px]"
-                  >
+                  <div key={productId} className="carousel__slide  w-[162px]">
                     <Link href={href}>
                       {/* image section */}
-                      <div className="relative w-[162px] mx-auto">
+                      <div className="relative w-[162px]">
                         <Image
                           src={heroImg}
                           alt="alt_img"
@@ -124,9 +121,9 @@ export default function PeopleAlsoBought() {
                       </div>
 
                       {/* text section */}
-                      <div className="mt-3 flex flex-col justify-start">
-                        <div className="text-xs tracking-wide font-semibold leading-5 overflow-clip">
-                          <p className="tracking-wider  line-clamp-2">
+                      <div className="mt-3 flex flex-col justify-start w-[162px]">
+                        <div className="text-xs tracking-wide font-semibold leading-5 overflow-hidden">
+                          <p className="tracking-wider  line-clamp-2 w-full">
                             {productName}
                           </p>
                         </div>
@@ -149,7 +146,7 @@ export default function PeopleAlsoBought() {
           </div>
 
           {/* button to scroll through carousel slides */}
-          <div className="flex justify-center items-center px-5 pb-14">
+          <div className="flex justify-center items-center pb-14">
             <button onClick={() => emblaApi.scrollNext()}>
               <Image
                 src={toRight}

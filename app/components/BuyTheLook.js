@@ -1,14 +1,51 @@
 //data
 import productsPage from "./productsPage.json";
 
+//headlessui select tag
+import {
+  Listbox,
+  ListboxButton,
+  ListboxOption,
+  ListboxOptions,
+} from "@headlessui/react";
+
 //nextjs tags
 import Image from "next/image";
+
+//hooks
+import { useState, useEffect } from "react";
 
 export default function BuyTheLook({ currentProduct }) {
   let items = currentProduct.otherProductsUsed.length;
   const otherProductsL = currentProduct.otherProductsUsed;
   const otherProductsS = currentProduct.otherProductsUsed.slice(0, 4);
   const moreOtherP = items - otherProductsS.length;
+  const [selectedProduct, setSelectedProduct] = useState(otherProductsL[0]);
+  const [displayProduct, setDisplayProduct] = useState(
+    productsPage.products.find((product) => {
+      return selectedProduct === product.productCode ? product : "";
+    })
+  );
+  const [sizeCategory, setSizeCategory] = useState("shirtSizes");
+  const [focus, setFocus] = useState(displayProduct.productCode);
+
+  // useEffect(() => {
+  //   setSelectedProduct(otherProductsL[0]);
+  //   const dummy = productsPage.products.find((product) => {
+  //     return selectedProduct === product.productCode ? product : "";
+  //   });
+  //   setDisplayProduct(dummy);
+  //   setFocus((prev) => ({ ...prev, [displayProduct?.productCode]: true }));
+  //   2;
+  // }, []);
+
+  useEffect(() => {
+    const dummy = productsPage.products.find((product) => {
+      return selectedProduct === product.productCode ? product : "";
+    });
+    setDisplayProduct(dummy);
+  }, [selectedProduct]);
+
   return (
     <div id="buyTheLook" className="w-full">
       {/* upto md screen */}
@@ -90,32 +127,86 @@ export default function BuyTheLook({ currentProduct }) {
           </div>
 
           {/* other products */}
-          <div className="grid grid-rows-[150px_1fr] bg-white px-2 ">
+          <div className="grid grid-rows-[120px_1fr] bg-white px-2 ">
             {/* list of other products */}
             <div className=" overflow-y-scroll no-scrollbar w-[100%] border-b border-black">
-              <ul className="px-1 mt-6 mb-7 flex flex-row">
+              <ul className="flex flex-row justify-start align-middle mt-[6px] items-center">
                 {otherProductsL.map((product) => {
                   const otherProduct = productsPage.products.find((isMatch) => {
                     return product === isMatch.productCode ? isMatch : "";
                   });
+                  console.log(focus, "focus");
                   return (
                     <li
                       key={otherProduct.productCode}
-                      className="mr-4 relative"
+                      className="mr-4 relative flex items-center"
                     >
-                      <button className="relative w-[81px] h-[102px] ">
+                      <button
+                        className={`relative w-[85px] h-[106px] hover:border-2 hover:border-[#0770cf]  ${
+                          focus === otherProduct.productCode &&
+                          "border-2 border-black hover:border-2 hover:border-black"
+                        } `}
+                        onClick={() =>
+                          setSelectedProduct(otherProduct.productCode)
+                        }
+                        onFocus={() => setFocus(otherProduct.productCode)}
+                      >
                         <Image
                           src={otherProduct.productHeroImg}
                           alt="alt_img"
                           width={1000}
                           height={1000}
-                          className="w-full h-full"
+                          className={`w-[81px] h-[102px] mx-auto`}
                         />
                       </button>
                     </li>
                   );
                 })}
               </ul>
+            </div>
+
+            {/* selected product details */}
+            <div className="grid grid-cols-[163px_1fr] lg:grid-cols-[218px_1fr] mt-2">
+              {/* product img */}
+              <div>
+                {displayProduct && (
+                  <Image
+                    src={displayProduct?.productHeroImg}
+                    alt="alt_img"
+                    height={100000}
+                    width={100000}
+                    className="w-full"
+                  />
+                )}
+              </div>
+
+              {/* product details */}
+              <div>
+                {/* product name */}
+                <h3>{displayProduct?.productName}</h3>
+
+                {/* product name */}
+                <p
+                  id="productPrice"
+                  className="text-[#666666] font-bold text-lg mt-2 tracking-wider px-2"
+                >
+                  {displayProduct?.price % 1 === 0 ? (
+                    <span>&#163;{displayProduct?.price}.00</span>
+                  ) : (
+                    <span>&#163;{displayProduct?.price}</span>
+                  )}
+                </p>
+
+                {/* sizing options */}
+                <div>
+                  <p>size:</p>
+                  <select name="sizes" id="suze" className="bg-white w-full">
+                    <option value="123">
+                      {productsPage.sizing.shirtSizes[0].sizeDescription}
+                    </option>
+                  </select>
+                </div>
+              </div>
             </div>
           </div>
         </div>
