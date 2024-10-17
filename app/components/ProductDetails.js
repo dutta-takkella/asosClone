@@ -163,7 +163,7 @@ export default function ProductDetails({ product }) {
                     src={minus}
                     alt="alt_img"
                     className={`absolute origin-center rotate-90 ${
-                      openSection === sectionId ? "-rotate-0" : ""
+                      openSection === sectionId ? "rotate-0" : ""
                     } w-full transition-all duration-700`}
                   />
                 </div>

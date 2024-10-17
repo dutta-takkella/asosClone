@@ -102,18 +102,9 @@ export default function Navbar({ setIsFocused, isFocused }) {
                 />
                 <button
                   type="submit"
-                  className="absolute z-10 top-1/2 -translate-y-1/2 right-3 hidden lg:block rounded-full"
+                  className="absolute z-[999] top-1/2 -translate-y-1/2 right-3 block rounded-full"
                 >
                   <Search color="black" className="h-5 w-5" />
-                </button>
-                <button
-                  type="submit"
-                  className="absolute z-10 top-1/2 -translate-y-1/2 right-3 block lg:hidden"
-                >
-                  <Search
-                    color="white"
-                    className="h-5 w-5 rounded-full bg-black"
-                  />
                 </button>
               </form>
             </div>

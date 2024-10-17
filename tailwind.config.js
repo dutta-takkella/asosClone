@@ -14,6 +14,7 @@ module.exports = {
       screens: {
         xs: "321px",
         productMd: "720px",
+        pAB: "800px",
       },
       cursor: {
         magnify: "url(/svgIcons/magnify.svg), auto",

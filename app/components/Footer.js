@@ -71,13 +71,39 @@ export default function Footer() {
           id="payment-methods"
           className="flexClass-row flex-1 justify-start pl-4"
         >
-          <ul className="flexClass-row">
-            <li>Visa</li>
-            <li>MasterCard</li>
-            <li>PayPal</li>
-            <li>American Express</li>
-            <li>Visa Electron</li>
-          </ul>
+          <div className="flex flex-row justify-between">
+            <Image
+              src="/paymentMethods/paymentMethod-1.png"
+              width={100}
+              height={100}
+              alt="alt_img"
+              className="w-[32px] h-[20px] bg-white p-1 mx-2"
+            />
+
+            <Image
+              src="/paymentMethods/paymentMethod-2.png"
+              width={100}
+              height={100}
+              alt="alt_img"
+              className="w-[32px] h-[20px] bg-white p-1 mx-2"
+            />
+
+            <Image
+              src="/paymentMethods/paymentMethod-3.png"
+              width={100}
+              height={100}
+              alt="alt_img"
+              className="w-[32px] h-[20px] bg-white p-1 mx-2"
+            />
+
+            <Image
+              src="/paymentMethods/paymentMethod-4.png"
+              width={100}
+              height={100}
+              alt="alt_img"
+              className="w-[32px] h-[20px] bg-white p-1 mx-2"
+            />
+          </div>
         </div>
       </section>
 
