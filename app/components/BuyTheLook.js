@@ -1,19 +1,15 @@
 //data
 import productsPage from "./productsPage.json";
 
-//headlessui select tag
-import {
-  Listbox,
-  ListboxButton,
-  ListboxOption,
-  ListboxOptions,
-} from "@headlessui/react";
-
 //nextjs tags
 import Image from "next/image";
+import Link from "next/link";
 
 //hooks
 import { useState, useEffect } from "react";
+
+//icons
+import letterWhite from "../../public/svgIcons/letterWhite.svg";
 
 export default function BuyTheLook({ currentProduct }) {
   let items = currentProduct.otherProductsUsed.length;
@@ -29,22 +25,28 @@ export default function BuyTheLook({ currentProduct }) {
   const [sizeCategory, setSizeCategory] = useState("shirtSizes");
   const [focus, setFocus] = useState(displayProduct.productCode);
 
-  // useEffect(() => {
-  //   setSelectedProduct(otherProductsL[0]);
-  //   const dummy = productsPage.products.find((product) => {
-  //     return selectedProduct === product.productCode ? product : "";
-  //   });
-  //   setDisplayProduct(dummy);
-  //   setFocus((prev) => ({ ...prev, [displayProduct?.productCode]: true }));
-  //   2;
-  // }, []);
-
   useEffect(() => {
     const dummy = productsPage.products.find((product) => {
       return selectedProduct === product.productCode ? product : "";
     });
     setDisplayProduct(dummy);
   }, [selectedProduct]);
+
+  // for whislisting
+  const [hoverState, setHoverState] = useState({});
+  const [clickState, setClickState] = useState({});
+
+  const handleClick = (productId) => {
+    setClickState((prev) => ({ ...prev, [productId]: !prev[productId] }));
+  };
+
+  const handleMouseEnter = (productId) => {
+    setHoverState((prev) => ({ ...prev, [productId]: true }));
+  };
+
+  const handleMouseLeave = (productId) => {
+    setHoverState((prev) => ({ ...prev, [productId]: false }));
+  };
 
   return (
     <div id="buyTheLook" className="w-full">
@@ -104,7 +106,7 @@ export default function BuyTheLook({ currentProduct }) {
       </div>
 
       {/* from md screen */}
-      <div className="px-4 mt-5 mb-6 max-w-[960px] mr-0 md:mx-auto">
+      <div className="hidden md:block pt-10 mb-6 max-w-[960px] mr-0 md:mx-auto">
         {/* text section */}
         <h3 className="uppercase font-bold text-lg tracking-wide ">
           buy the look
@@ -115,7 +117,7 @@ export default function BuyTheLook({ currentProduct }) {
         </p>
 
         {/* products section */}
-        <div className="grid grid-cols-[370px_1fr] max-w-full gap-2 mt-5">
+        <div className="grid grid-cols-[370px_1fr] max-w-full gap-4 mt-5">
           {/* current product */}
           <div className="shadow-sm shadow-neutral-500 ">
             <Image
@@ -127,10 +129,10 @@ export default function BuyTheLook({ currentProduct }) {
           </div>
 
           {/* other products */}
-          <div className="grid grid-rows-[120px_1fr] bg-white px-2 ">
+          <div className="grid grid-rows-[128px_1fr] bg-white px-2 ">
             {/* list of other products */}
             <div className=" overflow-y-scroll no-scrollbar w-[100%] border-b border-black">
-              <ul className="flex flex-row justify-start align-middle mt-[6px] items-center">
+              <ul className="flex flex-row justify-start align-middle mt-[10px] items-center">
                 {otherProductsL.map((product) => {
                   const otherProduct = productsPage.products.find((isMatch) => {
                     return product === isMatch.productCode ? isMatch : "";
@@ -166,30 +168,63 @@ export default function BuyTheLook({ currentProduct }) {
             </div>
 
             {/* selected product details */}
-            <div className="grid grid-cols-[163px_1fr] lg:grid-cols-[218px_1fr] mt-2">
+            <div className="grid grid-cols-[163px_1fr] lg:grid-cols-[218px_1fr] mt-2 px-2">
               {/* product img */}
-              <div>
+              <div className="">
                 {displayProduct && (
-                  <Image
-                    src={displayProduct?.productHeroImg}
-                    alt="alt_img"
-                    height={100000}
-                    width={100000}
-                    className="w-full"
-                  />
+                  <div className="relative">
+                    <Link href={displayProduct.href} className="">
+                      <Image
+                        src={displayProduct?.productHeroImg}
+                        alt="alt_img"
+                        height={100000}
+                        width={100000}
+                        className="w-full"
+                      />
+                    </Link>
+
+                    {/* wishlist icon */}
+                    <div
+                      className="absolute bottom-0 right-0 flex justify-center items-center w-[36px] h-[36px] bg-white bg-opacity-70 rounded-full mb-2 mr-2 hover:cursor-pointer"
+                      onMouseEnter={() =>
+                        handleMouseEnter(displayProduct.productCode)
+                      }
+                      onMouseLeave={() =>
+                        handleMouseLeave(displayProduct.productCode)
+                      }
+                      onClick={() => handleClick(displayProduct.productCode)}
+                    >
+                      <Image
+                        src={
+                          hoverState[displayProduct.productCode] ||
+                          clickState[displayProduct.productCode]
+                            ? "/svgIcons/filledHeart.svg"
+                            : "/svgIcons/outlineHeart.svg"
+                        }
+                        width={1000}
+                        height={1000}
+                        alt="heart_icon"
+                        className="w-[18px] h-[18px]"
+                      />
+                    </div>
+                  </div>
                 )}
               </div>
 
               {/* product details */}
-              <div>
-                {/* product name */}
-                <h3>{displayProduct?.productName}</h3>
+              <div className="pl-4">
+                {/* product name and stock status */}
+                {!displayProduct.inStock && (
+                  <h3 className="text-red-600 text-sm font-bold uppercase pb-2">
+                    Out of stock
+                  </h3>
+                )}
+                <h3 className="text-sm font-semibold leading-5 tracking-widest line-clamp-3">
+                  {displayProduct?.productName}
+                </h3>
 
-                {/* product name */}
-                <p
-                  id="productPrice"
-                  className="text-[#666666] font-bold text-lg mt-2 tracking-wider px-2"
-                >
+                {/* product price */}
+                <p id="productPrice" className="text-sm mt-2 font-bold">
                   {displayProduct?.price % 1 === 0 ? (
                     <span>&#163;{displayProduct?.price}.00</span>
                   ) : (
@@ -197,15 +232,46 @@ export default function BuyTheLook({ currentProduct }) {
                   )}
                 </p>
 
+                {/* product color */}
+                <p className="text-sm tracking-wider mt-3">
+                  <span className="font-bold text-xs">COLOR: </span>
+                  <span>{displayProduct?.color}</span>
+                </p>
+
                 {/* sizing options */}
                 <div>
-                  <p>size:</p>
-                  <select name="sizes" id="suze" className="bg-white w-full">
+                  <p className="text-sm font-bold tracking-wider mt-3">SIZE:</p>
+                  <select
+                    name="sizes"
+                    id="suze"
+                    className="bg-white w-full border border-black h-[37px] text-sm p-2 mt-1"
+                  >
                     <option value="123">
                       {productsPage.sizing.shirtSizes[0].sizeDescription}
                     </option>
                   </select>
                 </div>
+
+                {/* add to bag button / out of stock button */}
+                {displayProduct.inStock ? (
+                  <button className="mt-3 uppercase flex justify-center items-center w-full border-2 border-[#018849] font-bold text-sm py-1 tracking-wide">
+                    add to bag
+                  </button>
+                ) : (
+                  <button className="relative text-white mt-3 uppercase flex justify-center items-center w-full bg-[#2D2D2D] hover:bg-black font-bold text-sm pt-[3px] tracking-wide pb-2">
+                    <Image
+                      src={letterWhite}
+                      alt="alt_img"
+                      className="w-[30px] h-[23px] absolute left-2 top-1/2 -translate-y-1/2"
+                    />
+                    <span className="flex justify-center">notify me</span>
+                  </button>
+                )}
+
+                {/* see similar button */}
+                <button className="mt-2 uppercase flex justify-center items-center w-full bg-[#EEEEEE] hover:bg-[#DDDDDD] font-bold text-sm h-[32px] text-center tracking-wide">
+                  see similar
+                </button>
               </div>
             </div>
           </div>

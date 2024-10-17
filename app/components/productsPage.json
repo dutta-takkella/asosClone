@@ -7,6 +7,7 @@
       "productName": "Topman long sleeve oversized stripe shirt in burgundy",
       "price": 40,
       "sizeOptions": true,
+      "oneSize": false,
       "color": "BROWN",
       "brandName": "TopMan",
       "shippingConstrictions": true,
@@ -93,6 +94,7 @@
       "category": "shirts",
       "productHeroImg": "/buyTheLook/btl-1.webp",
       "productName": "Topman relaxed fit washed t-shirt with seam detail in washed black",
+      "href": "https://www.asos.com/topman/topman-oversized-fit-washed-t-shirt-with-seam-detail-in-washed-black/prd/206441270#ctaRef-btl+content+-+btl+carousel_2&featureref1-btl+content+btl+carousel",
       "price": 21,
       "color": "WASHED BLACK",
       "sizeOptions": true,
@@ -105,6 +107,7 @@
       "category": "shirts",
       "productHeroImg": "/buyTheLook/btl-2.webp",
       "productName": "Topman relaxed fit brushed jumper in pink",
+      "href": "https://www.asos.com/topman/topman-relaxed-fit-brushed-jumper-in-pink/prd/206630439#ctaRef-btl+content+-+btl+carousel_3&featureref1-btl+content+btl+carousel",
       "price": 42,
       "color": "Pink",
       "sizeOptions": true,
@@ -117,6 +120,7 @@
       "category": "trousers",
       "productHeroImg": "/buyTheLook/btl-3.webp",
       "productName": "Topman linen blend mix wide leg trouser in black",
+      "href": "https://www.asos.com/topman/topman-linen-blend-mix-wide-leg-trouser-in-black/prd/205456917#ctaRef-btl+content+-+btl+carousel_4&featureref1-btl+content+btl+carousel",
       "price": 52,
       "color": "Black",
       "sizeOptions": true,
@@ -129,6 +133,7 @@
       "category": "shoes",
       "productHeroImg": "/buyTheLook/btl-4.webp",
       "productName": "Asics Gel-NYC trainers in cream",
+      "href": "https://www.asos.com/asics/asics-gel-nyc-trainers-in-cream/prd/206766313#ctaRef-btl+content+-+btl+carousel_5&featureref1-btl+content+btl+carousel",
       "price": 153,
       "color": "CREAM",
       "sizeOptions": true,
@@ -141,33 +146,38 @@
       "category": "bags",
       "productHeroImg": "/buyTheLook/btl-5.webp",
       "productName": "Topshop canvas tote bag in black",
+      "href": "https://www.asos.com/topshop/topshop-canvas-tote-bag-in-black/prd/206611018#ctaRef-btl+content+-+btl+carousel_6&featureref1-btl+content+btl+carousel",
       "price": 13,
       "color": "BLACK",
-      "sizeOptions": false,
+      "sizeOptions": true,
+      "oneSize": true,
       "inStock": false
     },
 
     {
       "productCode": 135337080,
       "gender": "men",
-      "category": "shirts",
+      "category": "chains",
       "productHeroImg": "/buyTheLook/btl-6.webp",
       "productName": "ASOS DESIGN waterproof stainless steel textured twist chain necklace in silver tone",
+      "href": "https://www.asos.com/asos-design/asos-design-waterproof-stainless-steel-textured-twist-chain-necklace-in-silver-tone/prd/205074680#ctaRef-btl+content+-+btl+carousel_7&featureref1-btl+content+btl+carousel",
       "price": 17,
       "color": "SILVER",
-      "sizeOptions": true,
+      "sizeOptions": false,
       "inStock": false
     },
 
     {
       "productCode": 135337081,
       "gender": "men",
-      "category": "shirts",
+      "category": "earrings",
       "productHeroImg": "/buyTheLook/btl-7.webp",
       "productName": "Jack & Jones 2 pack silver plated hoop earrings",
+      "href": "https://www.asos.com/jack-jones/jack-jones-2-pack-silver-plated-hoop-earrings/prd/206614619#ctaRef-btl+content+-+btl+carousel_8&featureref1-btl+content+btl+carousel",
       "price": 11,
       "color": "Silver",
       "sizeOptions": false,
+      "oneSize": true,
       "inStock": true
     }
   ],
@@ -549,6 +559,11 @@
   "sizing": {
     "shoeSizes": [
       {
+        "sizeId": 7,
+        "size": "Please select",
+        "sizeDescription": ""
+      },
+      {
         "sizeId": 1,
         "size": "UK",
         "sizeDescription": "4"
@@ -630,6 +645,11 @@
       }
     ],
     "shirtSizes": [
+      {
+        "sizeId": 7,
+        "size": "Please select",
+        "sizeDescription": ""
+      },
       {
         "sizeId": 1,
         "size": "XS",

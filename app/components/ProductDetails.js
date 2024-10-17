@@ -12,14 +12,14 @@ import minus from "../../public/svgIcons/minus.svg";
 import productsPage from "./productsPage.json";
 
 export default function ProductDetails({ product }) {
-  const [openSection, setOpenSection] = useState({});
+  const [openSection, setOpenSection] = useState(0);
 
   const handleDetailClick = (sectionId) => {
-    setOpenSection((prev) => ({ ...prev, [sectionId]: !prev[sectionId] }));
-  };
-
-  const handleDetailBlur = (sectionId) => {
-    setOpenSection((prev) => ({ ...prev, [sectionId]: false }));
+    if (openSection === sectionId) {
+      setOpenSection(0);
+    } else {
+      setOpenSection(sectionId);
+    }
   };
 
   const pD = (detail) => {
@@ -146,10 +146,11 @@ export default function ProductDetails({ product }) {
               <div className="flex flex-row justify-between">
                 <button
                   className={`flex items-center ${
-                    openSection[sectionId] ? "shadow-sm shadow-[#0770cf]" : ""
+                    openSection === sectionId
+                      ? "shadow-sm shadow-[#0770cf]"
+                      : ""
                   } w-full `}
                   onClick={() => handleDetailClick(sectionId)}
-                  onBlur={() => handleDetailBlur(sectionId)}
                 >
                   <h3 className="font-bold tracking-wider text-sm">
                     {sectionName}
@@ -161,7 +162,7 @@ export default function ProductDetails({ product }) {
                     src={minus}
                     alt="alt_img"
                     className={`absolute origin-center rotate-90 ${
-                      openSection[sectionId] ? "rotate-0" : ""
+                      openSection === sectionId ? "-rotate-0" : ""
                     } w-full transition-all duration-700`}
                   />
                 </div>
@@ -170,7 +171,7 @@ export default function ProductDetails({ product }) {
               {/* description */}
               <div
                 className={`${
-                  openSection[sectionId]
+                  openSection === sectionId
                     ? "max-h-[1000px] opacity-100"
                     : "max-h-0 opacity-0"
                 } overflow-hidden w-full h-auto transition-all duration-500 ease-linear`}

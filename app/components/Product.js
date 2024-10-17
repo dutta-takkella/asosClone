@@ -14,6 +14,13 @@ import productsPage from "./productsPage.json";
 import Image from "next/image";
 import Link from "next/link";
 
+//image controls
+import {
+  TransformWrapper,
+  TransformComponent,
+  useControls,
+} from "react-zoom-pan-pinch";
+
 //icons
 import share from "../../public/svgIcons/share.svg";
 import shareFacebook from "../../public/svgIcons/shareFacebook.svg";
@@ -28,6 +35,18 @@ import whiteHeart from "../../public/svgIcons/whiteHeart.svg";
 import clothesHanger from "../../public/svgIcons/clothesHanger.svg";
 import toLeft from "../../public/svgIcons/toLeft.svg";
 import toRight from "../../public/svgIcons/toRight.svg";
+
+const Controls = () => {
+  const { zoomIn, zoomOut, resetTransform } = useControls();
+
+  return (
+    <div className="tools">
+      <button onClick={() => zoomIn()}>+</button>
+      <button onClick={() => zoomOut()}>-</button>
+      <button onClick={() => resetTransform()}>x</button>
+    </div>
+  );
+};
 
 export default function Product({ setCurrentProduct }) {
   const [wishListed, setWishListed] = useState(false);
@@ -53,9 +72,9 @@ export default function Product({ setCurrentProduct }) {
 
   return (
     <div className="w-full bg-white">
-      <div className="w-full max-w-[960px] mx-auto md:grid md:grid-cols-[2fr_1fr]">
+      <div className="w-full max-w-[960px] mx-auto md:grid md:grid-cols-[2fr_1fr] gap-6">
         {/* image section */}
-        <div className="md:px-3 w-full mx-auto bg-white md:grid md:grid-cols-[68px_1fr]">
+        <div className="md:px-3 w-full mx-auto bg-white md:grid md:grid-cols-[68px_1fr] ">
           {/* image icons */}
           <div className="hidden md:block">
             <ul className="flex flex-col">
@@ -123,13 +142,17 @@ export default function Product({ setCurrentProduct }) {
                   {product.productImgs.map((img, index) => {
                     return (
                       <div className="embla__slide relative" key={index}>
-                        <Image
-                          src={img}
-                          alt="alt_img"
-                          width={10000}
-                          height={10000}
-                          className="w-full h-full object-cover cursor-magnify"
-                        />
+                        <TransformWrapper>
+                          <TransformComponent>
+                            <Image
+                              src={img}
+                              alt="alt_img"
+                              width={10000}
+                              height={10000}
+                              className="w-full h-full object-cover cursor-magnify"
+                            />
+                          </TransformComponent>
+                        </TransformWrapper>
 
                         {/* heart icon along with num of times wishlisted indicated */}
                         <div className="absolute right-0 bottom-20 bg-black bg-opacity-80 flex flex-row items-center justify-center align-middle px-4 py-1 rounded-l-full">
@@ -139,8 +162,8 @@ export default function Product({ setCurrentProduct }) {
                           <Image
                             src={whiteHeart}
                             alt="alt_img"
-                            width={10000}
-                            height={10000}
+                            width={500}
+                            height={500}
                             className="w-[15px] h-[15px]"
                           />
                         </div>
@@ -159,8 +182,8 @@ export default function Product({ setCurrentProduct }) {
                 <Image
                   src={toLeft}
                   alt="alt_img"
-                  width={100000}
-                  height={100000}
+                  width={500}
+                  height={500}
                   className="w-[21px] h-[35px] "
                 />
               </button>
@@ -171,8 +194,8 @@ export default function Product({ setCurrentProduct }) {
                 <Image
                   src={toRight}
                   alt="alt_img"
-                  width={100000}
-                  height={100000}
+                  width={500}
+                  height={500}
                   className="w-[21px] h-[35px] "
                 />
               </button>
