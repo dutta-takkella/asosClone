@@ -24,6 +24,7 @@
         135337081
       ],
       "inStock": true,
+      "lowStock": false,
       "details": [
         {
           "sectionId": 1,
@@ -62,7 +63,7 @@
           "sectionName": "Size & Fit",
           "modelHeightInCm": 188,
           "modelHeightInInches": "6'2",
-          "sizeCode": 3
+          "sizeCode": 21
         },
         {
           "sectionId": 4,
@@ -98,7 +99,8 @@
       "price": 21,
       "color": "WASHED BLACK",
       "sizeOptions": true,
-      "inStock": true
+      "inStock": true,
+      "lowStock": false
     },
 
     {
@@ -111,7 +113,8 @@
       "price": 42,
       "color": "Pink",
       "sizeOptions": true,
-      "inStock": true
+      "inStock": true,
+      "lowStock": false
     },
 
     {
@@ -124,7 +127,8 @@
       "price": 52,
       "color": "Black",
       "sizeOptions": true,
-      "inStock": true
+      "inStock": true,
+      "lowStock": false
     },
 
     {
@@ -137,7 +141,8 @@
       "price": 153,
       "color": "CREAM",
       "sizeOptions": true,
-      "inStock": true
+      "inStock": true,
+      "lowStock": false
     },
 
     {
@@ -151,7 +156,8 @@
       "color": "BLACK",
       "sizeOptions": true,
       "oneSize": true,
-      "inStock": false
+      "inStock": false,
+      "lowStock": false
     },
 
     {
@@ -164,7 +170,8 @@
       "price": 17,
       "color": "SILVER",
       "sizeOptions": false,
-      "inStock": false
+      "inStock": true,
+      "lowStock": true
     },
 
     {
@@ -176,9 +183,10 @@
       "href": "https://www.asos.com/jack-jones/jack-jones-2-pack-silver-plated-hoop-earrings/prd/206614619#ctaRef-btl+content+-+btl+carousel_8&featureref1-btl+content+btl+carousel",
       "price": 11,
       "color": "Silver",
-      "sizeOptions": false,
+      "sizeOptions": true,
       "oneSize": true,
-      "inStock": true
+      "inStock": false,
+      "lowStock": false
     }
   ],
 
@@ -559,126 +567,178 @@
   "sizing": {
     "shoeSizes": [
       {
-        "sizeId": 7,
+        "sizeId": 1,
         "size": "Please select",
         "sizeDescription": ""
       },
       {
-        "sizeId": 1,
+        "sizeId": 2,
         "size": "UK",
         "sizeDescription": "4"
       },
       {
-        "sizeId": 2,
+        "sizeId": 3,
         "size": "UK",
         "sizeDescription": "5"
       },
       {
-        "sizeId": 3,
+        "sizeId": 4,
         "size": "UK",
         "sizeDescription": "5.5"
       },
       {
-        "sizeId": 4,
+        "sizeId": 5,
         "size": "UK",
         "sizeDescription": "6"
       },
       {
-        "sizeId": 5,
+        "sizeId": 6,
         "size": "UK",
         "sizeDescription": "6.5"
       },
       {
-        "sizeId": 6,
+        "sizeId": 7,
         "size": "UK",
         "sizeDescription": "7"
       },
       {
-        "sizeId": 7,
+        "sizeId": 8,
         "size": "UK",
         "sizeDescription": "7.5"
       },
       {
-        "sizeId": 8,
+        "sizeId": 9,
         "size": "UK",
         "sizeDescription": "8"
       },
       {
-        "sizeId": 8,
+        "sizeId": 10,
         "size": "UK",
         "sizeDescription": "8.5"
       },
       {
-        "sizeId": 10,
+        "sizeId": 11,
         "size": "UK",
         "sizeDescription": "9"
       },
       {
-        "sizeId": 11,
+        "sizeId": 12,
         "size": "UK",
         "sizeDescription": "9.5"
       },
       {
-        "sizeId": 12,
+        "sizeId": 13,
         "size": "UK",
         "sizeDescription": "10"
       },
       {
-        "sizeId": 13,
+        "sizeId": 14,
         "size": "UK",
         "sizeDescription": "10.5"
       },
       {
-        "sizeId": 14,
+        "sizeId": 15,
         "size": "UK",
         "sizeDescription": "11"
       },
       {
-        "sizeId": 15,
+        "sizeId": 16,
         "size": "UK",
         "sizeDescription": "12"
       },
       {
-        "sizeId": 16,
+        "sizeId": 17,
         "size": "UK",
         "sizeDescription": "13"
       }
     ],
     "shirtSizes": [
       {
-        "sizeId": 7,
+        "sizeId": 18,
         "size": "Please select",
         "sizeDescription": ""
       },
       {
-        "sizeId": 1,
+        "sizeId": 19,
         "size": "XS",
         "sizeDescription": "Chest 36"
       },
       {
-        "sizeId": 2,
+        "sizeId": 20,
         "size": "S",
         "sizeDescription": "Chest 38"
       },
       {
-        "sizeId": 3,
+        "sizeId": 21,
         "size": "M",
         "sizeDescription": "Chest 40"
       },
       {
-        "sizeId": 4,
+        "sizeId": 22,
         "size": "L",
         "sizeDescription": "Chest 42"
       },
       {
-        "sizeId": 5,
+        "sizeId": 23,
         "size": "XL",
         "sizeDescription": "Chest 44"
       },
       {
-        "sizeId": 6,
+        "sizeId": 24,
         "size": "2XL",
         "sizeDescription": "Chest 46-48"
+      }
+    ],
+    "trouserSizes": [
+      {
+        "sizeId": 25,
+        "size": "Please select",
+        "sizeDescription": ""
+      },
+      {
+        "sizeId": 26,
+        "size": "W30",
+        "sizeDescription": "S"
+      },
+      {
+        "sizeId": 27,
+        "size": "W30",
+        "sizeDescription": "R"
+      },
+      {
+        "sizeId": 28,
+        "size": "W32",
+        "sizeDescription": "S"
+      },
+      {
+        "sizeId": 29,
+        "size": "W32",
+        "sizeDescription": "R"
+      },
+      {
+        "sizeId": 30,
+        "size": "W34",
+        "sizeDescription": "S"
+      },
+      {
+        "sizeId": 31,
+        "size": "W34",
+        "sizeDescription": "R"
+      },
+      {
+        "sizeId": 32,
+        "size": "W34",
+        "sizeDescription": "LONG"
+      },
+      {
+        "sizeId": 33,
+        "size": "W36",
+        "sizeDescription": "R"
+      },
+      {
+        "sizeId": 34,
+        "size": "W38",
+        "sizeDescription": "R"
       }
     ]
   }

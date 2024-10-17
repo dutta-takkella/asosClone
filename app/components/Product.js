@@ -35,6 +35,7 @@ import whiteHeart from "../../public/svgIcons/whiteHeart.svg";
 import clothesHanger from "../../public/svgIcons/clothesHanger.svg";
 import toLeft from "../../public/svgIcons/toLeft.svg";
 import toRight from "../../public/svgIcons/toRight.svg";
+import SizingOptions from "./SizingOptions.js";
 
 const Controls = () => {
   const { zoomIn, zoomOut, resetTransform } = useControls();
@@ -81,7 +82,7 @@ export default function Product({ setCurrentProduct }) {
               {product.productImgs.map((img, index) => {
                 return (
                   <li key={index} className="my-3 w-[44px] h-[56px]">
-                    <button onClick={() => setImgIndex(index)}>
+                    <button>
                       <Image
                         src={img}
                         width={1000}
@@ -249,32 +250,7 @@ export default function Product({ setCurrentProduct }) {
           </p>
 
           {/* sizing options */}
-          <div id="productSizing" className="px-2">
-            <div className="flex flex-row justify-between mt-6">
-              <p className="text-xs font-bold tracking-widest">SIZE:</p>
-              <p className="underline text-xs font-semibold tracking-wider">
-                Size Guide
-              </p>
-            </div>
-            <select
-              id="sizeOptions"
-              name="options"
-              onFocus={() => setSizeFocused(true)}
-              onBlur={() => setSizeFocused(false)}
-              className={`bg-white px-2 py-2 text-sm w-full border border-black mt-2  ${
-                sizeFocused ? "shadow-sm shadow-[#0770cf]" : ""
-              }`}
-            >
-              {productsPage.sizing.shirtSizes.map((sizeOption) => {
-                const { sizeId, size, sizeDescription } = sizeOption;
-                return (
-                  <option key={sizeId} value="size">
-                    {size} - {sizeDescription}
-                  </option>
-                );
-              })}
-            </select>
-          </div>
+          <SizingOptions product={product} />
 
           {/* add to cart/wishlist */}
           <div className="grid grid-cols-[1fr_44px] gap-3 mt-5 px-2 ">

@@ -75,7 +75,8 @@ export default function ProductDetails({ product }) {
 
         {/* model article size */}
         <p className="mt-1">
-          Model is wearing: {articleSize.size} - {articleSize.sizeDescription}
+          Model is wearing: {articleSize && articleSize.size} -{" "}
+          {articleSize && articleSize.sizeDescription}
         </p>
 
         {/* sizing help */}

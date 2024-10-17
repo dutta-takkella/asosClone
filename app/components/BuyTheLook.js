@@ -1,6 +1,9 @@
 //data
 import productsPage from "./productsPage.json";
 
+//components
+import SizingOptions from "./SizingOptions.js";
+
 //nextjs tags
 import Image from "next/image";
 import Link from "next/link";
@@ -137,7 +140,6 @@ export default function BuyTheLook({ currentProduct }) {
                   const otherProduct = productsPage.products.find((isMatch) => {
                     return product === isMatch.productCode ? isMatch : "";
                   });
-                  console.log(focus, "focus");
                   return (
                     <li
                       key={otherProduct.productCode}
@@ -219,7 +221,7 @@ export default function BuyTheLook({ currentProduct }) {
                     Out of stock
                   </h3>
                 )}
-                <h3 className="text-sm font-semibold leading-5 tracking-widest line-clamp-3">
+                <h3 className="text-sm font-semibold leading-5 tracking-wider line-clamp-3">
                   {displayProduct?.productName}
                 </h3>
 
@@ -239,18 +241,16 @@ export default function BuyTheLook({ currentProduct }) {
                 </p>
 
                 {/* sizing options */}
-                <div>
-                  <p className="text-sm font-bold tracking-wider mt-3">SIZE:</p>
-                  <select
-                    name="sizes"
-                    id="suze"
-                    className="bg-white w-full border border-black h-[37px] text-sm p-2 mt-1"
-                  >
-                    <option value="123">
-                      {productsPage.sizing.shirtSizes[0].sizeDescription}
-                    </option>
-                  </select>
-                </div>
+                <SizingOptions product={displayProduct} />
+
+                {/* low stock indicator */}
+                {displayProduct.inStock && displayProduct.lowStock && (
+                  <div className="pb-1 pt-2">
+                    <span className="uppercase text-[10px] tracking-widest bg-[#FFEBCC] font-bold px-2 py-1 text-center rounded-full">
+                      low in stock
+                    </span>
+                  </div>
+                )}
 
                 {/* add to bag button / out of stock button */}
                 {displayProduct.inStock ? (
