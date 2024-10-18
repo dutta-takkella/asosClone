@@ -56,6 +56,8 @@ export default function Product({ setCurrentProduct }) {
 
   //for embla carousel
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [scrollSnaps, setScrollSnaps] = useState([]);
 
   //
   const scrollPrev = useCallback(() => {
@@ -64,6 +66,27 @@ export default function Product({ setCurrentProduct }) {
   const scrollNext = useCallback(() => {
     if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
+
+  const onSelect = useCallback(() => {
+    if (!emblaApi) return;
+    setSelectedIndex(emblaApi.selectedScrollSnap());
+  }, [emblaApi]);
+
+  // Setup embla and update snaps (slide positions)
+  useEffect(() => {
+    if (!emblaApi) return;
+    setScrollSnaps(emblaApi.scrollSnapList());
+    emblaApi.on("select", onSelect);
+  }, [emblaApi, onSelect]);
+
+  // Function to scroll to a specific slide
+  const scrollTo = useCallback(
+    (index) => {
+      if (!emblaApi) return;
+      emblaApi.scrollTo(index);
+    },
+    [emblaApi]
+  );
 
   useEffect(() => {
     setCurrentProduct(product);
@@ -76,23 +99,18 @@ export default function Product({ setCurrentProduct }) {
         <div className="md:px-3 w-full mx-auto bg-white md:grid md:grid-cols-[68px_1fr] ">
           {/* image icons */}
           <div className="hidden md:block">
-            <ul className="flex flex-col">
-              {product.productImgs.map((img, index) => {
-                return (
-                  <li key={index} className="my-3 w-[44px] h-[56px]">
-                    <button>
-                      <Image
-                        src={img}
-                        width={1000}
-                        height={1000}
-                        className="w-full "
-                        alt="alt_img"
-                      />
-                    </button>
-                  </li>
-                );
-              })}
-            </ul>
+            {/* Pagination Bullets */}
+            <div className="carousel__pagination flex-col ">
+              {scrollSnaps.map((_, index) => (
+                <button
+                  key={index}
+                  className={`carousel__bullet flex flex-col ${
+                    selectedIndex === index ? "is-selected" : ""
+                  }`}
+                  onClick={() => scrollTo(index)}
+                />
+              ))}
+            </div>
 
             {/* buy the look icon */}
             <div className="mr-6 mt-2">
