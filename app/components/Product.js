@@ -51,10 +51,8 @@ const Controls = () => {
 
 export default function Product({ setCurrentProduct }) {
   const [wishListed, setWishListed] = useState(false);
-  const [sizeFocused, setSizeFocused] = useState(false);
   const [shippingRestrictions, setShippingRestrictions] = useState(false);
   const product = productsPage.products[0];
-  const [zoomCount, setZoomCount] = useState(0);
 
   //for embla carousel
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
@@ -177,7 +175,7 @@ export default function Product({ setCurrentProduct }) {
 
               {/* arrow buttons to move between different images */}
               <button
-                className="embla__prev hidden md:block absolute left-0 top-1/2 -translate-x-1/2 mx-20 w-[50px] h-[50px]"
+                className="embla__prev hidden md:block absolute -left-20 top-1/2 -translate-y-1/2 mx-20 w-[50px] h-[50px]"
                 onClick={scrollPrev}
               >
                 <Image
@@ -189,7 +187,7 @@ export default function Product({ setCurrentProduct }) {
                 />
               </button>
               <button
-                className="embla__next hidden md:block absolute right-0 top-1/2 -translate-x-1/2 pl-10"
+                className="embla__next hidden md:block absolute right-0 top-1/2 -translate-y-1/2 pl-10"
                 onClick={scrollNext}
               >
                 <Image
@@ -250,7 +248,9 @@ export default function Product({ setCurrentProduct }) {
           </p>
 
           {/* sizing options */}
-          <SizingOptions product={product} />
+          <div className="px-2">
+            <SizingOptions product={product} />
+          </div>
 
           {/* add to cart/wishlist */}
           <div className="grid grid-cols-[1fr_44px] gap-3 mt-5 px-2 ">

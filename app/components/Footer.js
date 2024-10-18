@@ -73,19 +73,11 @@ export default function Footer() {
         >
           <div className="flex flex-row justify-between">
             <Image
-              src="/paymentMethods/paymentMethod-1.png"
-              width={100}
-              height={100}
-              alt="alt_img"
-              className="w-[32px] h-[20px] bg-white p-1 mx-2"
-            />
-
-            <Image
               src="/paymentMethods/paymentMethod-2.png"
               width={100}
               height={100}
               alt="alt_img"
-              className="w-[32px] h-[20px] bg-white p-1 mx-2"
+              className="w-[32px] h-[20px] bg-white p-1 mx-8"
             />
 
             <Image
@@ -93,7 +85,7 @@ export default function Footer() {
               width={100}
               height={100}
               alt="alt_img"
-              className="w-[32px] h-[20px] bg-white p-1 mx-2"
+              className="w-[32px] h-[20px] bg-white p-1 mx-8"
             />
 
             <Image
@@ -101,7 +93,7 @@ export default function Footer() {
               width={100}
               height={100}
               alt="alt_img"
-              className="w-[32px] h-[20px] bg-white p-1 mx-2"
+              className="w-[32px] h-[20px] bg-white p-1 mx-8"
             />
           </div>
         </div>

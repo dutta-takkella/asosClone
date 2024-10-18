@@ -380,6 +380,31 @@ export default function NavbarMenu() {
   };
 
   const [hoverOption, setHoverOption] = useState(0);
+  const [timeoutId, setTimeoutId] = useState(null);
+  const handleMouseEnter = (optionId) => {
+    // Clear any existing timeout
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+    }
+
+    // Set a new timeout to update hoverOption after 300ms
+    const id = setTimeout(() => {
+      setHoverOption(optionId);
+    }, 250);
+
+    // Store the timeout ID so it can be cleared later
+    setTimeoutId(id);
+  };
+
+  const handleMouseLeave = () => {
+    // Clear the timeout if it exists
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+    }
+    // Reset hoverOption immediately on mouse leave
+    setHoverOption(0);
+  };
+
   return (
     <div className="hidden lg:block">
       <ul
@@ -392,8 +417,8 @@ export default function NavbarMenu() {
             <li
               key={optionId}
               className="navbar-category-list-item px-2"
-              onMouseEnter={() => setHoverOption(optionId)}
-              onMouseLeave={() => setHoverOption(0)}
+              onMouseEnter={() => handleMouseEnter(optionId)}
+              onMouseLeave={() => handleMouseLeave(optionId)}
             >
               {optionName}
               {hoverOption === optionId && (
