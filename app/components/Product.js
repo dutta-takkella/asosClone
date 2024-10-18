@@ -3,9 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 
 //components
 import ProductDetails from "./ProductDetails.js";
-
-//carousel
-import useEmblaCarousel from "embla-carousel-react";
+import ProductImageSection from "./ProductImageSection.js";
 
 //data
 import productsPage from "./productsPage.json";
@@ -13,13 +11,6 @@ import productsPage from "./productsPage.json";
 //nextjs tags
 import Image from "next/image";
 import Link from "next/link";
-
-//image controls
-import {
-  TransformWrapper,
-  TransformComponent,
-  useControls,
-} from "react-zoom-pan-pinch";
 
 //icons
 import share from "../../public/svgIcons/share.svg";
@@ -31,214 +22,70 @@ import outlineHeart from "../../public/svgIcons/outlineHeart.svg";
 import filledHeart from "../../public/svgIcons/filledHeart.svg";
 import copy from "../../public/svgIcons/copy.svg";
 import deliveryTruck from "../../public/svgIcons/deliveryTruck.svg";
-import whiteHeart from "../../public/svgIcons/whiteHeart.svg";
-import clothesHanger from "../../public/svgIcons/clothesHanger.svg";
-import toLeft from "../../public/svgIcons/toLeft.svg";
-import toRight from "../../public/svgIcons/toRight.svg";
 import SizingOptions from "./SizingOptions.js";
 
-const Controls = () => {
-  const { zoomIn, zoomOut, resetTransform } = useControls();
-
-  return (
-    <div className="tools">
-      <button onClick={() => zoomIn()}>+</button>
-      <button onClick={() => zoomOut()}>-</button>
-      <button onClick={() => resetTransform()}>x</button>
-    </div>
-  );
-};
-
-export default function Product({ setCurrentProduct }) {
+export default function Product() {
   const [wishListed, setWishListed] = useState(false);
   const [shippingRestrictions, setShippingRestrictions] = useState(false);
   const product = productsPage.products[0];
-
-  //for embla carousel
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
-  const [selectedIndex, setSelectedIndex] = useState(0);
-  const [scrollSnaps, setScrollSnaps] = useState([]);
-
-  //
-  const scrollPrev = useCallback(() => {
-    if (emblaApi) emblaApi.scrollPrev();
-  }, [emblaApi]);
-  const scrollNext = useCallback(() => {
-    if (emblaApi) emblaApi.scrollNext();
-  }, [emblaApi]);
-
-  const onSelect = useCallback(() => {
-    if (!emblaApi) return;
-    setSelectedIndex(emblaApi.selectedScrollSnap());
-  }, [emblaApi]);
-
-  // Setup embla and update snaps (slide positions)
-  useEffect(() => {
-    if (!emblaApi) return;
-    setScrollSnaps(emblaApi.scrollSnapList());
-    emblaApi.on("select", onSelect);
-  }, [emblaApi, onSelect]);
-
-  // Function to scroll to a specific slide
-  const scrollTo = useCallback(
-    (index) => {
-      if (!emblaApi) return;
-      emblaApi.scrollTo(index);
-    },
-    [emblaApi]
-  );
-
-  useEffect(() => {
-    setCurrentProduct(product);
-  }, []);
+  const [isShare, setIsShare] = useState(false);
 
   return (
     <div className="w-full bg-white">
       <div className="w-full max-w-[960px] mx-auto md:grid md:grid-cols-[2fr_1fr] gap-6">
         {/* image section */}
-        <div className="md:px-3 w-full mx-auto bg-white md:grid md:grid-cols-[68px_1fr] ">
-          {/* image icons */}
-          <div className="hidden md:block">
-            {/* Pagination Bullets */}
-            <div className="carousel__pagination flex-col ">
-              {scrollSnaps.map((_, index) => (
-                <button
-                  key={index}
-                  className={`carousel__bullet flex flex-col ${
-                    selectedIndex === index ? "is-selected" : ""
-                  }`}
-                  onClick={() => scrollTo(index)}
-                />
-              ))}
-            </div>
-
-            {/* buy the look icon */}
-            <div className="mr-6 mt-2">
-              <Link
-                href="#buyTheLook"
-                className="h-full flex flex-col justify-center items-center"
-              >
-                <Image
-                  src={clothesHanger}
-                  width={1000}
-                  height={1000}
-                  alt="alt_img"
-                  className="w-[25px] h-[16px] "
-                />
-                <p className="uppercase tracking-wider font-bold text-[8px] flex justify-center items-center text-center">
-                  buy the look
-                </p>
-              </Link>
-            </div>
-          </div>
-
-          {/* buy the look href */}
-          <div className="md:hidden bg-[#ddd] flex flex-row justify-center items-center h-[56px]">
-            <Link
-              href="#buyTheLook"
-              className="flex flex-row justify-center items-center"
-            >
-              <Image
-                src={clothesHanger}
-                alt="alt_img"
-                className="mx-1 w-[30px] h-[40px]"
-              />
-              <p className="mx-2 uppercase font-bold tracking-wider text-sm">
-                buy the look
-              </p>
-            </Link>
-          </div>
-
-          {/* product images */}
-          <div className="w-full max-w-[700px] ">
-            <div className="embla relative">
-              {/* extra class added to seperate images from its parent div to be able to insert absolute buttons */}
-              <div className="embla__viewport" ref={emblaRef}>
-                <div className="embla__container">
-                  {/* image mapping for slides */}
-                  {product.productImgs.map((img, index) => {
-                    return (
-                      <div className="embla__slide relative" key={index}>
-                        <TransformWrapper>
-                          <TransformComponent>
-                            <Image
-                              src={img}
-                              alt="alt_img"
-                              width={10000}
-                              height={10000}
-                              className="w-full h-full object-cover cursor-magnify"
-                            />
-                          </TransformComponent>
-                        </TransformWrapper>
-
-                        {/* heart icon along with num of times wishlisted indicated */}
-                        <div className="absolute right-0 bottom-20 bg-black bg-opacity-80 flex flex-row items-center justify-center align-middle px-4 py-1 rounded-l-full">
-                          <h3 className="text-white px-2">
-                            {product.wishListedTimes}
-                          </h3>
-                          <Image
-                            src={whiteHeart}
-                            alt="alt_img"
-                            width={500}
-                            height={500}
-                            className="w-[15px] h-[15px]"
-                          />
-                        </div>
-                      </div>
-                    );
-                  })}
-                  {/* image mapping end */}
-                </div>
-              </div>
-
-              {/* arrow buttons to move between different images */}
-              <button
-                className="embla__prev hidden md:block absolute -left-20 top-1/2 -translate-y-1/2 mx-20 w-[50px] h-[50px]"
-                onClick={scrollPrev}
-              >
-                <Image
-                  src={toLeft}
-                  alt="alt_img"
-                  width={500}
-                  height={500}
-                  className="w-[21px] h-[35px] "
-                />
-              </button>
-              <button
-                className="embla__next hidden md:block absolute right-0 top-1/2 -translate-y-1/2 pl-10"
-                onClick={scrollNext}
-              >
-                <Image
-                  src={toRight}
-                  alt="alt_img"
-                  width={500}
-                  height={500}
-                  className="w-[21px] h-[35px] "
-                />
-              </button>
-              {/* arrows end */}
-            </div>
-          </div>
-        </div>
+        <ProductImageSection prop={product} />
 
         {/* product text section */}
         <div className="bg-white">
           {/* product name and sharing options */}
           <div
             id="productDetails"
-            className="px-2 relative w-full mt-4 tracking-wide"
+            className="px-2 flex justify-between relative w-full mt-4 tracking-wide"
           >
             <p id="productName" className="w-10/12">
               {product.productName}
             </p>
-            <div className="absolute top-0 right-3">
-              <Image
-                src={share}
-                alt="alt_img"
-                width={1000}
-                height={1000}
-                className="w-[17px]"
-              />
+            <div className="relative">
+              <button
+                onClick={() => setIsShare((prev) => !prev)}
+                onBlur={() => setIsShare(false)}
+              >
+                <Image
+                  src={share}
+                  alt="alt_img"
+                  width={1000}
+                  height={1000}
+                  className="w-[17px]"
+                />
+                <div
+                  className={`absolute top-full left-0 bg-white shadow-2xl w-[132px] h-[68px] flex justify-around items-center shadow-slate-400 ${
+                    isShare ? "" : "hidden"
+                  }`}
+                >
+                  {[
+                    {
+                      src: shareFacebook,
+                      alt: "Facebook",
+                      href: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.asos.com%2Ftopman%2Ftopman-long-sleeve-oversized-stripe-shirt-in-burgundy%2Fprd%2F206484835%23ctaref-product_share_facebook",
+                    },
+                    {
+                      src: sharePinterest,
+                      alt: "Pinterest",
+                      href: "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.asos.com%2Ftopman%2Ftopman-long-sleeve-oversized-stripe-shirt-in-burgundy%2Fprd%2F206484835%23ctaref-product_share_pinterest&media=https%3A%2F%2Fimages.asos-media.com%2Fproducts%2Ftopman-long-sleeve-oversized-stripe-shirt-in-burgundy%2F206484835-1-brown&description=Topman%20long%20sleeve%20oversized%20stripe%20shirt%20in%20burgundy",
+                    },
+                  ].map((item, index) => (
+                    <Link key={index}>
+                      <Image
+                        src={item.src}
+                        width={44}
+                        height={44}
+                        alt={item.alt}
+                      />
+                    </Link>
+                  ))}
+                </div>
+              </button>
             </div>
           </div>
 

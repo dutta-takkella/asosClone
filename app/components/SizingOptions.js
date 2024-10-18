@@ -31,7 +31,7 @@ export default function SizingOptions({ product }) {
           name="options"
           onFocus={() => setSizeFocused(true)}
           onBlur={() => setSizeFocused(false)}
-          className={`bg-white px-2 py-1 text-sm w-full outline outline-1 outline-offset-4 mt-3 ml-1  ${
+          className={`bg-white px-2 py-2 text-sm w-full border border-black mt-2 ml-1  ${
             sizeFocused ? "shadow-sm shadow-[#0770cf]" : ""
           }`}
         >

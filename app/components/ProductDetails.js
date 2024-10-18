@@ -2,7 +2,6 @@
 import { useState } from "react";
 
 //nextjs tags
-import Link from "next/link";
 import Image from "next/image";
 
 //icons
@@ -162,8 +161,8 @@ export default function ProductDetails({ product }) {
                   <Image
                     src={minus}
                     alt="alt_img"
-                    className={`absolute origin-center rotate-90 ${
-                      openSection === sectionId ? "rotate-0" : ""
+                    className={`absolute origin-center rotate-0 ${
+                      openSection === sectionId ? "" : "rotate-90"
                     } w-full transition-all duration-700`}
                   />
                 </div>

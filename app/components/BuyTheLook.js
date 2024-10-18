@@ -221,7 +221,7 @@ export default function BuyTheLook({ currentProduct }) {
                     Out of stock
                   </h3>
                 )}
-                <h3 className="text-sm font-semibold leading-5 tracking-wider line-clamp-3">
+                <h3 className="text-xs font-semibold leading-5 tracking-wider line-clamp-3">
                   {displayProduct?.productName}
                 </h3>
 

@@ -95,7 +95,6 @@ export default function PeopleAlsoBought() {
                 if (numOfProds === 0) {
                   prods = [];
                 }
-                console.log(totalProds, prodsDisplay, "tt");
                 if (numOfProds < 4 && prodsDisplay < totalProds) {
                   numOfProds++;
                   prods.push(product);

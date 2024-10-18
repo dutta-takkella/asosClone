@@ -33,7 +33,7 @@ export default function ProductPage() {
       <Navbar isFocused={isFocused} setIsFocused={setIsFocused} />
       <DiscountNotice />
       <ProductPath />
-      <Product setCurrentProduct={setCurrentProduct} />
+      <Product />
       <YouMightLike />
       <BuyTheLook currentProduct={currentProduct} />
       <PeopleAlsoBought />
