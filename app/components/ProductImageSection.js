@@ -27,7 +27,7 @@ import toRight from "../../public/svgIcons/toRight.svg";
 export default function ProductImageSection({ prop }) {
   const product = prop;
   //for pagination images
-  let index = 0;
+  let imgIndex = 0;
 
   //for embla carousel
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
@@ -72,11 +72,11 @@ export default function ProductImageSection({ prop }) {
           {scrollSnaps.map((_, index) => (
             <button
               key={index}
-              className={`flex flex-col my-3 w-[44px] h-[56px] bg-blue-700`}
+              className={`flex flex-col my-3 w-[44px] h-[56px]`}
               onClick={() => scrollTo(index)}
             >
               <Image
-                src={`${product.productImgs[index++]}`}
+                src={`${product.productImgs[imgIndex++]}`}
                 alt="alt_img"
                 width={500}
                 height={500}
@@ -122,6 +122,7 @@ export default function ProductImageSection({ prop }) {
           </p>
         </Link>
       </div>
+      {/* icons end */}
 
       {/* product images */}
       <div className="w-full max-w-[700px] ">
@@ -167,7 +168,7 @@ export default function ProductImageSection({ prop }) {
 
           {/* arrow buttons to move between different images */}
           <button
-            className="embla__prev hidden md:block absolute -left-20 top-1/2 -translate-y-1/2 mx-20 w-[50px] h-[50px]"
+            className="embla__prev hidden md:block absolute -left-10 top-1/2 -translate-y-1/2 mx-20 w-[50px] h-[50px]"
             onClick={scrollPrev}
           >
             <Image
@@ -179,7 +180,7 @@ export default function ProductImageSection({ prop }) {
             />
           </button>
           <button
-            className="embla__next hidden md:block absolute right-0 top-1/2 -translate-y-1/2 pl-10"
+            className="embla__next hidden md:block absolute right-10 top-1/2 -translate-y-1/2 pl-10"
             onClick={scrollNext}
           >
             <Image

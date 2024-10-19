@@ -12,6 +12,9 @@ import productsPage from "./productsPage.json";
 import Image from "next/image";
 import Link from "next/link";
 
+//headlessui
+import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react";
+
 //icons
 import share from "../../public/svgIcons/share.svg";
 import shareFacebook from "../../public/svgIcons/shareFacebook.svg";
@@ -46,48 +49,49 @@ export default function Product() {
             <p id="productName" className="w-10/12">
               {product.productName}
             </p>
-            <div className="relative">
-              <button
-                onClick={() => setIsShare((prev) => !prev)}
-                onBlur={() => setIsShare(false)}
-              >
+
+            {/* sharing starts */}
+            <Popover className="relative hidden md:block">
+              <PopoverButton>
                 <Image
                   src={share}
                   alt="alt_img"
-                  width={1000}
-                  height={1000}
+                  width={500}
+                  height={500}
                   className="w-[17px]"
                 />
-                <div
-                  className={`absolute top-full left-0 bg-white shadow-2xl w-[132px] h-[68px] flex justify-around items-center shadow-slate-400 ${
-                    isShare ? "" : "hidden"
-                  }`}
-                >
-                  {[
-                    {
-                      src: shareFacebook,
-                      alt: "Facebook",
-                      href: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.asos.com%2Ftopman%2Ftopman-long-sleeve-oversized-stripe-shirt-in-burgundy%2Fprd%2F206484835%23ctaref-product_share_facebook",
-                    },
-                    {
-                      src: sharePinterest,
-                      alt: "Pinterest",
-                      href: "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.asos.com%2Ftopman%2Ftopman-long-sleeve-oversized-stripe-shirt-in-burgundy%2Fprd%2F206484835%23ctaref-product_share_pinterest&media=https%3A%2F%2Fimages.asos-media.com%2Fproducts%2Ftopman-long-sleeve-oversized-stripe-shirt-in-burgundy%2F206484835-1-brown&description=Topman%20long%20sleeve%20oversized%20stripe%20shirt%20in%20burgundy",
-                    },
-                  ].map((item, index) => (
-                    <Link key={index}>
-                      <Image
-                        src={item.src}
-                        width={44}
-                        height={44}
-                        alt={item.alt}
-                      />
-                    </Link>
-                  ))}
-                </div>
-              </button>
-            </div>
+              </PopoverButton>
+              <PopoverPanel
+                anchor="bottom end"
+                className="flex justify-around items-center w-[132px] h-[68px] bg-white shadow-2xl shadow-slate-400"
+              >
+                {[
+                  {
+                    src: shareFacebook,
+                    alt: "Facebook",
+                    href: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.asos.com%2Ftopman%2Ftopman-long-sleeve-oversized-stripe-shirt-in-burgundy%2Fprd%2F206484835%23ctaref-product_share_facebook",
+                  },
+                  {
+                    src: sharePinterest,
+                    alt: "Pinterest",
+                    href: "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.asos.com%2Ftopman%2Ftopman-long-sleeve-oversized-stripe-shirt-in-burgundy%2Fprd%2F206484835%23ctaref-product_share_pinterest&media=https%3A%2F%2Fimages.asos-media.com%2Fproducts%2Ftopman-long-sleeve-oversized-stripe-shirt-in-burgundy%2F206484835-1-brown&description=Topman%20long%20sleeve%20oversized%20stripe%20shirt%20in%20burgundy",
+                  },
+                ].map((item, index, href) => (
+                  <Link key={index} href={href}>
+                    <Image
+                      src={item.src}
+                      width={44}
+                      height={44}
+                      alt={item.alt}
+                      className="hover:outline hover:outline-2 rounded-full hover:outline-[#0770cf] hover:outline-offset-2"
+                    />
+                  </Link>
+                ))}
+              </PopoverPanel>
+            </Popover>
+            {/* sharing ends */}
           </div>
+          {/* name and sharing options end */}
 
           {/* product price */}
           <p
@@ -100,6 +104,7 @@ export default function Product() {
               <span>&#163;{product.price}</span>
             )}
           </p>
+          {/* price ends */}
 
           {/* product color */}
           <p
@@ -111,11 +116,13 @@ export default function Product() {
               {product.color}
             </span>
           </p>
+          {/* color ends */}
 
           {/* sizing options */}
           <div className="px-2">
             <SizingOptions product={product} />
           </div>
+          {/* sizing option end */}
 
           {/* add to cart/wishlist */}
           <div className="grid grid-cols-[1fr_44px] gap-3 mt-5 px-2 ">
