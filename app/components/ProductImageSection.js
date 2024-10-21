@@ -72,7 +72,7 @@ export default function ProductImageSection({ prop }) {
           {scrollSnaps.map((_, index) => (
             <button
               key={index}
-              className={`flex flex-col my-3 w-[44px] h-[56px]`}
+              className={`flex flex-col my-3 w-[45px] h-[56px]`}
               onClick={() => scrollTo(index)}
             >
               <Image
